@@ -1,0 +1,12 @@
+GIMP Palette
+Name: Atari 2600 (SECAM)
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#Atari_2600
+0 0 0	 0
+33 33 255	 2
+240 60 121	 4
+255 80 255	 6
+127 255 0	 8
+127 255 255	 10
+255 255 63	 12
+255 255 255	 14
