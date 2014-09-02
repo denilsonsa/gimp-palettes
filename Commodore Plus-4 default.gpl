@@ -1,0 +1,16 @@
+GIMP Palette
+Name: Commodore Plus/4 default palette
+Columns: 6
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#C-16_and_Plus.2F4
+  0   0   0	0,0 black
+255 255 255	1,7 white
+184 105  98	2,3 red
+167 246 253	3,6 cyan
+202 127 214	4,4 purple
+ 85 160  73	5,3 green
+159 144 236	6,4 blue
+255 255 178	7,7 yellow (out of RGB gamut)
+130 222 191	12,5 blue-green
+180 234 255	13,6 light blue (out of RGB gamut)
+119  70 167	14,2 dark blue
+135 226 162	15,5 light green
