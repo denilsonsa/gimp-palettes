@@ -3,6 +3,7 @@ Name: 6-bit RGB (EGA and Sega Master System)
 Columns: 16
 # https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_palettes#6-bit_RGB
 # http://segaretro.org/Palette
+# python3 -c 'l=[0,85,170,255]; [print(a,b,c) for a in l for b in l for c in l]'
   0   0   0	Untitled
   0   0  85	Untitled
   0   0 170	Untitled
