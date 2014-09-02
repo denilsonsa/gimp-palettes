@@ -1,5 +1,149 @@
 GIMP Palette
 Name: Game Boy (with colors)
-Columns: 10
+Columns: 12
 # https://en.wikipedia.org/wiki/Game_Boy_Color#Color_palettes_used_for_original_Game_Boy_games
 # https://en.wikipedia.org/wiki/File:GBC_keypad_palettes.png
+131  49   0	Brown Welcome-splash
+247 196 165	Brown Welcome-splash
+  0   0   0	Brown Background
+131  49   0	Brown Background
+255 173  99	Brown Background
+255 255 255	Brown Background
+  0   0   0	Brown Object 0
+131  49   0	Brown Object 0
+255 173  99	Brown Object 0
+  0   0   0	Brown Object 1
+131  49   0	Brown Object 1
+255 173  99	Brown Object 1
+230   0   0	Red Welcome-splash
+255 133 132	Red Welcome-splash
+  0   0   0	Red Background
+148  58  58	Red Background
+255 133 132	Red Background
+255 255 255	Red Background
+  0   0   0	Red Object 0
+  0   0 254	Red Object 0
+101 164 155	Red Object 0
+  0   0   0	Red Object 1
+  0 131   0	Red Object 1
+123 255  48	Red Object 1
+107  83  49	Dark brown Welcome-splash
+165 132  81	Dark brown Welcome-splash
+ 91  49   9	Dark brown Background
+132 107  41	Dark brown Background
+206 156 133	Dark brown Background
+255 231 197	Dark brown Background
+  0   0   0	Dark brown Object 0
+131  49   0	Dark brown Object 0
+255 173  99	Dark brown Object 0
+  0   0   0	Dark brown Object 1
+131  49   0	Dark brown Object 1
+255 173  99	Dark brown Object 1
+  0   0 254	Blue Welcome-splash
+100 165 255	Blue Welcome-splash
+  0   0   0	Blue Background
+  0   0 254	Blue Background
+101 164 155	Blue Background
+255 255 255	Blue Background
+  0   0   0	Blue Object 0
+  0 131   0	Blue Object 0
+123 255  48	Blue Object 0
+  0   0   0	Blue Object 1
+131  49   0	Blue Object 1
+255 133 132	Blue Object 1
+ 83  82 140	Dark blue Welcome-splash
+139 140 222	Dark blue Welcome-splash
+  0   0   0	Dark blue Background
+ 83  82 140	Dark blue Background
+139 140 222	Dark blue Background
+255 255 255	Dark blue Background
+  0   0   0	Dark blue Object 0
+131  49   0	Dark blue Object 0
+255 173  99	Dark blue Object 0
+  0   0   0	Dark blue Object 1
+148  58  58	Dark blue Object 1
+255 133 132	Dark blue Object 1
+  0   0   0	Gray Welcome-splash
+148 148 148	Gray Welcome-splash
+  0   0   0	Gray Background
+ 82  82  82	Gray Background
+165 165 165	Gray Background
+255 255 255	Gray Background
+  0   0   0	Gray Object 0
+ 82  82  82	Gray Object 0
+165 165 165	Gray Object 0
+  0   0   0	Gray Object 1
+ 82  82  82	Gray Object 1
+165 165 165	Gray Object 1
+255   0 254	Pastel mix Welcome-splash
+255 255 165	Pastel mix Welcome-splash
+  0   0   0	Pastel mix Background
+147 148 254	Pastel mix Background
+254 148 148	Pastel mix Background
+255 255 165	Pastel mix Background
+  0   0   0	Pastel mix Object 0
+147 148 254	Pastel mix Object 0
+254 148 148	Pastel mix Object 0
+  0   0   0	Pastel mix Object 1
+147 148 254	Pastel mix Object 1
+254 148 148	Pastel mix Object 1
+254   0   0	Orange Welcome-splash
+255 255   0	Orange Welcome-splash
+  0   0   0	Orange Background
+254   0   0	Orange Background
+255 255   0	Orange Background
+255 255 255	Orange Background
+  0   0   0	Orange Object 0
+254   0   0	Orange Object 0
+255 255   0	Orange Object 0
+  0   0   0	Orange Object 1
+254   0   0	Orange Object 1
+255 255   0	Orange Object 1
+ 58  40   2	Yellow Welcome-splash
+255 255  58	Yellow Welcome-splash
+  0   0   0	Yellow Background
+125  73   0	Yellow Background
+255 255   0	Yellow Background
+255 255 255	Yellow Background
+  0   0   0	Yellow Object 0
+  0 131   0	Yellow Object 0
+123 255  48	Yellow Object 0
+  0   0   0	Yellow Object 1
+  0   0 254	Yellow Object 1
+101 164 155	Yellow Object 1
+254   0   0	Green Welcome-splash
+123 255  48	Green Welcome-splash
+  0   0   0	Green Background
+255  66   0	Green Background
+ 81 255   0	Green Background
+255 255 255	Green Background
+  0   0   0	Green Object 0
+255  66   0	Green Object 0
+ 81 255   0	Green Object 0
+  0   0   0	Green Object 1
+255  66   0	Green Object 1
+ 81 255   0	Green Object 1
+  0   0 254	Dark green Welcome-splash
+123 255  48	Dark green Welcome-splash
+  0   0   0	Dark green Background
+  1  99 198	Dark green Background
+123 255  48	Dark green Background
+255 255 255	Dark green Background
+  0   0   0	Dark green Object 0
+148  58  58	Dark green Object 0
+255 133 132	Dark green Object 0
+  0   0   0	Dark green Object 1
+148  58  58	Dark green Object 1
+255 133 132	Dark green Object 1
+255 255   0	Reverse Welcome-splash
+  0   0   0	Reverse Welcome-splash
+255 255 255	Reverse Background
+255 222   0	Reverse Background
+  0 132 134	Reverse Background
+  0   0   0	Reverse Background
+255 255 255	Reverse Object 0
+255 222   0	Reverse Object 0
+  0 132 134	Reverse Object 0
+255 255 255	Reverse Object 1
+255 222   0	Reverse Object 1
+  0 132 134	Reverse Object 1
