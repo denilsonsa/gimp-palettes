@@ -2,19 +2,19 @@ GIMP Palette
 Name: Apple II
 Columns: 8
 # https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#Apple_II_series
-0 0 0	0 - black
-114 38 64	1 - magenta
-64 51 127	2 - dark blue
-228 52 254	3 - purple
-14 89 64	4 - dark green
-gray	5 - grey #1
-27 154 254	6 - medium blue
+  0   0   0	0 - black
+114  38  64	1 - magenta
+ 64  51 127	2 - dark blue
+228  52 254	3 - purple
+ 14  89  64	4 - dark green
+128 128 128	5 - grey #1
+ 27 154 254	6 - medium blue
 191 179 255	7 - light blue
-64 76 0	8 - brown
-228 101 1	9 - orange
-gray	10 - grey #2
+ 64  76   0	8 - brown
+228 101   1	9 - orange
+128 128 128	10 - grey #2
 241 166 191	11 - pink
-27 203 1	12 - green
+ 27 203   1	12 - green
 191 204 128	13 - yellow
 141 217 191	14 - aqua
 255 255 255	15 - white
