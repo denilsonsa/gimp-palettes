@@ -2,19 +2,19 @@ GIMP Palette
 Name: CGA
 Columns: 8
 # https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#CGA
-0 0 0	0 - black
-0 0 170	1 - low blue
-0 170 0	2 - low green
-0 170 170	3 - low cyan
-170 0 0	4 - low red
-170 0 170	5 - low magenta
-170 85 0	6 - brown
+  0   0   0	0 - black
+  0   0 170	1 - low blue
+  0 170   0	2 - low green
+  0 170 170	3 - low cyan
+170   0   0	4 - low red
+170   0 170	5 - low magenta
+170  85   0	6 - brown
 170 170 170	7 - light gray
-85 85 85	8 - dark gray
-85 85 255	9 - high blue
-85 255 85	10 - high green
-85 255 255	11 - high cyan
-255 85 85	12 - high red
-255 85 255	13 - high magenta
-255 255 85	14 - yellow
+ 85  85  85	8 - dark gray
+ 85  85 255	9 - high blue
+ 85 255  85	10 - high green
+ 85 255 255	11 - high cyan
+255  85  85	12 - high red
+255  85 255	13 - high magenta
+255 255  85	14 - yellow
 255 255 255	15 - white
