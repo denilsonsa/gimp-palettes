@@ -1,0 +1,20 @@
+GIMP Palette
+Name: MSX (original)
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#Original_MSX
+0 0 0	0 - transparent
+0 0 0	1 - black
+62 184 73	2 - medium green
+116 208 125	3 - light green
+89 85 224	4 - dark blue
+128 118 241	5 - light blue
+185 94 81	6 - dark red
+101 219 239	7 - cyan
+219 101 89	8 - medium red
+255 137 125	9 - light red
+204 195 94	10 - dark yellow
+222 208 135	11 - light yellow
+58 162 65	12 - dark green
+183 102 181	13 - magenta
+204 204 204	14 - gray
+255 255 255	15 - white
