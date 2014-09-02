@@ -1,31 +1,31 @@
 GIMP Palette
 Name: Amstrad CPC series
-Columns: 8
+Columns: 9
 # https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#CPC_series
-0 0 0	0 - Black
-0 0 128	1 - Blue
-0 0 255	2 - Bright blue
-128 0 0	3 - Red
-128 0 128	4 - Magenta
-128 0 255	5 - Violet
-255 0 0	6 - Bright red
-255 0 128	7 - Purple
-255 0 255	8 - Bright magenta
-0 128 0	9 - Green
-0 128 128	10 - Cyan
-0 128 255	11 - Sky blue
-128 128 0	12 - Yellow
+  0   0   0	0 - Black
+  0   0 128	1 - Blue
+  0   0 255	2 - Bright blue
+128   0   0	3 - Red
+128   0 128	4 - Magenta
+128   0 255	5 - Violet
+255   0   0	6 - Bright red
+255   0 128	7 - Purple
+255   0 255	8 - Bright magenta
+  0 128   0	9 - Green
+  0 128 128	10 - Cyan
+  0 128 255	11 - Sky blue
+128 128   0	12 - Yellow
 128 128 128	13 - Grey
 128 128 255	14 - Pale blue
-255 128 0	15 - Orange
+255 128   0	15 - Orange
 255 128 128	16 - Pink
 255 128 255	17 - Pale magenta
-0 255 0	18 - Bright green
-0 255 128	19 - Sea green
-0 255 255	20 - Bright cyan
-128 255 0	21 - Lime green
+  0 255   0	18 - Bright green
+  0 255 128	19 - Sea green
+  0 255 255	20 - Bright cyan
+128 255   0	21 - Lime green
 128 255 128	22 - Pale green
 128 255 255	23 - Pale cyan
-255 255 0	24 - Bright yellow
+255 255   0	24 - Bright yellow
 255 255 128	25 - Pale yellow
 255 255 255	26 - Bright white
