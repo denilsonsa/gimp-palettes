@@ -1,0 +1,32 @@
+GIMP Palette
+Name: CGA (4-color modes)
+Columns: 4
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#CGA
+  0   0   0	Mode 4, palette 1, low intensity
+  0 170 170	1 - cyan
+170   0 170	2 - magenta
+170 170 170	3 - light gray
+  0   0   0	Mode 4, palette 1, high intensity
+ 85 255 255	1 - bright cyan
+255  85 255	2 - bright magenta
+255 255 255	3 - white
+  0   0   0	Mode 4, palette 2, low intensity
+  0 170   0	1 - green
+170   0   0	2 - red
+170  85   0	3 - brown
+  0   0   0	Mode 4, palette 2, high intensity
+ 85 255  85	1 - bright green
+255  85  85	2 - bright red
+255 255  85	3 - yellow
+  0   0   0	Mode 5, low intensity
+  0 170 170	1 - cyan
+170   0   0	2 - red
+170 170 170	3 - light gray
+  0   0   0	Mode 5, high intensity
+ 85 255 255	1 - bright cyan
+255  85  85	2 - bright red
+255 255 255	3 - white
+  0   0   0	Mode 5, monochrome monitor
+170 170 170	1 - light gray
+ 85  85  85	2 - dark gray
+255 255 255	3 - white
