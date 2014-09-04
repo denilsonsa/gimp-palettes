@@ -2,147 +2,147 @@ GIMP Palette
 Name: Clickteam Fusion color picker
 Columns: 16
 #
-255 255 255	Untitled
-255 233 233	Untitled
-255 255 233	Untitled
-233 255 233	Untitled
-233 255 255	Untitled
-233 233 255	Untitled
-255 233 255	Untitled
-255 160 160	Untitled
-255 192 160	Untitled
-255 255 160	Untitled
-192 255 160	Untitled
-160 255 160	Untitled
-160 255 192	Untitled
-160 255 255	Untitled
-160 192 255	Untitled
-160 160 255	Untitled
-192 160 255	Untitled
-255 160 255	Untitled
-255 160 192	Untitled
-255  87  87	Untitled
-255 128  87	Untitled
-255 192  87	Untitled
-255 255  87	Untitled
-192 255  87	Untitled
-128 255  87	Untitled
- 87 255  87	Untitled
- 87 255 128	Untitled
- 87 255 192	Untitled
- 87 255 255	Untitled
- 87 192 255	Untitled
- 87 128 255	Untitled
- 87  87 255	Untitled
-128  87 255	Untitled
-192  87 255	Untitled
-255  87 255	Untitled
-255  87 192	Untitled
-255  87 128	Untitled
-255   0   0	Untitled
-255  66   0	Untitled
-255 128   0	Untitled
-255 192   0	Untitled
-255 255   0	Untitled
-192 255   0	Untitled
-128 255   0	Untitled
- 70 255   0	Untitled
-  0 255   0	Untitled
-  0 255  70	Untitled
-  0 255 128	Untitled
-  0 255 192	Untitled
-  0 255 255	Untitled
-  0 192 255	Untitled
-  0 128 255	Untitled
-  0  70 255	Untitled
-  0   0 255	Untitled
- 70   0 255	Untitled
-128   0 255	Untitled
-192   0 255	Untitled
-255   0 255	Untitled
-255   0 192	Untitled
-255   0 128	Untitled
-255   0  66	Untitled
-192   0   0	Untitled
-192  32   0	Untitled
-192  75   0	Untitled
-192 128   0	Untitled
-192 157   0	Untitled
-192 192   0	Untitled
-163 192   0	Untitled
-128 192   0	Untitled
- 78 192   0	Untitled
- 36 192   0	Untitled
-  0 192   0	Untitled
-  0 192  36	Untitled
-  0 192  75	Untitled
-  0 192 128	Untitled
-  0 192 160	Untitled
-  0 192 192	Untitled
-  0 160 192	Untitled
-  0 128 192	Untitled
-  0  75 192	Untitled
-  0  36 192	Untitled
-  0   0 192	Untitled
- 36   0 192	Untitled
- 78   0 192	Untitled
-128   0 192	Untitled
-163   0 192	Untitled
-192   0 192	Untitled
-192   0 157	Untitled
-192   0 128	Untitled
-192   0  75	Untitled
-192   0  32	Untitled
-128   0   0	Untitled
-128  16   0	Untitled
-128  37   0	Untitled
-128  59   0	Untitled
-128  82   0	Untitled
-128 103   0	Untitled
-128 128   0	Untitled
-107 128   0	Untitled
- 86 128   0	Untitled
- 61 128   0	Untitled
- 39 128   0	Untitled
- 18 128   0	Untitled
-  0 128   0	Untitled
-  0 128  18	Untitled
-  0 128  39	Untitled
-  0 128  61	Untitled
-  0 128  84	Untitled
-  0 128 105	Untitled
-  0 128 128	Untitled
-  0 105 128	Untitled
-  0  84 128	Untitled
-  0  61 128	Untitled
-  0  39 128	Untitled
-  0  18 128	Untitled
-  0   0 128	Untitled
- 18   0 128	Untitled
- 39   0 128	Untitled
- 61   0 128	Untitled
- 86   0 128	Untitled
-107   0 128	Untitled
-128   0 128	Untitled
-128   0 103	Untitled
-128   0  82	Untitled
-128   0  59	Untitled
-128   0  37	Untitled
-128   0  16	Untitled
-255 255 255	Untitled
-240 240 240	Untitled
-225 225 225	Untitled
-210 210 210	Untitled
-192 192 192	Untitled
-180 180 180	Untitled
-165 165 165	Untitled
-150 150 150	Untitled
-135 135 135	Untitled
-120 120 120	Untitled
-105 105 105	Untitled
- 90  90  90	Untitled
- 75  75  75	Untitled
- 60  60  60	Untitled
- 45  45  45	Untitled
- 30  30  30	Untitled
-  0   0   0	Untitled
+255 255 255	White
+255 233 233	Radius 1 red
+255 255 233	Radius 1 yellow
+233 255 233	Radius 1 green
+233 255 255	Radius 1 cyan
+233 233 255	Radius 1 blue
+255 233 255	Radius 1 magenta
+255 160 160	Radius 2 red
+255 192 160	Radius 2
+255 255 160	Radius 2 yellow
+192 255 160	Radius 2
+160 255 160	Radius 2 green
+160 255 192	Radius 2
+160 255 255	Radius 2 cyan
+160 192 255	Radius 2
+160 160 255	Radius 2 blue
+192 160 255	Radius 2
+255 160 255	Radius 2 magenta
+255 160 192	Radius 2
+255  87  87	Radius 3 red
+255 128  87	Radius 3
+255 192  87	Radius 3
+255 255  87	Radius 3 yellow
+192 255  87	Radius 3
+128 255  87	Radius 3
+ 87 255  87	Radius 3 green
+ 87 255 128	Radius 3
+ 87 255 192	Radius 3
+ 87 255 255	Radius 3 cyan
+ 87 192 255	Radius 3
+ 87 128 255	Radius 3
+ 87  87 255	Radius 3 blue
+128  87 255	Radius 3
+192  87 255	Radius 3
+255  87 255	Radius 3 magenta
+255  87 192	Radius 3
+255  87 128	Radius 3
+255   0   0	Radius 4 red
+255  66   0	Radius 4
+255 128   0	Radius 4
+255 192   0	Radius 4
+255 255   0	Radius 4 yellow
+192 255   0	Radius 4
+128 255   0	Radius 4
+ 70 255   0	Radius 4
+  0 255   0	Radius 4 green
+  0 255  70	Radius 4
+  0 255 128	Radius 4
+  0 255 192	Radius 4
+  0 255 255	Radius 4 cyan
+  0 192 255	Radius 4
+  0 128 255	Radius 4
+  0  70 255	Radius 4
+  0   0 255	Radius 4 blue
+ 70   0 255	Radius 4
+128   0 255	Radius 4
+192   0 255	Radius 4
+255   0 255	Radius 4 magenta
+255   0 192	Radius 4
+255   0 128	Radius 4
+255   0  66	Radius 4
+192   0   0	Radius 5 red
+192  32   0	Radius 5
+192  75   0	Radius 5
+192 128   0	Radius 5
+192 157   0	Radius 5
+192 192   0	Radius 5 yellow
+163 192   0	Radius 5
+128 192   0	Radius 5
+ 78 192   0	Radius 5
+ 36 192   0	Radius 5
+  0 192   0	Radius 5 green
+  0 192  36	Radius 5
+  0 192  75	Radius 5
+  0 192 128	Radius 5
+  0 192 160	Radius 5
+  0 192 192	Radius 5 cyan
+  0 160 192	Radius 5
+  0 128 192	Radius 5
+  0  75 192	Radius 5
+  0  36 192	Radius 5
+  0   0 192	Radius 5 blue
+ 36   0 192	Radius 5
+ 78   0 192	Radius 5
+128   0 192	Radius 5
+163   0 192	Radius 5
+192   0 192	Radius 5 magenta
+192   0 157	Radius 5
+192   0 128	Radius 5
+192   0  75	Radius 5
+192   0  32	Radius 5
+128   0   0	Radius 6 red
+128  16   0	Radius 6
+128  37   0	Radius 6
+128  59   0	Radius 6
+128  82   0	Radius 6
+128 103   0	Radius 6
+128 128   0	Radius 6 yellow
+107 128   0	Radius 6
+ 86 128   0	Radius 6
+ 61 128   0	Radius 6
+ 39 128   0	Radius 6
+ 18 128   0	Radius 6
+  0 128   0	Radius 6 green
+  0 128  18	Radius 6
+  0 128  39	Radius 6
+  0 128  61	Radius 6
+  0 128  84	Radius 6
+  0 128 105	Radius 6
+  0 128 128	Radius 6 cyan
+  0 105 128	Radius 6
+  0  84 128	Radius 6
+  0  61 128	Radius 6
+  0  39 128	Radius 6
+  0  18 128	Radius 6
+  0   0 128	Radius 6 blue
+ 18   0 128	Radius 6
+ 39   0 128	Radius 6
+ 61   0 128	Radius 6
+ 86   0 128	Radius 6
+107   0 128	Radius 6
+128   0 128	Radius 6 magenta
+128   0 103	Radius 6
+128   0  82	Radius 6
+128   0  59	Radius 6
+128   0  37	Radius 6
+128   0  16	Radius 6
+255 255 255	White
+240 240 240	Gray 1
+225 225 225	Gray 2
+210 210 210	Gray 3
+192 192 192	Gray 4
+180 180 180	Gray 5
+165 165 165	Gray 6
+150 150 150	Gray 7
+135 135 135	Gray 8
+120 120 120	Gray 9
+105 105 105	Gray 10
+ 90  90  90	Gray 11
+ 75  75  75	Gray 12
+ 60  60  60	Gray 13
+ 45  45  45	Gray 14
+ 30  30  30	Gray 15
+  0   0   0	Black
