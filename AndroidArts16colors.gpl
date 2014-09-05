@@ -2,27 +2,26 @@ GIMP Palette
 Name: AndroidArts.com 16 colors by Arne Niklas Jansson
 Columns: 5
 # http://androidarts.com/palette/16pal.htm
-0 0 0	Void
-73 60 43	Oldpoop
-190 38 51	Bloodred
+  0   0   0	Void
+ 73  60  43	Oldpoop
+190  38  51	Bloodred
 224 111 139	Pigmeat
-0 0 0	Void
-0 0 0	Void
-73 60 43	Oldpoop
-164 100 34	Newpoop
-235 137 49	Blaze
+  0   0   0	Void
+  0   0   0	Void
+ 73  60  43	Oldpoop
+164 100  34	Newpoop
+235 137  49	Blaze
 247 226 107	Zornskin
-27 38 50	Nightblue
-47 72 78	Shadegreen
-68 137 26	Leafgreen
-163 206 39	Slimegreen
-0 0 0	Void
-27 38 50	Nightblue
-0 87 132	Seablue
-0 0 0	Void
-49 162 242	Skyblue
+ 27  38  50	Nightblue
+ 47  72  78	Shadegreen
+ 68 137  26	Leafgreen
+163 206  39	Slimegreen
+  0   0   0	Void
+ 27  38  50	Nightblue
+  0  87 132	Seablue
+  0   0   0	Void
+ 49 162 242	Skyblue
 178 220 239	Cloudblu
-0 0 0	Void
+  0   0   0	Void
 157 157 157	Ash
 255 255 255	Blind
-
