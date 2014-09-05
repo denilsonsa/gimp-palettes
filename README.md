@@ -6,6 +6,8 @@ Sources:
 * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
 * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
 * http://segaretro.org/Palette
+* http://www.functionx.com/visualc/controls/dlgmfccolor.htm
+* http://androidarts.com/palette/16pal.htm
 
 Other palettes:
 
