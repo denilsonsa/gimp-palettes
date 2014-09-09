@@ -9,6 +9,7 @@ Sources:
 * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
 * <http://androidarts.com/palette/16pal.htm>
 * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795> and <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
+* <https://bugs.launchpad.net/inkscape/+bug/602698>
 
 Other palettes:
 

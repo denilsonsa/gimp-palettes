@@ -1,9 +1,7 @@
 GIMP Palette
 Name: Sega Mega Drive 9-bit RGB
 Columns: 32
-# https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_palettes#9-bit_RGB
-# http://segaretro.org/Palette
-# python3 -c 'l=range(0, 0xf, 2); [print(a*17,b*17,c*17) for a in l for b in l for c in l]'
+#
   0   0   0	Untitled
   0   0  34	Untitled
   0   0  68	Untitled
