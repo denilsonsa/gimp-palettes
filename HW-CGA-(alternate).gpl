@@ -1,7 +1,7 @@
 GIMP Palette
-Name: CGA (earlier CRTs)
+Name: HW CGA (earlier CRTs)
 Columns: 8
-# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#CGA
+#
   0   0   0	0 - black
   0   0 128	1 - low blue
   0 128   0	2 - low green

@@ -1,7 +1,7 @@
 GIMP Palette
-Name: Apple II
+Name: HW Apple II
 Columns: 8
-# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#Apple_II_series
+#
   0   0   0	0 - black
 114  38  64	1 - magenta
  64  51 127	2 - dark blue

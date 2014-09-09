@@ -1,7 +1,7 @@
 GIMP Palette
-Name: CGA (4-color modes)
+Name: HW CGA (4-color modes)
 Columns: 4
-# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#CGA
+#
   0   0   0	Mode 4, palette 1, low intensity
   0 170 170	1 - cyan
 170   0 170	2 - magenta

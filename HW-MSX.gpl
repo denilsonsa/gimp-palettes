@@ -1,7 +1,7 @@
 GIMP Palette
-Name: MSX (original)
+Name: HW MSX (original)
 Columns: 8
-# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#Original_MSX
+#
   0   0   0	0 - transparent
   0   0   0	1 - black
  62 184  73	2 - medium green

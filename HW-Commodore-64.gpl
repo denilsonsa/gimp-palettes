@@ -1,7 +1,7 @@
 GIMP Palette
-Name: Commodore 64
+Name: HW Commodore 64
 Columns: 8
-# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#C-64
+#
   0   0   0	0 - black
 255 255 255	1 - white
 136  57  50	2 - red
