@@ -1,0 +1,14 @@
+GIMP Palette
+Name: Android ICS
+Columns: 5
+# https://developer.android.com/design/style/color.html
+ 51 181 229	33B5E5
+170 102 204	AA66CC
+153 204   0	99CC00
+255 187  51	FFBB33
+255  68  68	FF4444
+  0 153 204	0099CC
+153  51 204	9933CC
+102 153   0	669900
+255 136   0	FF8800
+204   0   0	CC0000
