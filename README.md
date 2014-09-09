@@ -16,6 +16,9 @@ Sources for palettes in this collection:
 * Crayola
     * <http://rosros-3.deviantart.com/art/Crayola-368592163>
     * [List of Crayola crayon colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
+* CSS
+    * <http://dev.w3.org/csswg/css-color/#named-colors>
+    * <https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords>
 * <http://androidarts.com/palette/16pal.htm>
 * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795> and <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
