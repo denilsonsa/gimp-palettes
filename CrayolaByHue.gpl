@@ -1,133 +1,133 @@
 GIMP Palette
 Name: CrayolaByHue V. 1.1
-Columns: 4
+Columns: 8
 # http://rosros-3.deviantart.com/art/Crayola-368592163
 # https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors
-  0   0   0 Black
-139 134 128 Gray
-201 192 187 Silver
-217 214 207 Timberwolf
-255 255 255 White
-196  86  85 Fuzzy Wuzzy Brown
-185  78  72 Chestnut
-185  78  72 Indian Red
-255  63  52 Red Orange
-198  45  66 Brick Red
-195  33  72 Maroon
-165  11  94 Jazzberry Jam
-202  52  53 Mahogany
-254  76  64 Sunset Orange
-254 111  94 Bittersweet
-254 186 173 Melon
-255 153 128 Vivid Tangerine
-255  96  55 Outrageous Orange
-255  96  55 Ultra Orange
-233 116  81 Burnt Sienna
-175  89  62 Brown
-158  91  64 Sepia
-255 112  52 Burnt Orange
-218 138 103 Copper
-255 104  31 Orange
-255 153 102 Atomic Tangerine
-255 153 102 Chartreuse
-146 111  91 Beaver
-210 125  70 Raw Sienna
-222 166 129 Tumbleweed
-250 157  90 Tan
-237 201 175 Desert Sand
-255 203 164 Flesh
-255 203 164 Peach
-255 185 123 Macaroni and Cheese
-231 114   0 Mango Tango
-255 153  51 Neon Carrot
-255 174  66 Yellow Orange
-252 214 103 Goldenrod
-255 204  51 Sunglow
-254 216  93 Dandelion
-251 232 112 Yellow
-230 190 138 Gold
-255 255 102 Ultra Yellow
-255 255 102 Laser Lemon
-255 255 102 Unmellow Yellow
-255 255 153 Canary
-241 231 136 Green Yellow
-251 231 178 Banana Mania
-  1 121 111 Pine Green
-  0 117  94 Tropical Rain Forest
-  1 163 104 Green
-131 112  80 Shadow
-181 179  92 Olive Green
- 95 167 119 Forest Green
- 99 183 108 Fern
- 26 179 133 Mountain Meadow
- 41 171 135 Jungle Green
- 51 204 153 Shamrock
-  0 204 153 Caribbean Green
-102 255 102 Ultra Green
-102 255 102 Screamin' Green
-197 225 122 Yellow Green
-204 255   0 Electric Lime
-176 227  19 Inch Worm
-157 224 147 Granny Smith Apple
-170 240 209 Magic Mint
-147 223 184 Sea Green
-236 235 189 Spring Green
-  0 149 182 Blue Green
-  0 157 196 Pacific Blue
-  2 164 211 Cerulean
-  0 204 204 Robin's Egg Blue
-108 218 231 Turquoise Blue
-163 227 237 Blizzard Blue
-118 215 234 Sky Blue
-147 204 234 Cornflower
- 45  56  58 Outer Space
-  0  51 102 Midnight Blue
-  0  51 102 Prussian Blue
-  0 102 204 Navy Blue
- 21  96 189 Denim
-  0 102 255 Blue
-100  86 183 Blue Violet
-122 137 184 Wild Blue Yonder
- 79 105 198 Indigo
-141 144 161 Manatee
-153 153 204 Blue Bell
-169 178 195 Cadet Blue
-195 205 230 Periwinkle
-101  45 193 Purple Heart
-107  63 160 Royal Purple
-131  89 163 Violet (Purple)
-128  55 144 Vivid Violet
-150 120 182 Purple Mountain's Majesty
-201 160 220 Wisteria
-255   0 204 Purple Pizzazz
-255   0 204 Hot Magenta
-193  84 193 Fuchsia
-255 102 255 Pink Flamingo
-255 111 255 Shocking Pink
-255 111 255 Ultra Pink
-226 156 210 Orchid
- 97  64  81 Eggplant
-132  49 121 Plum
-187  51 133 Red Violet
-197  75 140 Mulberry
-218  50 135 Cerise
-227  11  92 Razzmatazz
-237  10  63 Red
-253  14  53 Torch Red
-253  14  53 Scarlet
-255  53  94 Radical Red
-251  96 127 Brink Pink
-253  91 120 Ultra Red
-253  91 120 Wild Watermelon
-219  80 121 Cranberry
-247  70 138 Violet Red
-255  51 153 Wild Strawberry
-255  51 204 Razzle Dazzle Rose
-246  83 166 Magenta
-255 145 164 Salmon
-252 128 165 Tickle Me Pink
-255 166 201 Carnation Pink
-240 145 169 Mauvelous
-255 183 213 Cotton Candy
-251 174 210 Lavender
-253 215 228 Pig Pink
+  0   0   0	Black
+139 134 128	Gray
+201 192 187	Silver
+217 214 207	Timberwolf
+255 255 255	White
+196  86  85	Fuzzy Wuzzy Brown
+185  78  72	Chestnut
+185  78  72	Indian Red
+255  63  52	Red Orange
+198  45  66	Brick Red
+195  33  72	Maroon
+165  11  94	Jazzberry Jam
+202  52  53	Mahogany
+254  76  64	Sunset Orange
+254 111  94	Bittersweet
+254 186 173	Melon
+255 153 128	Vivid Tangerine
+255  96  55	Outrageous Orange
+255  96  55	Ultra Orange
+233 116  81	Burnt Sienna
+175  89  62	Brown
+158  91  64	Sepia
+255 112  52	Burnt Orange
+218 138 103	Copper
+255 104  31	Orange
+255 153 102	Atomic Tangerine
+255 153 102	Chartreuse
+146 111  91	Beaver
+210 125  70	Raw Sienna
+222 166 129	Tumbleweed
+250 157  90	Tan
+237 201 175	Desert Sand
+255 203 164	Flesh
+255 203 164	Peach
+255 185 123	Macaroni and Cheese
+231 114   0	Mango Tango
+255 153  51	Neon Carrot
+255 174  66	Yellow Orange
+252 214 103	Goldenrod
+255 204  51	Sunglow
+254 216  93	Dandelion
+251 232 112	Yellow
+230 190 138	Gold
+255 255 102	Ultra Yellow
+255 255 102	Laser Lemon
+255 255 102	Unmellow Yellow
+255 255 153	Canary
+241 231 136	Green Yellow
+251 231 178	Banana Mania
+  1 121 111	Pine Green
+  0 117  94	Tropical Rain Forest
+  1 163 104	Green
+131 112  80	Shadow
+181 179  92	Olive Green
+ 95 167 119	Forest Green
+ 99 183 108	Fern
+ 26 179 133	Mountain Meadow
+ 41 171 135	Jungle Green
+ 51 204 153	Shamrock
+  0 204 153	Caribbean Green
+102 255 102	Ultra Green
+102 255 102	Screamin' Green
+197 225 122	Yellow Green
+204 255   0	Electric Lime
+176 227  19	Inch Worm
+157 224 147	Granny Smith Apple
+170 240 209	Magic Mint
+147 223 184	Sea Green
+236 235 189	Spring Green
+  0 149 182	Blue Green
+  0 157 196	Pacific Blue
+  2 164 211	Cerulean
+  0 204 204	Robin's Egg Blue
+108 218 231	Turquoise Blue
+163 227 237	Blizzard Blue
+118 215 234	Sky Blue
+147 204 234	Cornflower
+ 45  56  58	Outer Space
+  0  51 102	Midnight Blue
+  0  51 102	Prussian Blue
+  0 102 204	Navy Blue
+ 21  96 189	Denim
+  0 102 255	Blue
+100  86 183	Blue Violet
+122 137 184	Wild Blue Yonder
+ 79 105 198	Indigo
+141 144 161	Manatee
+153 153 204	Blue Bell
+169 178 195	Cadet Blue
+195 205 230	Periwinkle
+101  45 193	Purple Heart
+107  63 160	Royal Purple
+131  89 163	Violet (Purple)
+128  55 144	Vivid Violet
+150 120 182	Purple Mountain's Majesty
+201 160 220	Wisteria
+255   0 204	Purple Pizzazz
+255   0 204	Hot Magenta
+193  84 193	Fuchsia
+255 102 255	Pink Flamingo
+255 111 255	Shocking Pink
+255 111 255	Ultra Pink
+226 156 210	Orchid
+ 97  64  81	Eggplant
+132  49 121	Plum
+187  51 133	Red Violet
+197  75 140	Mulberry
+218  50 135	Cerise
+227  11  92	Razzmatazz
+237  10  63	Red
+253  14  53	Torch Red
+253  14  53	Scarlet
+255  53  94	Radical Red
+251  96 127	Brink Pink
+253  91 120	Ultra Red
+253  91 120	Wild Watermelon
+219  80 121	Cranberry
+247  70 138	Violet Red
+255  51 153	Wild Strawberry
+255  51 204	Razzle Dazzle Rose
+246  83 166	Magenta
+255 145 164	Salmon
+252 128 165	Tickle Me Pink
+255 166 201	Carnation Pink
+240 145 169	Mauvelous
+255 183 213	Cotton Candy
+251 174 210	Lavender
+253 215 228	Pig Pink
