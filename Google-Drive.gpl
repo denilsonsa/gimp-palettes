@@ -1,7 +1,7 @@
 GIMP Palette
 Name: Google Drive
 Columns: 10
-# Color for text or background in Google Drive documents.
+#
   0   0   0	black
  67  67  67	dark gray 4
 102 102 102	dark gray 3
