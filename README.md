@@ -1,15 +1,7 @@
-A collection of RGB color palettes for use in [Gimp][] (but also [Inkscape][] or any other tool).
+A collection of RGB color palettes for use in [GIMP][] (but also [Inkscape][], [Krita][] or any other tool).
 
 Sources for palettes in this collection:
 
-* [Drawception](http://drawception.com/)
-    * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
-* Hardware palettes
-    * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
-    * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
-    * <http://segaretro.org/Palette>
-* Windows MFC color dialog
-    * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
 * Android
     * <https://developer.android.com/design/style/color.html>
     * <https://bugs.launchpad.net/inkscape/+bug/602698>
@@ -19,15 +11,32 @@ Sources for palettes in this collection:
 * CSS
     * <http://dev.w3.org/csswg/css-color/#named-colors>
     * <https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords>
+* DawnBringer's 16 Color Palette:
+    * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795>
+    * <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
+* [Drawception](http://drawception.com/)
+    * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
 * Draw Something
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
     * [Flash version inside the browser](http://drawsomethinggameonline.com/)
+* Google Drive and Gmail
+    * <https://drive.google.com/> and <https://docs.google.com/>
+    * <https://support.google.com/docs/answer/1708422>
+    * <https://mail.google.com/>
+    * <https://support.google.com/mail/answer/80637>
+* Hardware palettes
+    * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
+    * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
+    * <http://segaretro.org/Palette>
+* SVG-Edit
+    * 12 equally-distributed hues, with additional lighter and darker variants, plus 5 shades of gray.
+    * <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
+    * <https://svg-edit.googlecode.com>
+* Windows MFC color dialog
+    * Original version displayed colors using hexagonal shapes.
+    * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
 * <http://androidarts.com/palette/16pal.htm>
-* <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795> and <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
-* <https://drive.google.com/> and <https://docs.google.com/>
-* <https://mail.google.com/> and <https://support.google.com/mail/answer/80637>
-* <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
 
 Other palettes (not included in this collection):
 
@@ -35,11 +44,14 @@ Other palettes (not included in this collection):
 * <https://gist.github.com/dimaursu/9921467>
 * <http://nevit.deviantart.com/art/Gimp-Palettes-82563425>
 * <http://ftp.cc.uoc.gr/graphics/packages/gimp/extras/>
+* <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette>
 
 Default palettes:
 
-* <https://git.gnome.org/browse/gimp/tree/data/palettes>
-* <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>
+* GIMP: <https://git.gnome.org/browse/gimp/tree/data/palettes>
+* Inkscape: <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>
+* Krita/Calligra: <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
 
 [gimp]: http://www.gimp.org/
 [inkscape]: http://inkscape.org/
+[krita]: https://krita.org/
