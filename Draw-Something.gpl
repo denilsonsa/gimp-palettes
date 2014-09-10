@@ -3,6 +3,11 @@ Name: Draw Something
 Columns: 5
 # https://play.google.com/store/apps/details?id=com.omgpop.dstfree
 # https://play.google.com/store/apps/details?id=com.omgpop.dstpaid
+ 33  28  33	4 initial colors
+239  28  33	4 initial colors
+255 223  24	4 initial colors
+  0 130 231	4 initial colors
+  0   0   0	Empty
 239 239 215	jamaican summer
 239 191  24	jamaican summer
 215  96  24	jamaican summer
