@@ -27,6 +27,7 @@ Sources for palettes in this collection:
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
 * <https://drive.google.com/> and <https://docs.google.com/>
 * <https://mail.google.com/> and <https://support.google.com/mail/answer/80637>
+* <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
 
 Other palettes (not included in this collection):
 

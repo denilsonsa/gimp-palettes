@@ -1,0 +1,52 @@
+GIMP Palette
+Name: SVG-Edit color palette
+Columns: 12
+# https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html
+  0   0   0	Untitled
+ 63  63  63	Untitled
+127 127 127	Untitled
+191 191 191	Untitled
+255 255 255	Untitled
+  0   0   0	Untitled
+  0   0   0	Untitled
+  0   0   0	Untitled
+  0   0   0	Untitled
+  0   0   0	Untitled
+  0   0   0	Untitled
+  0   0   0	Untitled
+255   0   0	Untitled
+255 127   0	Untitled
+255 255   0	Untitled
+127 255   0	Untitled
+  0 255   0	Untitled
+  0 255 127	Untitled
+  0 255 255	Untitled
+  0 127 255	Untitled
+  0   0 255	Untitled
+127   0 255	Untitled
+255   0 255	Untitled
+255   0 127	Untitled
+127   0   0	Untitled
+127  63   0	Untitled
+127 127   0	Untitled
+ 63 127   0	Untitled
+  0 127   0	Untitled
+  0 127  63	Untitled
+  0 127 127	Untitled
+  0  63 127	Untitled
+  0   0 127	Untitled
+ 63   0 127	Untitled
+127   0 127	Untitled
+127   0  63	Untitled
+255 170 170	Untitled
+255 212 170	Untitled
+255 255 170	Untitled
+212 255 170	Untitled
+170 255 170	Untitled
+170 255 212	Untitled
+170 255 255	Untitled
+170 212 255	Untitled
+170 170 255	Untitled
+212 170 255	Untitled
+255 170 255	Untitled
+255 170 212	Untitled
