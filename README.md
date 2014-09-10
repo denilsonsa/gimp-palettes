@@ -25,6 +25,7 @@ Sources for palettes in this collection:
 * <http://androidarts.com/palette/16pal.htm>
 * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795> and <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
+* <https://drive.google.com/> and <https://docs.google.com/>
 
 Other palettes (not included in this collection):
 
