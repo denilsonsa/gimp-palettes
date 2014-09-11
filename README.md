@@ -19,6 +19,10 @@ Sources for palettes in this collection:
 * Draw Something
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
     * [Flash version inside the browser](http://drawsomethinggameonline.com/)
+* GNOME (formely Ximian)
+    * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
+    * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
+    * Also distributed in [Agave](http://home.gna.org/colorscheme/)
 * Google Drive and Gmail
     * <https://drive.google.com/> and <https://docs.google.com/>
     * <https://support.google.com/docs/answer/1708422>
