@@ -32,6 +32,9 @@ Sources for palettes in this collection:
     * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
     * <http://segaretro.org/Palette>
+* KDE Oxygen
+    * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
+    * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
 * SVG-Edit
     * 12 equally-distributed hues, with additional lighter and darker variants, plus 5 shades of gray.
     * <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
@@ -49,6 +52,7 @@ Other palettes (not included in this collection):
 * <http://nevit.deviantart.com/art/Gimp-Palettes-82563425>
 * <http://ftp.cc.uoc.gr/graphics/packages/gimp/extras/>
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette>
+* <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
 
 Default palettes:
 
