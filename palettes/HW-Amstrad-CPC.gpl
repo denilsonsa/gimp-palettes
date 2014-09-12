@@ -1,7 +1,7 @@
 GIMP Palette
 Name: HW Amstrad CPC series
 Columns: 9
-#
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#CPC_series
   0   0   0	0 - Black
   0   0 128	1 - Blue
   0   0 255	2 - Bright blue

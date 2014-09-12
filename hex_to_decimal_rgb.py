@@ -6,6 +6,7 @@
 import re
 import sys
 
+
 def hex_to_rgb(value):
     if len(value) == 3:
         value = value[0] * 2 + value[1] * 2 + value[2] * 2
@@ -14,6 +15,7 @@ def hex_to_rgb(value):
         int(value[2:4], 16),
         int(value[4:6], 16),
     ))
+
 
 for line in sys.stdin.readlines():
     line = re.sub(

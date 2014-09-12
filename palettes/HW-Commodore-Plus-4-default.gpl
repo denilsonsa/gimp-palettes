@@ -1,7 +1,7 @@
 GIMP Palette
 Name: HW Commodore Plus/4 default palette
 Columns: 6
-#
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#C-16_and_Plus.2F4
   0   0   0	0,0 black
 255 255 255	1,7 white
 184 105  98	2,3 red
