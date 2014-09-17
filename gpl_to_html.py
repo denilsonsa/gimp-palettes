@@ -3,6 +3,7 @@
 import argparse
 import sys
 from collections import namedtuple
+from html import escape
 from textwrap import dedent
 
 
@@ -384,6 +385,8 @@ HTML_PREFIX='''\
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <style>
 html, body {
+    background: white;
+    color: black;
     margin: 0;
     padding: 0;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -391,32 +394,170 @@ html, body {
 }
 .palettes {
     text-align: center;
+    -moz-column-gap: 0px;
+    -webkit-column-gap: 0px;
+    column-gap: 0px;
+    -moz-columns: 218px;
+    -webkit-columns: 218px;
+    columns: 218px;  /* 192px + 2*4px of padding + 2*8px of margin + 2*1px of box-shadow */
 }
-@media (min-width: 432px) {
+
+/* Working around Google Chrome 37 behavior
+ * It insists creating a column even if there is no enough room.
+ * Still this workaround is not perfect, because it does not take into account the scrollbar width.
+ */
+@media (max-width: 436px) {
     .palettes {
-        -webkit-columns: 216px;
-        columns: 216px;  /* 192px + 2*8px of margin + 2*4px of padding */
-        -webkit-column-gap: 0px;
-        column-gap: 0px;
+        -moz-columns: auto auto;
+        -webkit-columns: auto auto;
+    }
+}
+@media (orientation: landscape) and (max-width: 564px) {
+    .fixed-panel .palettes {
+        -moz-columns: auto auto;
+        -webkit-columns: auto auto;
+    }
+}
+
+.interactivepanel {
+    background: white;
+    font-size: 12px;
+    line-height: 16px;
+}
+.interactivepanel .confcontrols label {
+    padding-left: 1em;
+    white-space: nowrap;
+}
+.interactivepanel .confcontrols label input[type="checkbox"] {
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+/* 346px = 192px of width + 2*4px of padding + 2*8px of margin + 2*1px of box-shadow + 128px of width */
+@media (orientation: landscape) and (min-width: 346px) {
+    .fixed-panel .palettes {
+        margin-right: 128px;
+    }
+    .fixed-panel .interactivepanel {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 128px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .fixed-panel .interactivepanel .infoboxes {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .fixed-panel .interactivepanel .infoboxes .info {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 50%;  /* or 150px, or whatever value */
+    }
+    .fixed-panel .interactivepanel .infoboxes .info {
+        border-width: 0;
+        border-style: solid;
+        white-space: pre-wrap;
+    }
+    .fixed-panel .interactivepanel .infoboxes .info#info_over {
+        border-color: #808080;
+        border-bottom-width: 8px;
+
+        text-align: left;
+        border-right-width: 0;
+        border-left-width: 0;
+        padding: 0;
+
+        /* Vertically aligning the content */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .fixed-panel .interactivepanel .infoboxes .info#info_click {
+        border-color: #C0C0C0;
+        border-top-width: 8px;
+
+        text-align: left;
+        border-right-width: 0;
+        border-left-width: 0;
+        padding: 0;
+    }
+}
+
+@media (orientation: portrait) {
+    .palettes {
+        margin-top: 80px;
+    }
+    .interactivepanel {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+    }
+    .fixed-panel .interactivepanel {
+        position: fixed;
+    }
+}
+
+@media (orientation: portrait), (orientation: landscape) {
+    .interactivepanel .infoboxes {
+        display: flex;
+        flex-direction: row;
+    }
+    .interactivepanel .infoboxes .info {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 50%;  /* or 150px, or whatever value */
+        white-space: pre;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .interactivepanel .infoboxes .info#info_over {
+        text-align: right;
+        border-right: 8px solid #808080;
+        padding-right: 8px;
+    }
+    .interactivepanel .infoboxes .info#info_click {
+        text-align: left;
+        border-left: 8px solid #C0C0C0;
+        padding-left: 8px;
     }
 }
 
 .palette {
     display: inline-block;
+    margin: 8px;
     vertical-align: top;
     width: 192px;
-    margin: 8px;
     padding: 4px;
+    color: black;
     background: white;
     box-shadow: 0 2px 8px silver;
 }
 .palette h1,
-.palette p{
+.palette p {
     font: inherit;
     font-size: 1em;
     margin: 0;
     margin-bottom: 1ex;
     text-align: center;
+}
+.palette a {
+    font: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+.palette a:hover,
+.palette a:focus,
+.palette a:active {
+    color: blue;
+    text-decoration: underline;
 }
 .palette .comment {
     font-size: 0.75em;
@@ -443,39 +584,47 @@ table.colors.with-border {
     height: 7px;
     border: 1px solid black;
 }
-
-.info {
-    white-space: pre-wrap;
-}
 </style>
 </head>
-<body>
+<body class="fixed-panel">
 
-<p>TODO:
-<ul>
-<li>Add some styling to the fieldset (probably change it to another element). Should stay always visible (position: fixed), maybe on the right. Not sure yet about smaller screens.</li>
-<li>Remove comments from the div. Probably add them as data attributes.</li>
-<li>Remove the link, or move the link to the title.</li>
-</ul>
-</p>
-
-<fieldset>
-<label><input type="checkbox" id="toggle_border_checkbox"> Border</label>
-<div class="info" id="info_over"></div>
-<div class="info" id="info_click"></div>
-</fieldset>
+<aside class="interactivepanel">
+<div class="confcontrols">
+    <label><input type="checkbox" id="toggle_border_checkbox"> Border</label>
+    <label><input type="checkbox" id="toggle_fixed_checkbox" checked> Sticky panel</label>
+</div>
+<div class="infoboxes">
+<div class="info" id="info_over">(over palette name)
+(over color name)
+(#RRGGBB)
+(R, G, B)</div>
+<div class="info" id="info_click">(clicked palette name)
+(clicked color name)
+(#RRGGBB)
+(R, G, B)</div>
+</div>
+</aside>
 
 <script>
-function toggle_border(ev) {
-    var elem = document.getElementById('palettes');
-    if (document.getElementById('toggle_border_checkbox').checked) {
-        elem.classList.add('with-border');
+function toggle_class_based_on_checkbox(checkbox, classname, elem) {
+    if (checkbox.checked) {
+        elem.classList.add(classname);
     } else {
-        elem.classList.remove('with-border');
+        elem.classList.remove(classname);
     }
 }
-document.getElementById('toggle_border_checkbox').addEventListener(
-    'change', toggle_border);
+function toggle_border(ev) {
+    toggle_class_based_on_checkbox(ev.target, 'with-border', document.getElementById('palettes'));
+}
+function toggle_fixed(ev) {
+    toggle_class_based_on_checkbox(ev.target, 'fixed-panel', document.body);
+}
+document.getElementById('toggle_border_checkbox').addEventListener('change', toggle_border);
+document.getElementById('toggle_fixed_checkbox').addEventListener('change', toggle_fixed);
+window.addEventListener('load', function(ev) {
+    document.getElementById('toggle_border_checkbox').dispatchEvent(new Event('change'));
+    document.getElementById('toggle_fixed_checkbox').dispatchEvent(new Event('change'));
+});
 </script>
 
 <div class="palettes" id="palettes">
@@ -490,7 +639,15 @@ function mouse_over_or_click_handler(target, info_id) {
     if (!target.classList.contains('color')) {
         return;
     }
-    document.getElementById(info_id).textContent = target.title;
+    var palette_elem = target.parentNode;
+    while (palette_elem && !palette_elem.classList.contains('palette')) {
+        palette_elem = palette_elem.parentNode;
+    }
+    var name = palette_elem.querySelector('.name').textContent;
+
+    var info_elem = document.getElementById(info_id);
+    info_elem.textContent = name + '\\n' + target.title;
+    info_elem.style.borderColor = target.style.backgroundColor;
 }
 function mouse_over_handler(ev) {
     return mouse_over_or_click_handler(ev.target, 'info_over');
@@ -513,16 +670,16 @@ def palette_to_html(pal):
     # This function is a bit ugly just because I wanted to write it as a single
     # statement, just for fun.
     return dedent('''\
-        <div class="palette">
-            <h1 class="name">{pal.name}</h1>
-            <p class="filename"><a href="{pal.filename}">{pal.filename}</a></p>
+        <article class="palette">
+            <h1 class="name"><a href="{filename}">{name}</a></h1>
             {comments}
             <table class="colors">{colors}</table>
-        </div>
+        </article>
     ''').strip().format(
-        pal=pal,
+        filename=escape(pal.filename),
+        name=escape(pal.name),
         comments='\n'.join(
-            '<p class="comment">{0}</p>'.format(comment)
+            '<p class="comment">{0}</p>'.format(escape(comment))
             for comment in pal.comments
         ),
         colors=''.join(
@@ -531,11 +688,14 @@ def palette_to_html(pal):
                     <td
                     class="color"
                     style="background-color:{color.prrggbb}"
-                    title="{color.name}
+                    title="{name}
                     {color.pRRGGBB}
                     {color.r}, {color.g}, {color.b}"
                     ></td>
-                ''').strip().format(color=color)
+                ''').strip().format(
+                    name=escape(color.name),
+                    color=color
+                )
                 for color in pal.colors[offset:offset + (pal.columns or 16)]
             )) for offset in range(0, len(pal.colors), pal.columns or 16)
         ),
@@ -557,12 +717,6 @@ def main():
         f.close()
         options.output.write(
             palette_to_html(pal))
-        # from pprint import pprint
-        # pprint(pal.filename)
-        # pprint(pal.name)
-        # pprint(pal.columns)
-        # pprint(pal.comments)
-        # pprint(pal.colors)
 
     options.output.write(HTML_SUFFIX)
     options.output.close()
