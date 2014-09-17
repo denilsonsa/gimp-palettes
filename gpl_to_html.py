@@ -318,14 +318,16 @@ class GimpPalette:
         pal.name = header_name.partition('Name:')[2].strip()
 
         header_columns = next(f)
-        assert header_columns.startswith('Columns:')
-        pal.columns = int(header_columns.partition('Columns:')[2].strip())
+        if header_columns.startswith('Columns:'):
+            pal.columns = int(header_columns.partition('Columns:')[2].strip())
+        else:
+            pal.columns = 0
 
         for line in f:
             line = line.strip()
             if line.startswith('#'):
                 pal.comments.append(line[1:].strip())
-            else:
+            elif line:
                 r, g, b, name = line.strip().split(maxsplit=3)
                 pal.colors.append(NamedColor(
                     r=int(r),
