@@ -18,7 +18,7 @@ Sources for palettes in this collection:
     * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
 * Draw Something
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
-    * [Flash version inside the browser](http://drawsomethinggameonline.com/)
+    * Draw My Thing was a flash version by OMGPOP, unofficially available in many sites, but not available officially anymore.
 * GNOME (formely Ximian)
     * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
     * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
@@ -39,6 +39,8 @@ Sources for palettes in this collection:
     * 12 equally-distributed hues, with additional lighter and darker variants, plus 5 shades of gray.
     * <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
     * <https://svg-edit.googlecode.com>
+* we draw comics
+    * <http://beta.wedrawcomics.com/>
 * Windows MFC color dialog
     * Original version displayed colors using hexagonal shapes.
     * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
