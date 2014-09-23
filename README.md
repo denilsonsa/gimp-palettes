@@ -1,5 +1,9 @@
 A collection of RGB color palettes for use in [GIMP][] (but also [Inkscape][], [Krita][] or any other tool).
 
+You can [preview all these palettes directly in the browser][preview].
+
+----
+
 Sources for palettes in this collection:
 
 * Android
@@ -16,9 +20,10 @@ Sources for palettes in this collection:
     * <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
 * [Drawception](http://drawception.com/)
     * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
+* Draw My Thing
+    * Draw My Thing was a flash version by OMGPOP, unofficially available in many sites, but not available officially anymore.
 * Draw Something
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
-    * Draw My Thing was a flash version by OMGPOP, unofficially available in many sites, but not available officially anymore.
 * GNOME (formely Ximian)
     * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
     * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
@@ -56,7 +61,7 @@ Other palettes (not included in this collection):
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette>
 * <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
 
-Default palettes:
+Default palettes (not included in this collection):
 
 * GIMP: <https://git.gnome.org/browse/gimp/tree/data/palettes>
 * Inkscape: <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>
@@ -65,3 +70,4 @@ Default palettes:
 [gimp]: http://www.gimp.org/
 [inkscape]: http://inkscape.org/
 [krita]: https://krita.org/
+[preview]: http://denilsonsa.github.io/gimp-palettes/index.html
