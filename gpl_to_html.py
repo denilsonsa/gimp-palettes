@@ -438,8 +438,8 @@ html, body {
 
 /* 346px = 192px of width + 2*4px of padding + 2*8px of margin + 2*1px of box-shadow + 128px of width */
 @media (orientation: landscape) and (min-width: 346px) {
-    .fixed-panel .palettes {
-        margin-right: 128px;
+    body.fixed-panel {
+        padding-right: 128px;
     }
     .fixed-panel .interactivepanel {
         position: fixed;
@@ -492,8 +492,8 @@ html, body {
 }
 
 @media (orientation: portrait) {
-    .palettes {
-        margin-top: 80px;
+    body {
+        padding-top: 80px;
     }
     .interactivepanel {
         position: absolute;
