@@ -88,7 +88,7 @@ Columns: 13
  87 255 255	Untitled
 160 255 255	Untitled
 233 255 255	Untitled
-255 255 255	Untitled
+255 255 255	White
 255 233 233	Untitled
 255 160 160	Untitled
 255  87  87	Untitled
@@ -173,7 +173,7 @@ Columns: 13
   0   0   0	Untitled
   0   0   0	Untitled
   0   0   0	Untitled
-255 255 255	Untitled
+255 255 255	White
 240 240 240	Untitled
 210 210 210	Untitled
 180 180 180	Untitled
@@ -182,11 +182,11 @@ Columns: 13
  90  90  90	Untitled
  60  60  60	Untitled
  30  30  30	Untitled
+  0   0   0	Black
   0   0   0	Untitled
   0   0   0	Untitled
   0   0   0	Untitled
-  0   0   0	Untitled
-255 255 255	Untitled
+255 255 255	White
 225 225 225	Untitled
 192 192 192	Untitled
 165 165 165	Untitled
@@ -194,5 +194,5 @@ Columns: 13
 105 105 105	Untitled
  75  75  75	Untitled
  45  45  45	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Black
+  0   0   0	Black
