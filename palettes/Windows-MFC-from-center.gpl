@@ -1,7 +1,8 @@
 GIMP Palette
-Name: Windows MFC Color Dialog
+Name: Windows MFC Color Dialog (from center to border)
 Columns: 16
 # http://www.functionx.com/visualc/controls/dlgmfccolor.htm
+# http://imgur.com/GY2K7WB
 # Found on Clickteam Fusion and on several Windows tools.
 255 255 255	White
 255 233 233	1 red

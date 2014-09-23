@@ -42,8 +42,8 @@ Sources for palettes in this collection:
 * we draw comics
     * <http://beta.wedrawcomics.com/>
 * Windows MFC color dialog
-    * Original version displayed colors using hexagonal shapes.
     * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
+    * <http://i.imgur.com/GY2K7WB>
 * <http://androidarts.com/palette/16pal.htm>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
 
