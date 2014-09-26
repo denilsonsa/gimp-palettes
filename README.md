@@ -33,6 +33,8 @@ Sources for palettes in this collection:
     * <https://support.google.com/docs/answer/1708422>
     * <https://mail.google.com/>
     * <https://support.google.com/mail/answer/80637>
+* Google Hangouts
+    * <https://www.yahoo.com/tech/you-can-now-draw-messages-for-your-friends-in-google-88695389164.html>
 * Hardware palettes
     * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
