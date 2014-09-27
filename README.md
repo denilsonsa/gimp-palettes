@@ -53,6 +53,7 @@ Sources for palettes in this collection:
     * <http://i.imgur.com/GY2K7WB>
 * <http://androidarts.com/palette/16pal.htm>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
+* <http://www.pixelator.co/> and <https://github.com/clarkduvall/pixelator>
 
 Other palettes (not included in this collection):
 
