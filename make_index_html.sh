@@ -15,3 +15,5 @@ if ! git diff --exit-code --quiet ; then
 fi
 
 git checkout master
+
+echo 'To upload all branches: git push --all'
