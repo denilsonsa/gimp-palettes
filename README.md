@@ -18,6 +18,8 @@ Sources for palettes in this collection:
 * DawnBringer's 16 Color Palette:
     * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795>
     * <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
+* Doodle or Die
+    * <http://doodleordie.com/>
 * [Drawception](http://drawception.com/)
     * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
 * Draw My Thing
