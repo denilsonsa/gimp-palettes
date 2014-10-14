@@ -9,6 +9,8 @@ Sources for palettes in this collection:
 * Android
     * <https://developer.android.com/design/style/color.html>
     * <https://bugs.launchpad.net/inkscape/+bug/602698>
+* AndroidArts.com 16 colors by Arne Niklas Jansson
+    * <http://androidarts.com/palette/16pal.htm>
 * Crayola
     * <http://rosros-3.deviantart.com/art/Crayola-368592163>
     * [List of Crayola crayon colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
@@ -44,6 +46,8 @@ Sources for palettes in this collection:
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
+* Sketch Toy
+    * <http://sketchtoy.com/>
 * SVG-Edit
     * 12 equally-distributed hues, with additional lighter and darker variants, plus 5 shades of gray.
     * <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
@@ -53,7 +57,6 @@ Sources for palettes in this collection:
 * Windows MFC color dialog
     * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
     * <http://i.imgur.com/GY2K7WB>
-* <http://androidarts.com/palette/16pal.htm>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
 * <http://www.pixelator.co/> and <https://github.com/clarkduvall/pixelator>
 
