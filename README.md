@@ -46,6 +46,8 @@ Sources for palettes in this collection:
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
+* Realtimeboard
+    * https://realtimeboard.com/
 * Sketch Toy
     * <http://sketchtoy.com/>
 * SVG-Edit
