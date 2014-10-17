@@ -24,6 +24,8 @@ Sources for palettes in this collection:
     * <http://doodleordie.com/>
 * [Drawception](http://drawception.com/)
     * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
+* draw.io
+    * <https://www.draw.io/>
 * Draw My Thing
     * Draw My Thing was a flash version by OMGPOP, unofficially available in many sites, but not available officially anymore.
 * Draw Something
