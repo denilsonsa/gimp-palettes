@@ -47,9 +47,11 @@ Sources for palettes in this collection:
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
 * Realtimeboard
-    * https://realtimeboard.com/
+    * <https://realtimeboard.com/>
 * Sketch Toy
     * <http://sketchtoy.com/>
+* Symphonical
+    * <https://www.symphonical.com/>
 * SVG-Edit
     * 12 equally-distributed hues, with additional lighter and darker variants, plus 5 shades of gray.
     * <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
