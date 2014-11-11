@@ -1,4 +1,4 @@
-A collection of RGB color palettes for use in [GIMP][] (but also [Inkscape][], [Krita][] or any other tool).
+A collection of RGB color palettes for use in [GIMP][] (but also [Inkscape][], [Krita][], [MyPaint][] or any other tool).
 
 You can [preview all these palettes directly in the browser][preview].
 
@@ -80,8 +80,10 @@ Default palettes (not included in this collection):
 * GIMP: <https://git.gnome.org/browse/gimp/tree/data/palettes>
 * Inkscape: <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>
 * Krita/Calligra: <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
+* MyPaint: <https://github.com/mypaint/mypaint/tree/master/palettes>
 
 [gimp]: http://www.gimp.org/
 [inkscape]: http://inkscape.org/
 [krita]: https://krita.org/
+[mypaint]: http://mypaint.intilinux.com/
 [preview]: http://denilsonsa.github.io/gimp-palettes/index.html
