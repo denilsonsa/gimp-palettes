@@ -328,7 +328,13 @@ class GimpPalette:
             if line.startswith('#'):
                 pal.comments.append(line[1:].strip())
             elif line:
-                r, g, b, name = line.strip().split(maxsplit=3)
+                splitted = line.strip().split(maxsplit=3)
+                if len(splitted) == 3:
+                    splitted.append('Untitled')
+                if len(splitted) != 4:
+                    # TODO: Throw some error message or warning.
+                    pass
+                r, g, b, name = splitted
                 pal.colors.append(NamedColor(
                     r=int(r),
                     g=int(g),
