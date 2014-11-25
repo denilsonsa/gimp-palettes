@@ -58,6 +58,8 @@ Sources for palettes in this collection:
     * 12 equally-distributed hues, with additional lighter and darker variants, plus 5 shades of gray.
     * <https://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html>
     * <https://svg-edit.googlecode.com>
+* Trello
+    * <https://trello.com/>
 * we draw comics
     * <http://beta.wedrawcomics.com/>
 * Windows MFC color dialog
