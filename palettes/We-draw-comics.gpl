@@ -1,14 +1,35 @@
 GIMP Palette
 Name: we draw comics
 Columns: 5
-# Default palette from http://beta.wedrawcomics.com/
-  0   0   0	Untitled
- 68  68  68	Untitled
-136 136 136	Untitled
-204 204 204	Untitled
-255 255 255	Untitled
-230  64 188	Untitled
-108 231 247	Untitled
-255 217 132	Untitled
- 34  57  91	Untitled
-240 160 247	Untitled
+# Palettes from http://beta.wedrawcomics.com/
+# Each comic has 10 colors (5 grayscale + 5 custom colors).
+  0   0   0	black
+ 68  68  68	dark gray
+136 136 136	medium gray
+204 204 204	light gray
+255 255 255	white
+204 204 102	default #1
+153 204 102	default #2
+102 204 153	default #3
+102 102 204	default #4
+153 102 204	default #5
+104 150  78	vintage #1
+248 213   7	vintage #2
+228  46  69	vintage #3
+255 243 190	vintage #4
+ 75 140 168	vintage #5
+230  64 188	becky-night #1
+108 231 247	becky-night #2
+255 217 132	becky-night #3
+ 34  57  91	becky-night #4
+240 160 247	becky-night #5
+225 174  23	pea soup #1
+167 116  47	pea soup #2
+157  81  25	pea soup #3
+122 156  31	pea soup #4
+ 88 121  12	pea soup #5
+198 218 241	kinda blue #1
+120 157 202	kinda blue #2
+107 140 178	kinda blue #3
+ 74  92 116	kinda blue #4
+ 56  64  73	kinda blue #5
