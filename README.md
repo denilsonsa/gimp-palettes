@@ -6,6 +6,8 @@ You can [preview all these palettes directly in the browser][preview].
 
 Sources for palettes in this collection:
 
+* 3DTin
+    * <http://www.3dtin.com/>
 * Android
     * <https://developer.android.com/design/style/color.html>
     * <https://bugs.launchpad.net/inkscape/+bug/602698>
@@ -41,6 +43,8 @@ Sources for palettes in this collection:
     * <https://support.google.com/mail/answer/80637>
 * Google Hangouts
     * <https://www.yahoo.com/tech/you-can-now-draw-messages-for-your-friends-in-google-88695389164.html>
+* Google Keep
+    * <https://keep.google.com/>
 * Hardware palettes
     * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
@@ -48,6 +52,8 @@ Sources for palettes in this collection:
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
+* MindMup
+    * <https://www.mindmup.com/>
 * Realtimeboard
     * <https://realtimeboard.com/>
 * Sketch Toy
