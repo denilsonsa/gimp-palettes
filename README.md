@@ -54,6 +54,9 @@ Sources for palettes in this collection:
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
 * MindMup
     * <https://www.mindmup.com/>
+* Papyrus Android app
+    * <http://papyrusapp.com/>
+    * <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
 * Realtimeboard
     * <https://realtimeboard.com/>
 * Sketch Toy
