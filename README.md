@@ -49,6 +49,7 @@ Sources for palettes in this collection:
     * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
     * <http://segaretro.org/Palette>
+    * <http://www.pepto.de/projects/colorvic/>
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
@@ -76,6 +77,7 @@ Sources for palettes in this collection:
     * <http://i.imgur.com/GY2K7WB>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
 * <http://www.pixelator.co/> and <https://github.com/clarkduvall/pixelator>
+* <http://wayofthepixel.net/index.php?topic=10784.0>
 
 Other palettes (not included in this collection):
 

@@ -1,0 +1,20 @@
+GIMP Palette
+Name: HW ZX Spectrum
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#ZX_Spectrum
+  0   0   0	0 - black
+  0   0 170	1 - basic blue
+170   0   0	2 - basic red
+170   0 170	3 - basic magenta
+  0 170   0	4 - basic green
+  0 170 170	5 - basic cyan
+170 170   0	6 - basic yellow
+170 170 170	7 - basic white
+  0   0   0	8 - black
+  0   0 255	9 - bright blue
+255   0   0	10 - bright red
+255   0 255	11 - bright magenta
+  0 255   0	12 - bright green
+  0 255 255	13 - bright cyan
+255 255   0	14 - bright yellow
+255 255 255	15 - bright white
