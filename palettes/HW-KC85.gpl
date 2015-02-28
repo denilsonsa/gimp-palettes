@@ -1,0 +1,34 @@
+GIMP Palette
+Name: HW Kleincomputer KC 85
+Columns: 8
+# https://de.wikipedia.org/wiki/Kleincomputer_KC_85/2-4
+# https://en.wikipedia.org/wiki/Robotron_KC_85
+# http://www.robotrontechnik.de/html/forum/thwb/showtopic.php?threadid=1430
+  0   0   0	FG black
+  0   0 255	FG blue
+255   0   0	FG red
+255   0 255	FG purple
+  0 255   0	FG green
+  0 255 255	FG turquoise
+255 255   0	FG yellow
+255 255 255	FG white
+  0   0   0	FG black
+128   0 255	FG violet
+255 128   0	FG orange
+255   0 128	FG purple red
+  0 255 128	FG green blue
+  0 128 255	FG blue green
+128 255   0	FG yellow green
+255 255 255	FG white
+  0   0   0	BG black
+  0   0 160	BG blue
+160   0   0	BG red
+160   0 160	BG purple
+  0 160   0	BG green
+  0 160 160	BG turquoise
+160 160   0	BG yellow
+160 160 160	BG white
+  0   0   0	HIRES black
+255   0   0	HIRES red
+  0 255 255	HIRES turquoise
+255 255 255	HIRES white

@@ -53,6 +53,7 @@ Sources for palettes in this collection:
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
+    * <http://www.robotrontechnik.de/html/forum/thwb/showtopic.php?threadid=1430>
 * MindMup
     * <https://www.mindmup.com/>
 * Papyrus Android app
