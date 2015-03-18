@@ -8,11 +8,15 @@ Sources for palettes in this collection:
 
 * 3DTin
     * <http://www.3dtin.com/>
+* Adobe SketchBook (Android app)
+    * <https://play.google.com/store/apps/details?id=com.adsk.sketchbook>
 * Android
     * <https://developer.android.com/design/style/color.html>
     * <https://bugs.launchpad.net/inkscape/+bug/602698>
 * AndroidArts.com 16 colors by Arne Niklas Jansson
     * <http://androidarts.com/palette/16pal.htm>
+* Bamboo Paper (Android app by Wacom)
+    * <https://play.google.com/store/apps/details?id=com.wacom.bamboopapertab>
 * Crayola
     * <http://rosros-3.deviantart.com/art/Crayola-368592163>
     * [List of Crayola crayon colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
@@ -30,8 +34,9 @@ Sources for palettes in this collection:
     * <https://www.draw.io/>
 * Draw My Thing
     * Draw My Thing was a flash version by OMGPOP, unofficially available in many sites, but not available officially anymore.
-* Draw Something
+* Draw Something (by OMGPOP)
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
+    * For iOS: [free version](https://itunes.apple.com/us/app/draw-something-free/id488628250) and [paid version](https://itunes.apple.com/us/app/draw-something-by-omgpop/id488627858)
 * GNOME (formely Ximian)
     * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
     * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
@@ -50,15 +55,22 @@ Sources for palettes in this collection:
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
     * <http://segaretro.org/Palette>
     * <http://www.pepto.de/projects/colorvic/>
+* INKredible
+    * <http://inkredibleapp.com/>
+    * <https://play.google.com/store/apps/details?id=com.viettran.INKredible>
+    * <https://itunes.apple.com/us/app/inkredible/id712303681>
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
     * <http://www.robotrontechnik.de/html/forum/thwb/showtopic.php?threadid=1430>
 * MindMup
     * <https://www.mindmup.com/>
-* Papyrus Android app
+* Papyrus (Android app by Steadfast Innovation)
     * <http://papyrusapp.com/>
     * <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
+* Pixelator.co
+    * <http://www.pixelator.co/>
+    * <https://github.com/clarkduvall/pixelator>
 * Realtimeboard
     * <https://realtimeboard.com/>
 * Sketch Toy
@@ -71,13 +83,14 @@ Sources for palettes in this collection:
     * <https://svg-edit.googlecode.com>
 * Trello
     * <https://trello.com/>
+* VoxelShop (by BlackFlux Software)
+    * <https://blackflux.com/node/11>
 * we draw comics
     * <http://beta.wedrawcomics.com/>
 * Windows MFC color dialog
     * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
     * <http://i.imgur.com/GY2K7WB>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
-* <http://www.pixelator.co/> and <https://github.com/clarkduvall/pixelator>
 * <http://wayofthepixel.net/index.php?topic=10784.0>
 
 Other palettes (not included in this collection):

@@ -1,0 +1,51 @@
+GIMP Palette
+Name: Bamboo Paper (by Wacom)
+Columns: 15
+# Bamboo Paper (Android app by Wacom)
+# http://bamboopaper.wacom.com/
+# https://play.google.com/store/apps/details?id=com.wacom.bamboopapertab
+  0   0   0	Panel 1
+196  33 105	Panel 1
+139 173  33	Panel 1
+255 255 255	Separator
+ 64  64  64	Panel 2
+130 130 130	Panel 2
+170 170 170	Panel 2
+255 255 255	Separator
+ 33 157 174	Panel 3
+123 122  11	Panel 3
+235 212 104	Panel 3
+255 255 255	Separator
+ 51  44  34	Panel 4
+114  96  76	Panel 4
+ 95  62  96	Panel 4
+ 24  58 103	Panel 1
+ 30 119 185	Panel 1
+ 44 184 243	Panel 1
+255 255 255	Separator
+219 219 219	Panel 2
+244 244 244	Panel 2
+255 205  87	Panel 2
+255 255 255	Separator
+ 43  22   3	Panel 3
+ 99  60  30	Panel 3
+184 131  85	Panel 3
+255 255 255	Separator
+103 125  57	Panel 4
+147  58  58	Panel 4
+ 49  76  86	Panel 4
+159 112 187	Panel 1
+249 156  61	Panel 1
+254 213 114	Panel 1
+255 255 255	Separator
+199 205  87	Panel 2
+223  80  57	Panel 2
+104 179 210	Panel 2
+255 255 255	Separator
+163  57 105	Panel 3
+251 170 125	Panel 3
+253 232 197	Panel 3
+255 255 255	Separator
+168 181 127	Panel 4
+198 141 141	Panel 4
+ 99 143 158	Panel 4

@@ -11,12 +11,12 @@ Columns: 13
  86   0 128	Untitled
 107   0 128	Untitled
 128   0 128	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
   0  18 128	Untitled
   0   0 192	Untitled
  36   0 192	Untitled
@@ -25,11 +25,11 @@ Columns: 13
 163   0 192	Untitled
 192   0 192	Untitled
 128   0 103	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
   0  39 128	Untitled
   0  36 192	Untitled
   0   0 255	Untitled
@@ -39,10 +39,10 @@ Columns: 13
 255   0 255	Untitled
 192   0 157	Untitled
 128   0  82	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
   0  61 128	Untitled
   0  75 192	Untitled
   0  70 255	Untitled
@@ -53,9 +53,9 @@ Columns: 13
 255   0 192	Untitled
 192   0 128	Untitled
 128   0  59	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
   0  84 128	Untitled
   0 128 192	Untitled
   0 128 255	Untitled
@@ -67,8 +67,8 @@ Columns: 13
 255   0 128	Untitled
 192   0  75	Untitled
 128   0  37	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
   0 105 128	Untitled
   0 160 192	Untitled
   0 192 255	Untitled
@@ -81,7 +81,7 @@ Columns: 13
 255   0  66	Untitled
 192   0  32	Untitled
 128   0  16	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
   0 128 128	Untitled
   0 192 192	Untitled
   0 255 255	Untitled
@@ -107,7 +107,7 @@ Columns: 13
 255  66   0	Untitled
 192  32   0	Untitled
 128  16   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
   0 128  84	Untitled
   0 192 128	Untitled
   0 255 128	Untitled
@@ -119,8 +119,8 @@ Columns: 13
 255 128   0	Untitled
 192  75   0	Untitled
 128  37   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
   0 128  61	Untitled
   0 192  75	Untitled
   0 255  70	Untitled
@@ -131,9 +131,9 @@ Columns: 13
 255 192   0	Untitled
 192 128   0	Untitled
 128  59   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
   0 128  39	Untitled
   0 192  36	Untitled
   0 255   0	Untitled
@@ -143,10 +143,10 @@ Columns: 13
 255 255   0	Untitled
 192 157   0	Untitled
 128  82   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
   0 128  18	Untitled
   0 192   0	Untitled
  36 192   0	Untitled
@@ -155,11 +155,11 @@ Columns: 13
 163 192   0	Untitled
 192 192   0	Untitled
 128 103   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
   0 128   0	Untitled
  18 128   0	Untitled
  39 128   0	Untitled
@@ -167,12 +167,12 @@ Columns: 13
  86 128   0	Untitled
 107 128   0	Untitled
 128 128   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
 255 255 255	White
 240 240 240	Untitled
 210 210 210	Untitled
@@ -183,9 +183,9 @@ Columns: 13
  60  60  60	Untitled
  30  30  30	Untitled
   0   0   0	Black
-  0   0   0	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
 255 255 255	White
 225 225 225	Untitled
 192 192 192	Untitled
