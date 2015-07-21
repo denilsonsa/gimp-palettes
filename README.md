@@ -1,4 +1,4 @@
-A collection of RGB color palettes for use in [GIMP][] (but also [Inkscape][], [Krita][], [MyPaint][] or any other tool).
+A collection of RGB color palettes for use in [GIMP][] (but also [Drawpile][], [Inkscape][], [Krita][], [MyPaint][] or any other tool).
 
 You can [preview all these palettes directly in the browser][preview].
 
@@ -26,6 +26,9 @@ Sources for palettes in this collection:
 * DawnBringer's 16 Color Palette:
     * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795>
     * <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
+* DawnBringer's 32 Color Palette:
+    * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=16247>
+    * <http://hem.bredband.net/ricfha/pic/db32_v1_analyze.png>
 * Doodle or Die
     * <http://doodleordie.com/>
 * [Drawception](http://drawception.com/)
@@ -104,11 +107,13 @@ Other palettes (not included in this collection):
 
 Default palettes (not included in this collection):
 
+* Drawpile: <https://github.com/callaa/Drawpile/tree/master/desktop/palettes>
 * GIMP: <https://git.gnome.org/browse/gimp/tree/data/palettes>
 * Inkscape: <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>
 * Krita/Calligra: <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
 * MyPaint: <https://github.com/mypaint/mypaint/tree/master/palettes>
 
+[drawpile]: http://drawpile.net/
 [gimp]: http://www.gimp.org/
 [inkscape]: http://inkscape.org/
 [krita]: https://krita.org/
