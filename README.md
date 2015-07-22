@@ -17,6 +17,9 @@ Sources for palettes in this collection:
     * <http://androidarts.com/palette/16pal.htm>
 * Bamboo Paper (Android app by Wacom)
     * <https://play.google.com/store/apps/details?id=com.wacom.bamboopapertab>
+* Breeze (KDE Usability, Human Interface Guidelines)
+    * <https://techbase.kde.org/Projects/Usability/HIG/Color>
+    * <https://techbase.kde.org/Projects/Usability/HIG/MockupToolkit>
 * Crayola
     * <http://rosros-3.deviantart.com/art/Crayola-368592163>
     * [List of Crayola crayon colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
