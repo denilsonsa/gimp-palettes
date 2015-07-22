@@ -1,59 +1,46 @@
 GIMP Palette
-Name: BreezePalette(Extended)
-
-# Greyscale
-252  252  252  Paper White
-239  240  241  Cardboard Grey
-189  195  199  bdc3c7
-149  165  166  95a5a6
-127  140  141  7f8c8d
-77   77   77   Icon Grey
-49   54   59   Charcoal Grey
-25   38   41   Shade Black
-
-# Blue
-29   153  243  Icon Blue
-61   174  253  Plasma Blue
-52   152  219  3498db
-41   128  185  2980b9
-52   73   94   34495e
-44   62   80   2c3e50
-
-# Red & Orange
-237  21   21   Danger Red
-244  119  80   Icon Orange
-231  76   60   e74c3c
-218  68   83   Icon Red
-192  57   43   c0392bf
-
-# Orange
-253  188  75   Icon Yellow
-243  156  31   f39c1f
-246  116  0    Beware Orange
-211  84   0    d35400
-
-# Yellow
-221  227  65   dde341 Ex
-201  206  59   Sunbeam Yellow
-165  169  46   a5a92e Ex
-145  148  40   919428 Ex
-
-# Green
-17   209  22   Verdant Green
-46   204  113  Icon Green
-39   174  96   27ae60
-37   142  82   258e52 Ex
-36   109  67   246d43 Ex
-
-# Turquoise
-28   220  154  Mellow Turquoise
-26   188  156  1abc9c
-22   160  133  16a085
-28   120  101  1c7865 Ex
-16   67   56   104338 Ex
-
-# Purple
-182  119  211  b677d3 Ex
-155  89   182  9b59b6
-142  68   173  8e44ad
-102  53   121  663579 Ex
+Name: Breeze (Extended)
+Columns: 14
+# https://techbase.kde.org/Projects/Usability/HIG/MockupToolkit
+252 252 252	Paper White
+239 240 241	Cardboard Grey
+189 195 199	bdc3c7
+149 165 166	95a5a6
+127 140 141	7f8c8d
+ 77  77  77	Icon Grey
+ 49  54  59	Charcoal Grey
+ 25  38  41	Shade Black
+ 29 153 243	Icon Blue
+ 61 174 253	Plasma Blue
+ 52 152 219	3498db
+ 41 128 185	2980b9
+ 52  73  94	34495e
+ 44  62  80	2c3e50
+237  21  21	Danger Red
+244 119  80	Icon Orange
+231  76  60	e74c3c
+218  68  83	Icon Red
+192  57  43	c0392bf
+253 188  75	Icon Yellow
+243 156  31	f39c1f
+246 116   0	Beware Orange
+211  84   0	d35400
+ 25  38  41	Shade Black (spacer)
+221 227  65	dde341 Ex
+201 206  59	Sunbeam Yellow
+165 169  46	a5a92e Ex
+145 148  40	919428 Ex
+ 17 209  22	Verdant Green
+ 46 204 113	Icon Green
+ 39 174  96	27ae60
+ 37 142  82	258e52 Ex
+ 36 109  67	246d43 Ex
+ 28 220 154	Mellow Turquoise
+ 26 188 156	1abc9c
+ 22 160 133	16a085
+ 28 120 101	1c7865 Ex
+ 16  67  56	104338 Ex
+182 119 211	b677d3 Ex
+155  89 182	9b59b6
+142  68 173	8e44ad
+102  53 121	663579 Ex
