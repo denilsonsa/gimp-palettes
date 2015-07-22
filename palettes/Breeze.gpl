@@ -7,13 +7,13 @@ Columns: 6
 244 119  80	Icon Orange
 253 188  75	Icon Yellow
 201 206  59	Sunbeam Yellow
-100 100 100	
+  0   0   0	Empty
 218  68  83	Icon Red
 192  57  43	
 211  84   0	
 246 116   0	Beware Orange
 243 156  31	
-100 100 100	
+  0   0   0	Empty
  28 220 154	Mellow Turquoise
  46 204 113	Icon Green
  26 188 156	
@@ -31,10 +31,10 @@ Columns: 6
 127 140 141	
 189 195 199	
 252 252 252	Paper White
-100 100 100	
+  0   0   0	Empty
  44  62  80	
  35  38  41	Shade Black
  77  77  77	Icon Grey
 149 165 166	
 239 240 241	Cardboard Grey
-100 100 100	
+  0   0   0	Empty
