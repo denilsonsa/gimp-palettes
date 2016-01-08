@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import os.path
 import sys
 from collections import namedtuple
 from html import escape
@@ -313,34 +314,32 @@ class GimpPalette:
         header_magic = next(f)
         assert header_magic.strip() == 'GIMP Palette'
 
-        header_name = next(f)
-        assert header_name.startswith('Name:')
-        pal.name = header_name.partition('Name:')[2].strip()
-
-        header_columns = next(f)
-        if header_columns.startswith('Columns:'):
-            pal.columns = int(header_columns.partition('Columns:')[2].strip())
-        else:
-            pal.columns = 0
-
         for line in f:
-            line = line.strip()
-            if line.startswith('#'):
-                pal.comments.append(line[1:].strip())
-            elif line:
-                splitted = line.strip().split(maxsplit=3)
-                if len(splitted) == 3:
-                    splitted.append('Untitled')
-                if len(splitted) != 4:
-                    # TODO: Throw some error message or warning.
-                    pass
-                r, g, b, name = splitted
-                pal.colors.append(NamedColor(
-                    r=int(r),
-                    g=int(g),
-                    b=int(b),
-                    name=name.strip()
-                ))
+            if line.startswith('Name:'):
+                pal.name = line.partition('Name:')[2].strip()
+            elif line.startswith('Columns:'):
+                pal.columns = int(line.partition('Columns:')[2].strip())
+            else:
+                line = line.strip()
+                if line.startswith('#'):
+                    pal.comments.append(line[1:].strip())
+                elif line:
+                    splitted = line.split(maxsplit=3)
+                    if len(splitted) == 3:
+                        splitted.append('Untitled')
+                    if len(splitted) != 4:
+                        # TODO: Throw some error message or warning.
+                        pass
+                    r, g, b, name = splitted
+                    pal.colors.append(NamedColor(
+                        r=int(r),
+                        g=int(g),
+                        b=int(b),
+                        name=name.strip()
+                    ))
+
+        if pal.name == '':
+            pal.name = os.path.basename(filename)
 
         return pal
 

@@ -117,6 +117,7 @@ Other palettes (not included in this collection):
 
 Default palettes (not included in this collection):
 
+* Aseprite: <https://github.com/aseprite/aseprite/tree/master/data/palettes>
 * Drawpile: <https://github.com/callaa/Drawpile/tree/master/desktop/palettes>
 * GIMP: <https://git.gnome.org/browse/gimp/tree/data/palettes>
 * Inkscape: <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>

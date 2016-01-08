@@ -12,4 +12,7 @@
 	/usr/share/gimp/2.0/palettes/*.gpl \
 	/usr/share/inkscape/palettes/*.gpl \
 	/usr/share/mypaint/palettes/*.gpl \
-	/usr/share/drawpile/drawpile/palettes/*.gpl
+	/usr/share/aseprite/data/palettes/*.gpl
+
+# I don't have Drawpile installed anymore:
+# /usr/share/drawpile/drawpile/palettes/*.gpl
