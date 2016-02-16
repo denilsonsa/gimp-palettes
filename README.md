@@ -65,6 +65,8 @@ Sources for palettes in this collection:
     * <http://inkredibleapp.com/>
     * <https://play.google.com/store/apps/details?id=com.viettran.INKredible>
     * <https://itunes.apple.com/us/app/inkredible/id712303681>
+* Java JColorChooser
+    * <https://docs.oracle.com/javase/tutorial/uiswing/components/colorchooser.html>
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
