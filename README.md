@@ -125,8 +125,8 @@ Other palettes (not included in this collection):
 * <http://nevit.deviantart.com/art/Gimp-Palettes-82563425>
 * <http://ftp.cc.uoc.gr/graphics/packages/gimp/extras/>
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette>
-* <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
 * <http://colorpalettes.ravetracer.de/>
+* <http://colorbrewer2.org/>
 
 Default palettes (not included in this collection):
 
