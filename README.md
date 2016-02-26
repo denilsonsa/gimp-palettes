@@ -112,6 +112,9 @@ Sources for palettes in this collection:
 * Windows MFC color dialog
     * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
     * <http://i.imgur.com/GY2K7WB>
+* Write (by Stylus Labs)
+    * <http://www.styluslabs.com/>
+    * <https://play.google.com/store/apps/details?id=com.styluslabs.write>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
 * <http://wayofthepixel.net/index.php?topic=10784.0>
 
