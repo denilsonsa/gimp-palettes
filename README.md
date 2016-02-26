@@ -56,6 +56,11 @@ Sources for palettes in this collection:
     * <https://www.yahoo.com/tech/you-can-now-draw-messages-for-your-friends-in-google-88695389164.html>
 * Google Keep
     * <https://keep.google.com/>
+* Grafxkid’s palettes
+    * <http://grafxkid.tumblr.com/post/137368818644/grafxkids-color-palette-history>
+    * <http://grafxkid.tumblr.com/post/137439294099/grafxkids-today-land-palette-release>
+    * <http://grafxkid.tumblr.com/post/137918490929/heres-the-latest-version-of-my-personal-pixel-art>
+    * <http://grafxkid.tumblr.com/tagged/color-palette>
 * Hardware palettes
     * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
@@ -100,6 +105,8 @@ Sources for palettes in this collection:
     * <https://trello.com/>
 * VoxelShop (by BlackFlux Software)
     * <https://blackflux.com/node/11>
+* Wad's Optimum 16 Color Palette
+    * <http://alumni.media.mit.edu/~wad/color/palette.html>
 * we draw comics
     * <http://beta.wedrawcomics.com/>
 * Windows MFC color dialog
@@ -116,6 +123,7 @@ Other palettes (not included in this collection):
 * <http://ftp.cc.uoc.gr/graphics/packages/gimp/extras/>
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette>
 * <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
+* <http://colorpalettes.ravetracer.de/>
 
 Default palettes (not included in this collection):
 
