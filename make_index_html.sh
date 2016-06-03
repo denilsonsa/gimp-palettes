@@ -16,4 +16,6 @@ fi
 
 git checkout master
 
+chmod -w palettes/*.gpl
+
 echo 'To upload all branches: git push --all'
