@@ -95,6 +95,8 @@ Sources for palettes in this collection:
     * <https://play.google.com/store/apps/details?id=com.shturmsoft.skedio>
 * Sketch Toy
     * <http://sketchtoy.com/>
+* Snapchat
+    * <https://www.snapchat.com/>
 * Symphonical
     * <https://www.symphonical.com/>
 * SVG-Edit
