@@ -90,6 +90,8 @@ Sources for palettes in this collection:
     * <https://github.com/clarkduvall/pixelator>
 * Realtimeboard
     * <https://realtimeboard.com/>
+* RHLPixels
+    * <http://rhlpixels.deviantart.com/gallery/53233358/Palettes-and-Tutorials>
 * Skedio
     * <http://skedio.shturmsoft.com/>
     * <https://play.google.com/store/apps/details?id=com.shturmsoft.skedio>
