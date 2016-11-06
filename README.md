@@ -34,6 +34,10 @@ Sources for palettes in this collection:
     * <http://hem.bredband.net/ricfha/pic/db32_v1_analyze.png>
 * Doodle or Die
     * <http://doodleordie.com/>
+* Dotpict
+    * <http://dotpicko.net/>
+    * <https://play.google.com/store/apps/details?id=net.dotpicko.dotpict>
+    * <https://itunes.apple.com/app/dottopikuto!-kantandotto-huiapuri/id995653343>
 * [Drawception](http://drawception.com/)
     * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
 * draw.io
@@ -82,6 +86,8 @@ Sources for palettes in this collection:
     * <https://itunes.apple.com/us/app/mindly/id771221376>
 * MindMup
     * <https://www.mindmup.com/>
+* OnePlus Gallery
+    * <https://play.google.com/store/apps/details?id=com.oneplus.gallery>
 * Papyrus (Android app by Steadfast Innovation)
     * <http://papyrusapp.com/>
     * <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
