@@ -51,6 +51,9 @@ Sources for palettes in this collection:
     * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
     * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
     * Also distributed in [Agave](http://home.gna.org/colorscheme/)
+* Google Material Design
+    * <https://dylmye.me/material-design-colours/>
+    * Originally from [Google Material Design Spec](https://web.archive.org/web/20180324170758/https://material.io/guidelines/style/color.html#color-color-palette)
 * Google Drive and Gmail
     * <https://drive.google.com/> and <https://docs.google.com/>
     * <https://support.google.com/docs/answer/1708422>
