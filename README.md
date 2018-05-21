@@ -51,9 +51,6 @@ Sources for palettes in this collection:
     * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
     * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
     * Also distributed in [Agave](http://home.gna.org/colorscheme/)
-* Google Material Design
-    * <https://dylmye.me/material-design-colours/>
-    * Originally from [Google Material Design Spec](https://web.archive.org/web/20180324170758/https://material.io/guidelines/style/color.html#color-color-palette)
 * Google Drive and Gmail
     * <https://drive.google.com/> and <https://docs.google.com/>
     * <https://support.google.com/docs/answer/1708422>
@@ -83,6 +80,9 @@ Sources for palettes in this collection:
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
     * <http://www.robotrontechnik.de/html/forum/thwb/showtopic.php?threadid=1430>
+* Material Design
+    * <https://dylmye.me/material-design-colours/>
+    * Originally from [Google Material Design Spec](https://web.archive.org/web/20180324170758/https://material.io/guidelines/style/color.html#color-color-palette)
 * Mindly
     * <http://www.mindlyapp.com/>
     * <https://play.google.com/store/apps/details?id=com.dripgrind.mindly>

@@ -719,11 +719,17 @@ def main():
 
     options.output.write(HTML_PREFIX)
 
+    palettes = []
+
     for f in options.palettes:
         pal = GimpPalette.new_from_file(f, filename=f.name)
         f.close()
-        options.output.write(
-            palette_to_html(pal))
+        palettes.append(pal)
+
+    palettes.sort(key=lambda pal: pal.name.lower())
+
+    for pal in palettes:
+        options.output.write(palette_to_html(pal))
 
     options.output.write(HTML_SUFFIX)
     options.output.close()
