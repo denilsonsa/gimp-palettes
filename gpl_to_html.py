@@ -5,6 +5,7 @@ import os.path
 import sys
 from collections import namedtuple
 from html import escape
+from math import ceil
 from textwrap import dedent
 
 
@@ -343,6 +344,9 @@ class GimpPalette:
 
         return pal
 
+    def how_many_unique_colors(self):
+        return len(set(c for c in self.colors))
+
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -566,6 +570,10 @@ html, body {
     color: blue;
     text-decoration: underline;
 }
+.palette .properties {
+    font-size: 0.875em;
+    font-style: italic;
+}
 .palette .comment {
     font-size: 0.75em;
     word-wrap: break-word;
@@ -679,12 +687,17 @@ def palette_to_html(pal):
     return dedent('''\
         <article class="palette">
             <h1 class="name"><a href="{filename}">{name}</a></h1>
+            <p class="properties">{cols}x{rows} ({len} colors, {len_unique} unique)</p>
             {comments}
             <table class="colors">{colors}</table>
         </article>
     ''').strip().format(
         filename=escape(pal.filename),
         name=escape(pal.name),
+        cols=pal.columns,
+        rows=(ceil(len(pal.colors) / pal.columns)),
+        len=len(pal.colors),
+        len_unique=pal.how_many_unique_colors(),
         comments='\n'.join(
             '<p class="comment">{0}</p>'.format(escape(comment))
             for comment in pal.comments
