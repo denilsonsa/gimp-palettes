@@ -46,9 +46,13 @@ html, body {
     line-height: 16px;
 }
 .interactivepanel .confcontrols label {
-    padding-left: 1em;
+    padding-left: 1ex;
     white-space: nowrap;
 }
+.interactivepanel .confcontrols label input[type="search"] {
+    width: calc(128px - 2ex);
+}
+
 .interactivepanel .confcontrols label input[type="checkbox"] {
     margin-top: 0;
     margin-bottom: 0;
@@ -111,18 +115,14 @@ html, body {
 }
 
 @media (orientation: portrait) {
-    body {
-        padding-top: 80px;
-    }
     .interactivepanel {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
         right: 0;
-        height: 80px;
     }
     .fixed-panel .interactivepanel {
-        position: fixed;
+        position: sticky;
     }
 }
 
@@ -209,14 +209,19 @@ table.colors.with-border {
     height: 7px;
     border: 1px solid black;
 }
+
+.search_filtered {
+    display: none;
+}
 </style>
 </head>
 <body class="fixed-panel">
-<h1 style="text-align:center">Palettes for GIMP, Inkscape, Calligra/Krita, MyPaint, Drawpile... <a href="https://github.com/denilsonsa/gimp-palettes" style="text-decoration:none">https://github.com/denilsonsa/gimp-palettes</a></h1>
+<h1 style="text-align:center">Palettes for GIMP, Inkscape, Calligra/Krita, MyPaint, Aseprite, Drawpile... <a href="https://github.com/denilsonsa/gimp-palettes" style="text-decoration:none">https://github.com/denilsonsa/gimp-palettes</a></h1>
 
 
 <aside class="interactivepanel">
 <div class="confcontrols">
+    <label><input type="search" id="search_field" placeholder="Search (regex)"></label>
     <label><input type="checkbox" id="toggle_border_checkbox"> Border</label>
     <label><input type="checkbox" id="toggle_fixed_checkbox" checked> Sticky panel</label>
 </div>
@@ -233,12 +238,38 @@ table.colors.with-border {
 </aside>
 
 <script>
-function toggle_class_based_on_checkbox(checkbox, classname, elem) {
-    if (checkbox.checked) {
-        elem.classList.add(classname);
-    } else {
-        elem.classList.remove(classname);
+function debounce(event_handler, timeout_ms) {
+    var saved_event;
+    var timeout_id;
+    return function(ev) {
+        clearTimeout(timeout_id);
+        saved_event = ev;
+        timeout_id = setTimeout(event_handler, timeout_ms, saved_event);
+    };
+}
+
+function matches_search_text_for_palette(palette_elem, search_re) {
+    for (var child_elem of palette_elem.querySelectorAll('.name, .properties, .comment')) {
+        var text = child_elem.textContent.trim();
+        if (search_re.test(text)) {
+            return true;
+        }
     }
+    return false;
+}
+function filter_palettes(ev) {
+    var search_text = ev.target.value;
+    var search_re = new RegExp(search_text, 'imu');
+    var palettes = document.querySelectorAll('#palettes .palette');
+    for (var palette of palettes) {
+        palette.classList.toggle(
+            'search_filtered',
+            !matches_search_text_for_palette(palette, search_re)
+        );
+    }
+}
+function toggle_class_based_on_checkbox(checkbox, classname, elem) {
+    elem.classList.toggle(classname, checkbox.checked);
 }
 function toggle_border(ev) {
     toggle_class_based_on_checkbox(ev.target, 'with-border', document.getElementById('palettes'));
@@ -246,9 +277,13 @@ function toggle_border(ev) {
 function toggle_fixed(ev) {
     toggle_class_based_on_checkbox(ev.target, 'fixed-panel', document.body);
 }
+
+document.getElementById('search_field').addEventListener('input', debounce(filter_palettes, 500));
 document.getElementById('toggle_border_checkbox').addEventListener('change', toggle_border);
 document.getElementById('toggle_fixed_checkbox').addEventListener('change', toggle_fixed);
+
 window.addEventListener('load', function(ev) {
+    document.getElementById('search_field').dispatchEvent(new Event('input'));
     document.getElementById('toggle_border_checkbox').dispatchEvent(new Event('change'));
     document.getElementById('toggle_fixed_checkbox').dispatchEvent(new Event('change'));
 });
@@ -9097,6 +9132,5174 @@ style="background-color:#ffffff"
 title="Untitled
 #FFFFFF
 255, 255, 255"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Active.gpl">EL Active</a></h1>
+    <p class="properties">12x9 (108 colors, 95 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#929292"
+title="Untitled
+#929292
+146, 146, 146"
+></td><td
+class="color"
+style="background-color:#ff7175"
+title="Untitled
+#FF7175
+255, 113, 117"
+></td><td
+class="color"
+style="background-color:#7f69a9"
+title="Untitled
+#7F69A9
+127, 105, 169"
+></td><td
+class="color"
+style="background-color:#eaef3d"
+title="Untitled
+#EAEF3D
+234, 239, 61"
+></td><td
+class="color"
+style="background-color:#00aadb"
+title="Untitled
+#00AADB
+0, 170, 219"
+></td><td
+class="color"
+style="background-color:#070604"
+title="Untitled
+#070604
+7, 6, 4"
+></td><td
+class="color"
+style="background-color:#8d6eaa"
+title="Untitled
+#8D6EAA
+141, 110, 170"
+></td><td
+class="color"
+style="background-color:#ed6a92"
+title="Untitled
+#ED6A92
+237, 106, 146"
+></td><td
+class="color"
+style="background-color:#ffd634"
+title="Untitled
+#FFD634
+255, 214, 52"
+></td><td
+class="color"
+style="background-color:#686b70"
+title="Untitled
+#686B70
+104, 107, 112"
+></td><td
+class="color"
+style="background-color:#70d549"
+title="Untitled
+#70D549
+112, 213, 73"
+></td><td
+class="color"
+style="background-color:#f18c84"
+title="Untitled
+#F18C84
+241, 140, 132"
+></td></tr><tr><td
+class="color"
+style="background-color:#965b9f"
+title="Untitled
+#965B9F
+150, 91, 159"
+></td><td
+class="color"
+style="background-color:#5b59a2"
+title="Untitled
+#5B59A2
+91, 89, 162"
+></td><td
+class="color"
+style="background-color:#171b4b"
+title="Untitled
+#171B4B
+23, 27, 75"
+></td><td
+class="color"
+style="background-color:#f7b3a6"
+title="Untitled
+#F7B3A6
+247, 179, 166"
+></td><td
+class="color"
+style="background-color:#e089b3"
+title="Untitled
+#E089B3
+224, 137, 179"
+></td><td
+class="color"
+style="background-color:#60569f"
+title="Untitled
+#60569F
+96, 86, 159"
+></td><td
+class="color"
+style="background-color:#d60153"
+title="Untitled
+#D60153
+214, 1, 83"
+></td><td
+class="color"
+style="background-color:#18b1ae"
+title="Untitled
+#18B1AE
+24, 177, 174"
+></td><td
+class="color"
+style="background-color:#070604"
+title="Untitled
+#070604
+7, 6, 4"
+></td><td
+class="color"
+style="background-color:#c81982"
+title="Untitled
+#C81982
+200, 25, 130"
+></td><td
+class="color"
+style="background-color:#f9f412"
+title="Untitled
+#F9F412
+249, 244, 18"
+></td><td
+class="color"
+style="background-color:#a3a3a3"
+title="Untitled
+#A3A3A3
+163, 163, 163"
+></td></tr><tr><td
+class="color"
+style="background-color:#4f4f4f"
+title="Untitled
+#4F4F4F
+79, 79, 79"
+></td><td
+class="color"
+style="background-color:#db005a"
+title="Untitled
+#DB005A
+219, 0, 90"
+></td><td
+class="color"
+style="background-color:#01a1db"
+title="Untitled
+#01A1DB
+1, 161, 219"
+></td><td
+class="color"
+style="background-color:#fbdb78"
+title="Untitled
+#FBDB78
+251, 219, 120"
+></td><td
+class="color"
+style="background-color:#00a1e2"
+title="Untitled
+#00A1E2
+0, 161, 226"
+></td><td
+class="color"
+style="background-color:#7c7a7b"
+title="Untitled
+#7C7A7B
+124, 122, 123"
+></td><td
+class="color"
+style="background-color:#32dac3"
+title="Untitled
+#32DAC3
+50, 218, 195"
+></td><td
+class="color"
+style="background-color:#3f3569"
+title="Untitled
+#3F3569
+63, 53, 105"
+></td><td
+class="color"
+style="background-color:#e2ea01"
+title="Untitled
+#E2EA01
+226, 234, 1"
+></td><td
+class="color"
+style="background-color:#797979"
+title="Untitled
+#797979
+121, 121, 121"
+></td><td
+class="color"
+style="background-color:#fe9015"
+title="Untitled
+#FE9015
+254, 144, 21"
+></td><td
+class="color"
+style="background-color:#cee22b"
+title="Untitled
+#CEE22B
+206, 226, 43"
+></td></tr><tr><td
+class="color"
+style="background-color:#e5eb63"
+title="Untitled
+#E5EB63
+229, 235, 99"
+></td><td
+class="color"
+style="background-color:#d262d0"
+title="Untitled
+#D262D0
+210, 98, 208"
+></td><td
+class="color"
+style="background-color:#fe5da0"
+title="Untitled
+#FE5DA0
+254, 93, 160"
+></td><td
+class="color"
+style="background-color:#01a686"
+title="Untitled
+#01A686
+1, 166, 134"
+></td><td
+class="color"
+style="background-color:#550d7d"
+title="Untitled
+#550D7D
+85, 13, 125"
+></td><td
+class="color"
+style="background-color:#7c7a7b"
+title="Untitled
+#7C7A7B
+124, 122, 123"
+></td><td
+class="color"
+style="background-color:#ff8d6b"
+title="Untitled
+#FF8D6B
+255, 141, 107"
+></td><td
+class="color"
+style="background-color:#fbd87a"
+title="Untitled
+#FBD87A
+251, 216, 122"
+></td><td
+class="color"
+style="background-color:#ee70a0"
+title="Untitled
+#EE70A0
+238, 112, 160"
+></td><td
+class="color"
+style="background-color:#686667"
+title="Untitled
+#686667
+104, 102, 103"
+></td><td
+class="color"
+style="background-color:#f59faa"
+title="Untitled
+#F59FAA
+245, 159, 170"
+></td><td
+class="color"
+style="background-color:#18b1ae"
+title="Untitled
+#18B1AE
+24, 177, 174"
+></td></tr><tr><td
+class="color"
+style="background-color:#aaa89b"
+title="Untitled
+#AAA89B
+170, 168, 155"
+></td><td
+class="color"
+style="background-color:#f226c3"
+title="Untitled
+#F226C3
+242, 38, 195"
+></td><td
+class="color"
+style="background-color:#10b3de"
+title="Untitled
+#10B3DE
+16, 179, 222"
+></td><td
+class="color"
+style="background-color:#999da0"
+title="Untitled
+#999DA0
+153, 157, 160"
+></td><td
+class="color"
+style="background-color:#7ec624"
+title="Untitled
+#7EC624
+126, 198, 36"
+></td><td
+class="color"
+style="background-color:#f3b927"
+title="Untitled
+#F3B927
+243, 185, 39"
+></td><td
+class="color"
+style="background-color:#070604"
+title="Untitled
+#070604
+7, 6, 4"
+></td><td
+class="color"
+style="background-color:#ef8f2b"
+title="Untitled
+#EF8F2B
+239, 143, 43"
+></td><td
+class="color"
+style="background-color:#a93389"
+title="Untitled
+#A93389
+169, 51, 137"
+></td><td
+class="color"
+style="background-color:#40117b"
+title="Untitled
+#40117B
+64, 17, 123"
+></td><td
+class="color"
+style="background-color:#6d85c1"
+title="Untitled
+#6D85C1
+109, 133, 193"
+></td><td
+class="color"
+style="background-color:#ed776b"
+title="Untitled
+#ED776B
+237, 119, 107"
+></td></tr><tr><td
+class="color"
+style="background-color:#070604"
+title="Untitled
+#070604
+7, 6, 4"
+></td><td
+class="color"
+style="background-color:#65bf29"
+title="Untitled
+#65BF29
+101, 191, 41"
+></td><td
+class="color"
+style="background-color:#ea6056"
+title="Untitled
+#EA6056
+234, 96, 86"
+></td><td
+class="color"
+style="background-color:#a3a3a3"
+title="Untitled
+#A3A3A3
+163, 163, 163"
+></td><td
+class="color"
+style="background-color:#f09658"
+title="Untitled
+#F09658
+240, 150, 88"
+></td><td
+class="color"
+style="background-color:#e8468f"
+title="Untitled
+#E8468F
+232, 70, 143"
+></td><td
+class="color"
+style="background-color:#8164a6"
+title="Untitled
+#8164A6
+129, 100, 166"
+></td><td
+class="color"
+style="background-color:#a49b8c"
+title="Untitled
+#A49B8C
+164, 155, 140"
+></td><td
+class="color"
+style="background-color:#602986"
+title="Untitled
+#602986
+96, 41, 134"
+></td><td
+class="color"
+style="background-color:#69c05f"
+title="Untitled
+#69C05F
+105, 192, 95"
+></td><td
+class="color"
+style="background-color:#8560a3"
+title="Untitled
+#8560A3
+133, 96, 163"
+></td><td
+class="color"
+style="background-color:#070604"
+title="Untitled
+#070604
+7, 6, 4"
+></td></tr><tr><td
+class="color"
+style="background-color:#929292"
+title="Untitled
+#929292
+146, 146, 146"
+></td><td
+class="color"
+style="background-color:#ffab4b"
+title="Untitled
+#FFAB4B
+255, 171, 75"
+></td><td
+class="color"
+style="background-color:#9bcf60"
+title="Untitled
+#9BCF60
+155, 207, 96"
+></td><td
+class="color"
+style="background-color:#3c62ab"
+title="Untitled
+#3C62AB
+60, 98, 171"
+></td><td
+class="color"
+style="background-color:#23313e"
+title="Untitled
+#23313E
+35, 49, 62"
+></td><td
+class="color"
+style="background-color:#b6d805"
+title="Untitled
+#B6D805
+182, 216, 5"
+></td><td
+class="color"
+style="background-color:#b72a86"
+title="Untitled
+#B72A86
+183, 42, 134"
+></td><td
+class="color"
+style="background-color:#e8581c"
+title="Untitled
+#E8581C
+232, 88, 28"
+></td><td
+class="color"
+style="background-color:#929292"
+title="Untitled
+#929292
+146, 146, 146"
+></td><td
+class="color"
+style="background-color:#364d9d"
+title="Untitled
+#364D9D
+54, 77, 157"
+></td><td
+class="color"
+style="background-color:#e2ea19"
+title="Untitled
+#E2EA19
+226, 234, 25"
+></td><td
+class="color"
+style="background-color:#686667"
+title="Untitled
+#686667
+104, 102, 103"
+></td></tr><tr><td
+class="color"
+style="background-color:#2c345b"
+title="Untitled
+#2C345B
+44, 52, 91"
+></td><td
+class="color"
+style="background-color:#fe47c5"
+title="Untitled
+#FE47C5
+254, 71, 197"
+></td><td
+class="color"
+style="background-color:#fde9b4"
+title="Untitled
+#FDE9B4
+253, 233, 180"
+></td><td
+class="color"
+style="background-color:#686b70"
+title="Untitled
+#686B70
+104, 107, 112"
+></td><td
+class="color"
+style="background-color:#e8581c"
+title="Untitled
+#E8581C
+232, 88, 28"
+></td><td
+class="color"
+style="background-color:#a87db2"
+title="Untitled
+#A87DB2
+168, 125, 178"
+></td><td
+class="color"
+style="background-color:#000000"
+title="Untitled
+#000000
+0, 0, 0"
+></td><td
+class="color"
+style="background-color:#00a9c6"
+title="Untitled
+#00A9C6
+0, 169, 198"
+></td><td
+class="color"
+style="background-color:#e8641a"
+title="Untitled
+#E8641A
+232, 100, 26"
+></td><td
+class="color"
+style="background-color:#5f608c"
+title="Untitled
+#5F608C
+95, 96, 140"
+></td><td
+class="color"
+style="background-color:#ff3eb5"
+title="Untitled
+#FF3EB5
+255, 62, 181"
+></td><td
+class="color"
+style="background-color:#802b86"
+title="Untitled
+#802B86
+128, 43, 134"
+></td></tr><tr><td
+class="color"
+style="background-color:#eb4e3d"
+title="Untitled
+#EB4E3D
+235, 78, 61"
+></td><td
+class="color"
+style="background-color:#007cc2"
+title="Untitled
+#007CC2
+0, 124, 194"
+></td><td
+class="color"
+style="background-color:#fdf36d"
+title="Untitled
+#FDF36D
+253, 243, 109"
+></td><td
+class="color"
+style="background-color:#404c58"
+title="Untitled
+#404C58
+64, 76, 88"
+></td><td
+class="color"
+style="background-color:#f770d7"
+title="Untitled
+#F770D7
+247, 112, 215"
+></td><td
+class="color"
+style="background-color:#27b431"
+title="Untitled
+#27B431
+39, 180, 49"
+></td><td
+class="color"
+style="background-color:#d968a0"
+title="Untitled
+#D968A0
+217, 104, 160"
+></td><td
+class="color"
+style="background-color:#cc5194"
+title="Untitled
+#CC5194
+204, 81, 148"
+></td><td
+class="color"
+style="background-color:#550d7d"
+title="Untitled
+#550D7D
+85, 13, 125"
+></td><td
+class="color"
+style="background-color:#5e6871"
+title="Untitled
+#5E6871
+94, 104, 113"
+></td><td
+class="color"
+style="background-color:#fcd0b7"
+title="Untitled
+#FCD0B7
+252, 208, 183"
+></td><td
+class="color"
+style="background-color:#0098ca"
+title="Untitled
+#0098CA
+0, 152, 202"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Botanical.gpl">EL Botanical</a></h1>
+    <p class="properties">12x9 (108 colors, 105 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#437d65"
+title="Untitled
+#437D65
+67, 125, 101"
+></td><td
+class="color"
+style="background-color:#008290"
+title="Untitled
+#008290
+0, 130, 144"
+></td><td
+class="color"
+style="background-color:#d0d600"
+title="Untitled
+#D0D600
+208, 214, 0"
+></td><td
+class="color"
+style="background-color:#969f4e"
+title="Untitled
+#969F4E
+150, 159, 78"
+></td><td
+class="color"
+style="background-color:#01404f"
+title="Untitled
+#01404F
+1, 64, 79"
+></td><td
+class="color"
+style="background-color:#558611"
+title="Untitled
+#558611
+85, 134, 17"
+></td><td
+class="color"
+style="background-color:#20a44e"
+title="Untitled
+#20A44E
+32, 164, 78"
+></td><td
+class="color"
+style="background-color:#668535"
+title="Untitled
+#668535
+102, 133, 53"
+></td><td
+class="color"
+style="background-color:#00382f"
+title="Untitled
+#00382F
+0, 56, 47"
+></td><td
+class="color"
+style="background-color:#49702d"
+title="Untitled
+#49702D
+73, 112, 45"
+></td><td
+class="color"
+style="background-color:#bad200"
+title="Untitled
+#BAD200
+186, 210, 0"
+></td><td
+class="color"
+style="background-color:#2e9949"
+title="Untitled
+#2E9949
+46, 153, 73"
+></td></tr><tr><td
+class="color"
+style="background-color:#748b6f"
+title="Untitled
+#748B6F
+116, 139, 111"
+></td><td
+class="color"
+style="background-color:#016e95"
+title="Untitled
+#016E95
+1, 110, 149"
+></td><td
+class="color"
+style="background-color:#a4ca59"
+title="Untitled
+#A4CA59
+164, 202, 89"
+></td><td
+class="color"
+style="background-color:#516702"
+title="Untitled
+#516702
+81, 103, 2"
+></td><td
+class="color"
+style="background-color:#3c8e46"
+title="Untitled
+#3C8E46
+60, 142, 70"
+></td><td
+class="color"
+style="background-color:#204c4d"
+title="Untitled
+#204C4D
+32, 76, 77"
+></td><td
+class="color"
+style="background-color:#00380b"
+title="Untitled
+#00380B
+0, 56, 11"
+></td><td
+class="color"
+style="background-color:#8a8d00"
+title="Untitled
+#8A8D00
+138, 141, 0"
+></td><td
+class="color"
+style="background-color:#5ab227"
+title="Untitled
+#5AB227
+90, 178, 39"
+></td><td
+class="color"
+style="background-color:#005919"
+title="Untitled
+#005919
+0, 89, 25"
+></td><td
+class="color"
+style="background-color:#707731"
+title="Untitled
+#707731
+112, 119, 49"
+></td><td
+class="color"
+style="background-color:#204c4d"
+title="Untitled
+#204C4D
+32, 76, 77"
+></td></tr><tr><td
+class="color"
+style="background-color:#084734"
+title="Untitled
+#084734
+8, 71, 52"
+></td><td
+class="color"
+style="background-color:#136269"
+title="Untitled
+#136269
+19, 98, 105"
+></td><td
+class="color"
+style="background-color:#bfbb00"
+title="Untitled
+#BFBB00
+191, 187, 0"
+></td><td
+class="color"
+style="background-color:#298e52"
+title="Untitled
+#298E52
+41, 142, 82"
+></td><td
+class="color"
+style="background-color:#004b34"
+title="Untitled
+#004B34
+0, 75, 52"
+></td><td
+class="color"
+style="background-color:#023828"
+title="Untitled
+#023828
+2, 56, 40"
+></td><td
+class="color"
+style="background-color:#39523d"
+title="Untitled
+#39523D
+57, 82, 61"
+></td><td
+class="color"
+style="background-color:#21a72c"
+title="Untitled
+#21A72C
+33, 167, 44"
+></td><td
+class="color"
+style="background-color:#9ca33c"
+title="Untitled
+#9CA33C
+156, 163, 60"
+></td><td
+class="color"
+style="background-color:#3e4f1b"
+title="Untitled
+#3E4F1B
+62, 79, 27"
+></td><td
+class="color"
+style="background-color:#93a83f"
+title="Untitled
+#93A83F
+147, 168, 63"
+></td><td
+class="color"
+style="background-color:#008834"
+title="Untitled
+#008834
+0, 136, 52"
+></td></tr><tr><td
+class="color"
+style="background-color:#38ae4e"
+title="Untitled
+#38AE4E
+56, 174, 78"
+></td><td
+class="color"
+style="background-color:#0c5e47"
+title="Untitled
+#0C5E47
+12, 94, 71"
+></td><td
+class="color"
+style="background-color:#d5cd00"
+title="Untitled
+#D5CD00
+213, 205, 0"
+></td><td
+class="color"
+style="background-color:#7d8f77"
+title="Untitled
+#7D8F77
+125, 143, 119"
+></td><td
+class="color"
+style="background-color:#b5b900"
+title="Untitled
+#B5B900
+181, 185, 0"
+></td><td
+class="color"
+style="background-color:#82c399"
+title="Untitled
+#82C399
+130, 195, 153"
+></td><td
+class="color"
+style="background-color:#4a6a09"
+title="Untitled
+#4A6A09
+74, 106, 9"
+></td><td
+class="color"
+style="background-color:#679240"
+title="Untitled
+#679240
+103, 146, 64"
+></td><td
+class="color"
+style="background-color:#ab9c01"
+title="Untitled
+#AB9C01
+171, 156, 1"
+></td><td
+class="color"
+style="background-color:#067893"
+title="Untitled
+#067893
+6, 120, 147"
+></td><td
+class="color"
+style="background-color:#e2d701"
+title="Untitled
+#E2D701
+226, 215, 1"
+></td><td
+class="color"
+style="background-color:#008148"
+title="Untitled
+#008148
+0, 129, 72"
+></td></tr><tr><td
+class="color"
+style="background-color:#4b9e68"
+title="Untitled
+#4B9E68
+75, 158, 104"
+></td><td
+class="color"
+style="background-color:#00887c"
+title="Untitled
+#00887C
+0, 136, 124"
+></td><td
+class="color"
+style="background-color:#d6df52"
+title="Untitled
+#D6DF52
+214, 223, 82"
+></td><td
+class="color"
+style="background-color:#6aaf44"
+title="Untitled
+#6AAF44
+106, 175, 68"
+></td><td
+class="color"
+style="background-color:#016a8a"
+title="Untitled
+#016A8A
+1, 106, 138"
+></td><td
+class="color"
+style="background-color:#29791a"
+title="Untitled
+#29791A
+41, 121, 26"
+></td><td
+class="color"
+style="background-color:#50961c"
+title="Untitled
+#50961C
+80, 150, 28"
+></td><td
+class="color"
+style="background-color:#9dc02e"
+title="Untitled
+#9DC02E
+157, 192, 46"
+></td><td
+class="color"
+style="background-color:#bcb600"
+title="Untitled
+#BCB600
+188, 182, 0"
+></td><td
+class="color"
+style="background-color:#698e0b"
+title="Untitled
+#698E0B
+105, 142, 11"
+></td><td
+class="color"
+style="background-color:#aac101"
+title="Untitled
+#AAC101
+170, 193, 1"
+></td><td
+class="color"
+style="background-color:#426841"
+title="Untitled
+#426841
+66, 104, 65"
+></td></tr><tr><td
+class="color"
+style="background-color:#7f8640"
+title="Untitled
+#7F8640
+127, 134, 64"
+></td><td
+class="color"
+style="background-color:#385042"
+title="Untitled
+#385042
+56, 80, 66"
+></td><td
+class="color"
+style="background-color:#bcd199"
+title="Untitled
+#BCD199
+188, 209, 153"
+></td><td
+class="color"
+style="background-color:#6fa215"
+title="Untitled
+#6FA215
+111, 162, 21"
+></td><td
+class="color"
+style="background-color:#16635d"
+title="Untitled
+#16635D
+22, 99, 93"
+></td><td
+class="color"
+style="background-color:#a09d00"
+title="Untitled
+#A09D00
+160, 157, 0"
+></td><td
+class="color"
+style="background-color:#4f5b1d"
+title="Untitled
+#4F5B1D
+79, 91, 29"
+></td><td
+class="color"
+style="background-color:#42a531"
+title="Untitled
+#42A531
+66, 165, 49"
+></td><td
+class="color"
+style="background-color:#bac626"
+title="Untitled
+#BAC626
+186, 198, 38"
+></td><td
+class="color"
+style="background-color:#466e0d"
+title="Untitled
+#466E0D
+70, 110, 13"
+></td><td
+class="color"
+style="background-color:#27b432"
+title="Untitled
+#27B432
+39, 180, 50"
+></td><td
+class="color"
+style="background-color:#ba9346"
+title="Untitled
+#BA9346
+186, 147, 70"
+></td></tr><tr><td
+class="color"
+style="background-color:#e6de19"
+title="Untitled
+#E6DE19
+230, 222, 25"
+></td><td
+class="color"
+style="background-color:#005816"
+title="Untitled
+#005816
+0, 88, 22"
+></td><td
+class="color"
+style="background-color:#068075"
+title="Untitled
+#068075
+6, 128, 117"
+></td><td
+class="color"
+style="background-color:#7d7812"
+title="Untitled
+#7D7812
+125, 120, 18"
+></td><td
+class="color"
+style="background-color:#bbbe2f"
+title="Untitled
+#BBBE2F
+187, 190, 47"
+></td><td
+class="color"
+style="background-color:#005b30"
+title="Untitled
+#005B30
+0, 91, 48"
+></td><td
+class="color"
+style="background-color:#63750f"
+title="Untitled
+#63750F
+99, 117, 15"
+></td><td
+class="color"
+style="background-color:#315f43"
+title="Untitled
+#315F43
+49, 95, 67"
+></td><td
+class="color"
+style="background-color:#a9a539"
+title="Untitled
+#A9A539
+169, 165, 57"
+></td><td
+class="color"
+style="background-color:#a1aa01"
+title="Untitled
+#A1AA01
+161, 170, 1"
+></td><td
+class="color"
+style="background-color:#ece300"
+title="Untitled
+#ECE300
+236, 227, 0"
+></td><td
+class="color"
+style="background-color:#00685d"
+title="Untitled
+#00685D
+0, 104, 93"
+></td></tr><tr><td
+class="color"
+style="background-color:#b4b42e"
+title="Untitled
+#B4B42E
+180, 180, 46"
+></td><td
+class="color"
+style="background-color:#017b5f"
+title="Untitled
+#017B5F
+1, 123, 95"
+></td><td
+class="color"
+style="background-color:#8a923c"
+title="Untitled
+#8A923C
+138, 146, 60"
+></td><td
+class="color"
+style="background-color:#61876e"
+title="Untitled
+#61876E
+97, 135, 110"
+></td><td
+class="color"
+style="background-color:#84c17b"
+title="Untitled
+#84C17B
+132, 193, 123"
+></td><td
+class="color"
+style="background-color:#969f4e"
+title="Untitled
+#969F4E
+150, 159, 78"
+></td><td
+class="color"
+style="background-color:#9eac01"
+title="Untitled
+#9EAC01
+158, 172, 1"
+></td><td
+class="color"
+style="background-color:#5eb45b"
+title="Untitled
+#5EB45B
+94, 180, 91"
+></td><td
+class="color"
+style="background-color:#269223"
+title="Untitled
+#269223
+38, 146, 35"
+></td><td
+class="color"
+style="background-color:#1d8e32"
+title="Untitled
+#1D8E32
+29, 142, 50"
+></td><td
+class="color"
+style="background-color:#0aad92"
+title="Untitled
+#0AAD92
+10, 173, 146"
+></td><td
+class="color"
+style="background-color:#1f5c5d"
+title="Untitled
+#1F5C5D
+31, 92, 93"
+></td></tr><tr><td
+class="color"
+style="background-color:#006730"
+title="Untitled
+#006730
+0, 103, 48"
+></td><td
+class="color"
+style="background-color:#004e50"
+title="Untitled
+#004E50
+0, 78, 80"
+></td><td
+class="color"
+style="background-color:#0085b0"
+title="Untitled
+#0085B0
+0, 133, 176"
+></td><td
+class="color"
+style="background-color:#466e0d"
+title="Untitled
+#466E0D
+70, 110, 13"
+></td><td
+class="color"
+style="background-color:#1a648b"
+title="Untitled
+#1A648B
+26, 100, 139"
+></td><td
+class="color"
+style="background-color:#65bf29"
+title="Untitled
+#65BF29
+101, 191, 41"
+></td><td
+class="color"
+style="background-color:#759206"
+title="Untitled
+#759206
+117, 146, 6"
+></td><td
+class="color"
+style="background-color:#acc000"
+title="Untitled
+#ACC000
+172, 192, 0"
+></td><td
+class="color"
+style="background-color:#69c05f"
+title="Untitled
+#69C05F
+105, 192, 95"
+></td><td
+class="color"
+style="background-color:#477a42"
+title="Untitled
+#477A42
+71, 122, 66"
+></td><td
+class="color"
+style="background-color:#888f01"
+title="Untitled
+#888F01
+136, 143, 1"
+></td><td
+class="color"
+style="background-color:#017d85"
+title="Untitled
+#017D85
+1, 125, 133"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Delicate.gpl">EL Delicate</a></h1>
+    <p class="properties">12x9 (108 colors, 103 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#f6f4db"
+title="Untitled
+#F6F4DB
+246, 244, 219"
+></td><td
+class="color"
+style="background-color:#eef5ee"
+title="Untitled
+#EEF5EE
+238, 245, 238"
+></td><td
+class="color"
+style="background-color:#eee9ef"
+title="Untitled
+#EEE9EF
+238, 233, 239"
+></td><td
+class="color"
+style="background-color:#ede9e6"
+title="Untitled
+#EDE9E6
+237, 233, 230"
+></td><td
+class="color"
+style="background-color:#f9f0eb"
+title="Untitled
+#F9F0EB
+249, 240, 235"
+></td><td
+class="color"
+style="background-color:#eddfdc"
+title="Untitled
+#EDDFDC
+237, 223, 220"
+></td><td
+class="color"
+style="background-color:#e0efea"
+title="Untitled
+#E0EFEA
+224, 239, 234"
+></td><td
+class="color"
+style="background-color:#e7ecd8"
+title="Untitled
+#E7ECD8
+231, 236, 216"
+></td><td
+class="color"
+style="background-color:#e2eaf5"
+title="Untitled
+#E2EAF5
+226, 234, 245"
+></td><td
+class="color"
+style="background-color:#e4dbec"
+title="Untitled
+#E4DBEC
+228, 219, 236"
+></td><td
+class="color"
+style="background-color:#d2eaee"
+title="Untitled
+#D2EAEE
+210, 234, 238"
+></td><td
+class="color"
+style="background-color:#f5f3c0"
+title="Untitled
+#F5F3C0
+245, 243, 192"
+></td></tr><tr><td
+class="color"
+style="background-color:#f2f5d8"
+title="Untitled
+#F2F5D8
+242, 245, 216"
+></td><td
+class="color"
+style="background-color:#e8f3eb"
+title="Untitled
+#E8F3EB
+232, 243, 235"
+></td><td
+class="color"
+style="background-color:#ffffff"
+title="Untitled
+#FFFFFF
+255, 255, 255"
+></td><td
+class="color"
+style="background-color:#e7f2ea"
+title="Untitled
+#E7F2EA
+231, 242, 234"
+></td><td
+class="color"
+style="background-color:#f5efef"
+title="Untitled
+#F5EFEF
+245, 239, 239"
+></td><td
+class="color"
+style="background-color:#f5f6e6"
+title="Untitled
+#F5F6E6
+245, 246, 230"
+></td><td
+class="color"
+style="background-color:#edefda"
+title="Untitled
+#EDEFDA
+237, 239, 218"
+></td><td
+class="color"
+style="background-color:#e3e0e7"
+title="Untitled
+#E3E0E7
+227, 224, 231"
+></td><td
+class="color"
+style="background-color:#e9d8d1"
+title="Untitled
+#E9D8D1
+233, 216, 209"
+></td><td
+class="color"
+style="background-color:#e6eaf3"
+title="Untitled
+#E6EAF3
+230, 234, 243"
+></td><td
+class="color"
+style="background-color:#f9ead5"
+title="Untitled
+#F9EAD5
+249, 234, 213"
+></td><td
+class="color"
+style="background-color:#e7f2e4"
+title="Untitled
+#E7F2E4
+231, 242, 228"
+></td></tr><tr><td
+class="color"
+style="background-color:#eef4f2"
+title="Untitled
+#EEF4F2
+238, 244, 242"
+></td><td
+class="color"
+style="background-color:#f7edec"
+title="Untitled
+#F7EDEC
+247, 237, 236"
+></td><td
+class="color"
+style="background-color:#edefec"
+title="Untitled
+#EDEFEC
+237, 239, 236"
+></td><td
+class="color"
+style="background-color:#f5e9db"
+title="Untitled
+#F5E9DB
+245, 233, 219"
+></td><td
+class="color"
+style="background-color:#efe8f0"
+title="Untitled
+#EFE8F0
+239, 232, 240"
+></td><td
+class="color"
+style="background-color:#dddddd"
+title="Untitled
+#DDDDDD
+221, 221, 221"
+></td><td
+class="color"
+style="background-color:#e6f2f2"
+title="Untitled
+#E6F2F2
+230, 242, 242"
+></td><td
+class="color"
+style="background-color:#f0f7d8"
+title="Untitled
+#F0F7D8
+240, 247, 216"
+></td><td
+class="color"
+style="background-color:#f8ebd8"
+title="Untitled
+#F8EBD8
+248, 235, 216"
+></td><td
+class="color"
+style="background-color:#f7e4e8"
+title="Untitled
+#F7E4E8
+247, 228, 232"
+></td><td
+class="color"
+style="background-color:#d7d3d2"
+title="Untitled
+#D7D3D2
+215, 211, 210"
+></td><td
+class="color"
+style="background-color:#e3d8e9"
+title="Untitled
+#E3D8E9
+227, 216, 233"
+></td></tr><tr><td
+class="color"
+style="background-color:#e2e9f3"
+title="Untitled
+#E2E9F3
+226, 233, 243"
+></td><td
+class="color"
+style="background-color:#e9f2ed"
+title="Untitled
+#E9F2ED
+233, 242, 237"
+></td><td
+class="color"
+style="background-color:#f1edea"
+title="Untitled
+#F1EDEA
+241, 237, 234"
+></td><td
+class="color"
+style="background-color:#f9eff0"
+title="Untitled
+#F9EFF0
+249, 239, 240"
+></td><td
+class="color"
+style="background-color:#ecebe6"
+title="Untitled
+#ECEBE6
+236, 235, 230"
+></td><td
+class="color"
+style="background-color:#e5e7f3"
+title="Untitled
+#E5E7F3
+229, 231, 243"
+></td><td
+class="color"
+style="background-color:#ebf5ec"
+title="Untitled
+#EBF5EC
+235, 245, 236"
+></td><td
+class="color"
+style="background-color:#faede7"
+title="Untitled
+#FAEDE7
+250, 237, 231"
+></td><td
+class="color"
+style="background-color:#f4f0f1"
+title="Untitled
+#F4F0F1
+244, 240, 241"
+></td><td
+class="color"
+style="background-color:#f4e4e4"
+title="Untitled
+#F4E4E4
+244, 228, 228"
+></td><td
+class="color"
+style="background-color:#f7ede3"
+title="Untitled
+#F7EDE3
+247, 237, 227"
+></td><td
+class="color"
+style="background-color:#f4f6e8"
+title="Untitled
+#F4F6E8
+244, 246, 232"
+></td></tr><tr><td
+class="color"
+style="background-color:#f8f0e5"
+title="Untitled
+#F8F0E5
+248, 240, 229"
+></td><td
+class="color"
+style="background-color:#f8e8d9"
+title="Untitled
+#F8E8D9
+248, 232, 217"
+></td><td
+class="color"
+style="background-color:#dfecf5"
+title="Untitled
+#DFECF5
+223, 236, 245"
+></td><td
+class="color"
+style="background-color:#ecf4e7"
+title="Untitled
+#ECF4E7
+236, 244, 231"
+></td><td
+class="color"
+style="background-color:#f7f2ee"
+title="Untitled
+#F7F2EE
+247, 242, 238"
+></td><td
+class="color"
+style="background-color:#ffffff"
+title="Untitled
+#FFFFFF
+255, 255, 255"
+></td><td
+class="color"
+style="background-color:#eadce9"
+title="Untitled
+#EADCE9
+234, 220, 233"
+></td><td
+class="color"
+style="background-color:#e3e2e0"
+title="Untitled
+#E3E2E0
+227, 226, 224"
+></td><td
+class="color"
+style="background-color:#efdfd2"
+title="Untitled
+#EFDFD2
+239, 223, 210"
+></td><td
+class="color"
+style="background-color:#e1f0f3"
+title="Untitled
+#E1F0F3
+225, 240, 243"
+></td><td
+class="color"
+style="background-color:#ffffff"
+title="Untitled
+#FFFFFF
+255, 255, 255"
+></td><td
+class="color"
+style="background-color:#e8dce8"
+title="Untitled
+#E8DCE8
+232, 220, 232"
+></td></tr><tr><td
+class="color"
+style="background-color:#fae9d7"
+title="Untitled
+#FAE9D7
+250, 233, 215"
+></td><td
+class="color"
+style="background-color:#e8ecf7"
+title="Untitled
+#E8ECF7
+232, 236, 247"
+></td><td
+class="color"
+style="background-color:#e9e4eb"
+title="Untitled
+#E9E4EB
+233, 228, 235"
+></td><td
+class="color"
+style="background-color:#f1eee9"
+title="Untitled
+#F1EEE9
+241, 238, 233"
+></td><td
+class="color"
+style="background-color:#dae5eb"
+title="Untitled
+#DAE5EB
+218, 229, 235"
+></td><td
+class="color"
+style="background-color:#f3e5d8"
+title="Untitled
+#F3E5D8
+243, 229, 216"
+></td><td
+class="color"
+style="background-color:#d7d3d2"
+title="Untitled
+#D7D3D2
+215, 211, 210"
+></td><td
+class="color"
+style="background-color:#f9e9e9"
+title="Untitled
+#F9E9E9
+249, 233, 233"
+></td><td
+class="color"
+style="background-color:#f9e9e9"
+title="Untitled
+#F9E9E9
+249, 233, 233"
+></td><td
+class="color"
+style="background-color:#e4e3de"
+title="Untitled
+#E4E3DE
+228, 227, 222"
+></td><td
+class="color"
+style="background-color:#fbead8"
+title="Untitled
+#FBEAD8
+251, 234, 216"
+></td><td
+class="color"
+style="background-color:#e6d7dc"
+title="Untitled
+#E6D7DC
+230, 215, 220"
+></td></tr><tr><td
+class="color"
+style="background-color:#eed8e4"
+title="Untitled
+#EED8E4
+238, 216, 228"
+></td><td
+class="color"
+style="background-color:#f6f3c8"
+title="Untitled
+#F6F3C8
+246, 243, 200"
+></td><td
+class="color"
+style="background-color:#dfefec"
+title="Untitled
+#DFEFEC
+223, 239, 236"
+></td><td
+class="color"
+style="background-color:#d8d9ed"
+title="Untitled
+#D8D9ED
+216, 217, 237"
+></td><td
+class="color"
+style="background-color:#f6f2cf"
+title="Untitled
+#F6F2CF
+246, 242, 207"
+></td><td
+class="color"
+style="background-color:#e7d9e6"
+title="Untitled
+#E7D9E6
+231, 217, 230"
+></td><td
+class="color"
+style="background-color:#dcdfe8"
+title="Untitled
+#DCDFE8
+220, 223, 232"
+></td><td
+class="color"
+style="background-color:#ddd9d6"
+title="Untitled
+#DDD9D6
+221, 217, 214"
+></td><td
+class="color"
+style="background-color:#ecd9df"
+title="Untitled
+#ECD9DF
+236, 217, 223"
+></td><td
+class="color"
+style="background-color:#f8ebcb"
+title="Untitled
+#F8EBCB
+248, 235, 203"
+></td><td
+class="color"
+style="background-color:#e0eddc"
+title="Untitled
+#E0EDDC
+224, 237, 220"
+></td><td
+class="color"
+style="background-color:#c9e5e9"
+title="Untitled
+#C9E5E9
+201, 229, 233"
+></td></tr><tr><td
+class="color"
+style="background-color:#e9e4de"
+title="Untitled
+#E9E4DE
+233, 228, 222"
+></td><td
+class="color"
+style="background-color:#e1e7d9"
+title="Untitled
+#E1E7D9
+225, 231, 217"
+></td><td
+class="color"
+style="background-color:#d1dbe4"
+title="Untitled
+#D1DBE4
+209, 219, 228"
+></td><td
+class="color"
+style="background-color:#e6e9d8"
+title="Untitled
+#E6E9D8
+230, 233, 216"
+></td><td
+class="color"
+style="background-color:#d4ceda"
+title="Untitled
+#D4CEDA
+212, 206, 218"
+></td><td
+class="color"
+style="background-color:#ded7cf"
+title="Untitled
+#DED7CF
+222, 215, 207"
+></td><td
+class="color"
+style="background-color:#f6e6e6"
+title="Untitled
+#F6E6E6
+246, 230, 230"
+></td><td
+class="color"
+style="background-color:#e6dbeb"
+title="Untitled
+#E6DBEB
+230, 219, 235"
+></td><td
+class="color"
+style="background-color:#dfddea"
+title="Untitled
+#DFDDEA
+223, 221, 234"
+></td><td
+class="color"
+style="background-color:#ece0ec"
+title="Untitled
+#ECE0EC
+236, 224, 236"
+></td><td
+class="color"
+style="background-color:#ebf3dc"
+title="Untitled
+#EBF3DC
+235, 243, 220"
+></td><td
+class="color"
+style="background-color:#d9d2ca"
+title="Untitled
+#D9D2CA
+217, 210, 202"
+></td></tr><tr><td
+class="color"
+style="background-color:#dddddd"
+title="Untitled
+#DDDDDD
+221, 221, 221"
+></td><td
+class="color"
+style="background-color:#e0e2ee"
+title="Untitled
+#E0E2EE
+224, 226, 238"
+></td><td
+class="color"
+style="background-color:#d1e7f4"
+title="Untitled
+#D1E7F4
+209, 231, 244"
+></td><td
+class="color"
+style="background-color:#dce9f1"
+title="Untitled
+#DCE9F1
+220, 233, 241"
+></td><td
+class="color"
+style="background-color:#f6ebd9"
+title="Untitled
+#F6EBD9
+246, 235, 217"
+></td><td
+class="color"
+style="background-color:#e1e0dc"
+title="Untitled
+#E1E0DC
+225, 224, 220"
+></td><td
+class="color"
+style="background-color:#e3ebf6"
+title="Untitled
+#E3EBF6
+227, 235, 246"
+></td><td
+class="color"
+style="background-color:#f2e9e0"
+title="Untitled
+#F2E9E0
+242, 233, 224"
+></td><td
+class="color"
+style="background-color:#e9e7f4"
+title="Untitled
+#E9E7F4
+233, 231, 244"
+></td><td
+class="color"
+style="background-color:#cbdde7"
+title="Untitled
+#CBDDE7
+203, 221, 231"
+></td><td
+class="color"
+style="background-color:#ded2e0"
+title="Untitled
+#DED2E0
+222, 210, 224"
+></td><td
+class="color"
+style="background-color:#e4e8eb"
+title="Untitled
+#E4E8EB
+228, 232, 235"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Playful.gpl">EL Playful</a></h1>
+    <p class="properties">12x9 (108 colors, 108 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#de596a"
+title="Untitled
+#DE596A
+222, 89, 106"
+></td><td
+class="color"
+style="background-color:#7b3895"
+title="Untitled
+#7B3895
+123, 56, 149"
+></td><td
+class="color"
+style="background-color:#f2db2d"
+title="Untitled
+#F2DB2D
+242, 219, 45"
+></td><td
+class="color"
+style="background-color:#d9ca25"
+title="Untitled
+#D9CA25
+217, 202, 37"
+></td><td
+class="color"
+style="background-color:#017aaf"
+title="Untitled
+#017AAF
+1, 122, 175"
+></td><td
+class="color"
+style="background-color:#44a848"
+title="Untitled
+#44A848
+68, 168, 72"
+></td><td
+class="color"
+style="background-color:#dc474d"
+title="Untitled
+#DC474D
+220, 71, 77"
+></td><td
+class="color"
+style="background-color:#14ac5f"
+title="Untitled
+#14AC5F
+20, 172, 95"
+></td><td
+class="color"
+style="background-color:#7e72b4"
+title="Untitled
+#7E72B4
+126, 114, 180"
+></td><td
+class="color"
+style="background-color:#00723f"
+title="Untitled
+#00723F
+0, 114, 63"
+></td><td
+class="color"
+style="background-color:#e7667c"
+title="Untitled
+#E7667C
+231, 102, 124"
+></td><td
+class="color"
+style="background-color:#00a8cd"
+title="Untitled
+#00A8CD
+0, 168, 205"
+></td></tr><tr><td
+class="color"
+style="background-color:#fcb414"
+title="Untitled
+#FCB414
+252, 180, 20"
+></td><td
+class="color"
+style="background-color:#a9c439"
+title="Untitled
+#A9C439
+169, 196, 57"
+></td><td
+class="color"
+style="background-color:#61479e"
+title="Untitled
+#61479E
+97, 71, 158"
+></td><td
+class="color"
+style="background-color:#008f95"
+title="Untitled
+#008F95
+0, 143, 149"
+></td><td
+class="color"
+style="background-color:#f3ae60"
+title="Untitled
+#F3AE60
+243, 174, 96"
+></td><td
+class="color"
+style="background-color:#ecd150"
+title="Untitled
+#ECD150
+236, 209, 80"
+></td><td
+class="color"
+style="background-color:#eb6f89"
+title="Untitled
+#EB6F89
+235, 111, 137"
+></td><td
+class="color"
+style="background-color:#d1d15f"
+title="Untitled
+#D1D15F
+209, 209, 95"
+></td><td
+class="color"
+style="background-color:#2e5caa"
+title="Untitled
+#2E5CAA
+46, 92, 170"
+></td><td
+class="color"
+style="background-color:#f6d925"
+title="Untitled
+#F6D925
+246, 217, 37"
+></td><td
+class="color"
+style="background-color:#f3804a"
+title="Untitled
+#F3804A
+243, 128, 74"
+></td><td
+class="color"
+style="background-color:#d7487e"
+title="Untitled
+#D7487E
+215, 72, 126"
+></td></tr><tr><td
+class="color"
+style="background-color:#01859a"
+title="Untitled
+#01859A
+1, 133, 154"
+></td><td
+class="color"
+style="background-color:#008ebe"
+title="Untitled
+#008EBE
+0, 142, 190"
+></td><td
+class="color"
+style="background-color:#684d9c"
+title="Untitled
+#684D9C
+104, 77, 156"
+></td><td
+class="color"
+style="background-color:#f2d077"
+title="Untitled
+#F2D077
+242, 208, 119"
+></td><td
+class="color"
+style="background-color:#6e59a6"
+title="Untitled
+#6E59A6
+110, 89, 166"
+></td><td
+class="color"
+style="background-color:#00987f"
+title="Untitled
+#00987F
+0, 152, 127"
+></td><td
+class="color"
+style="background-color:#8bad56"
+title="Untitled
+#8BAD56
+139, 173, 86"
+></td><td
+class="color"
+style="background-color:#ef6838"
+title="Untitled
+#EF6838
+239, 104, 56"
+></td><td
+class="color"
+style="background-color:#764098"
+title="Untitled
+#764098
+118, 64, 152"
+></td><td
+class="color"
+style="background-color:#cd4492"
+title="Untitled
+#CD4492
+205, 68, 146"
+></td><td
+class="color"
+style="background-color:#009ebb"
+title="Untitled
+#009EBB
+0, 158, 187"
+></td><td
+class="color"
+style="background-color:#007aad"
+title="Untitled
+#007AAD
+0, 122, 173"
+></td></tr><tr><td
+class="color"
+style="background-color:#f1c950"
+title="Untitled
+#F1C950
+241, 201, 80"
+></td><td
+class="color"
+style="background-color:#226dae"
+title="Untitled
+#226DAE
+34, 109, 174"
+></td><td
+class="color"
+style="background-color:#f49636"
+title="Untitled
+#F49636
+244, 150, 54"
+></td><td
+class="color"
+style="background-color:#f27346"
+title="Untitled
+#F27346
+242, 115, 70"
+></td><td
+class="color"
+style="background-color:#f1b437"
+title="Untitled
+#F1B437
+241, 180, 55"
+></td><td
+class="color"
+style="background-color:#35b7db"
+title="Untitled
+#35B7DB
+53, 183, 219"
+></td><td
+class="color"
+style="background-color:#4f4b9f"
+title="Untitled
+#4F4B9F
+79, 75, 159"
+></td><td
+class="color"
+style="background-color:#bdd15e"
+title="Untitled
+#BDD15E
+189, 209, 94"
+></td><td
+class="color"
+style="background-color:#dc70ac"
+title="Untitled
+#DC70AC
+220, 112, 172"
+></td><td
+class="color"
+style="background-color:#e0525e"
+title="Untitled
+#E0525E
+224, 82, 94"
+></td><td
+class="color"
+style="background-color:#00bbd8"
+title="Untitled
+#00BBD8
+0, 187, 216"
+></td><td
+class="color"
+style="background-color:#f37f46"
+title="Untitled
+#F37F46
+243, 127, 70"
+></td></tr><tr><td
+class="color"
+style="background-color:#cd4a9a"
+title="Untitled
+#CD4A9A
+205, 74, 154"
+></td><td
+class="color"
+style="background-color:#8b72b4"
+title="Untitled
+#8B72B4
+139, 114, 180"
+></td><td
+class="color"
+style="background-color:#00b7a3"
+title="Untitled
+#00B7A3
+0, 183, 163"
+></td><td
+class="color"
+style="background-color:#00a76c"
+title="Untitled
+#00A76C
+0, 167, 108"
+></td><td
+class="color"
+style="background-color:#f3d95e"
+title="Untitled
+#F3D95E
+243, 217, 94"
+></td><td
+class="color"
+style="background-color:#0193aa"
+title="Untitled
+#0193AA
+1, 147, 170"
+></td><td
+class="color"
+style="background-color:#ee7f86"
+title="Untitled
+#EE7F86
+238, 127, 134"
+></td><td
+class="color"
+style="background-color:#7dc198"
+title="Untitled
+#7DC198
+125, 193, 152"
+></td><td
+class="color"
+style="background-color:#8979b8"
+title="Untitled
+#8979B8
+137, 121, 184"
+></td><td
+class="color"
+style="background-color:#f1cf61"
+title="Untitled
+#F1CF61
+241, 207, 97"
+></td><td
+class="color"
+style="background-color:#cfd53f"
+title="Untitled
+#CFD53F
+207, 213, 63"
+></td><td
+class="color"
+style="background-color:#f9a61a"
+title="Untitled
+#F9A61A
+249, 166, 26"
+></td></tr><tr><td
+class="color"
+style="background-color:#f5983b"
+title="Untitled
+#F5983B
+245, 152, 59"
+></td><td
+class="color"
+style="background-color:#0081ab"
+title="Untitled
+#0081AB
+0, 129, 171"
+></td><td
+class="color"
+style="background-color:#636ab2"
+title="Untitled
+#636AB2
+99, 106, 178"
+></td><td
+class="color"
+style="background-color:#f06723"
+title="Untitled
+#F06723
+240, 103, 35"
+></td><td
+class="color"
+style="background-color:#2bbdbd"
+title="Untitled
+#2BBDBD
+43, 189, 189"
+></td><td
+class="color"
+style="background-color:#e9db56"
+title="Untitled
+#E9DB56
+233, 219, 86"
+></td><td
+class="color"
+style="background-color:#45a647"
+title="Untitled
+#45A647
+69, 166, 71"
+></td><td
+class="color"
+style="background-color:#00979e"
+title="Untitled
+#00979E
+0, 151, 158"
+></td><td
+class="color"
+style="background-color:#2f5ea2"
+title="Untitled
+#2F5EA2
+47, 94, 162"
+></td><td
+class="color"
+style="background-color:#006da6"
+title="Untitled
+#006DA6
+0, 109, 166"
+></td><td
+class="color"
+style="background-color:#febf0f"
+title="Untitled
+#FEBF0F
+254, 191, 15"
+></td><td
+class="color"
+style="background-color:#f3d946"
+title="Untitled
+#F3D946
+243, 217, 70"
+></td></tr><tr><td
+class="color"
+style="background-color:#f2bc7c"
+title="Untitled
+#F2BC7C
+242, 188, 124"
+></td><td
+class="color"
+style="background-color:#3fb2ad"
+title="Untitled
+#3FB2AD
+63, 178, 173"
+></td><td
+class="color"
+style="background-color:#ce66a1"
+title="Untitled
+#CE66A1
+206, 102, 161"
+></td><td
+class="color"
+style="background-color:#f17829"
+title="Untitled
+#F17829
+241, 120, 41"
+></td><td
+class="color"
+style="background-color:#0062a9"
+title="Untitled
+#0062A9
+0, 98, 169"
+></td><td
+class="color"
+style="background-color:#a0c365"
+title="Untitled
+#A0C365
+160, 195, 101"
+></td><td
+class="color"
+style="background-color:#9c4498"
+title="Untitled
+#9C4498
+156, 68, 152"
+></td><td
+class="color"
+style="background-color:#018f45"
+title="Untitled
+#018F45
+1, 143, 69"
+></td><td
+class="color"
+style="background-color:#f4b254"
+title="Untitled
+#F4B254
+244, 178, 84"
+></td><td
+class="color"
+style="background-color:#347ab8"
+title="Untitled
+#347AB8
+52, 122, 184"
+></td><td
+class="color"
+style="background-color:#ffe9a5"
+title="Untitled
+#FFE9A5
+255, 233, 165"
+></td><td
+class="color"
+style="background-color:#3a5d9f"
+title="Untitled
+#3A5D9F
+58, 93, 159"
+></td></tr><tr><td
+class="color"
+style="background-color:#f5a63f"
+title="Untitled
+#F5A63F
+245, 166, 63"
+></td><td
+class="color"
+style="background-color:#01998c"
+title="Untitled
+#01998C
+1, 153, 140"
+></td><td
+class="color"
+style="background-color:#f5d427"
+title="Untitled
+#F5D427
+245, 212, 39"
+></td><td
+class="color"
+style="background-color:#fee892"
+title="Untitled
+#FEE892
+254, 232, 146"
+></td><td
+class="color"
+style="background-color:#8e6baf"
+title="Untitled
+#8E6BAF
+142, 107, 175"
+></td><td
+class="color"
+style="background-color:#1c87bd"
+title="Untitled
+#1C87BD
+28, 135, 189"
+></td><td
+class="color"
+style="background-color:#c84a94"
+title="Untitled
+#C84A94
+200, 74, 148"
+></td><td
+class="color"
+style="background-color:#8ea0d2"
+title="Untitled
+#8EA0D2
+142, 160, 210"
+></td><td
+class="color"
+style="background-color:#d2d540"
+title="Untitled
+#D2D540
+210, 213, 64"
+></td><td
+class="color"
+style="background-color:#78bf95"
+title="Untitled
+#78BF95
+120, 191, 149"
+></td><td
+class="color"
+style="background-color:#f7b5b7"
+title="Untitled
+#F7B5B7
+247, 181, 183"
+></td><td
+class="color"
+style="background-color:#ec6547"
+title="Untitled
+#EC6547
+236, 101, 71"
+></td></tr><tr><td
+class="color"
+style="background-color:#f4a664"
+title="Untitled
+#F4A664
+244, 166, 100"
+></td><td
+class="color"
+style="background-color:#00aaaa"
+title="Untitled
+#00AAAA
+0, 170, 170"
+></td><td
+class="color"
+style="background-color:#6694c5"
+title="Untitled
+#6694C5
+102, 148, 197"
+></td><td
+class="color"
+style="background-color:#9d539e"
+title="Untitled
+#9D539E
+157, 83, 158"
+></td><td
+class="color"
+style="background-color:#5361ac"
+title="Untitled
+#5361AC
+83, 97, 172"
+></td><td
+class="color"
+style="background-color:#a7be38"
+title="Untitled
+#A7BE38
+167, 190, 56"
+></td><td
+class="color"
+style="background-color:#57499e"
+title="Untitled
+#57499E
+87, 73, 158"
+></td><td
+class="color"
+style="background-color:#c4cf42"
+title="Untitled
+#C4CF42
+196, 207, 66"
+></td><td
+class="color"
+style="background-color:#ea614e"
+title="Untitled
+#EA614E
+234, 97, 78"
+></td><td
+class="color"
+style="background-color:#ccdd81"
+title="Untitled
+#CCDD81
+204, 221, 129"
+></td><td
+class="color"
+style="background-color:#7ec359"
+title="Untitled
+#7EC359
+126, 195, 89"
+></td><td
+class="color"
+style="background-color:#00a891"
+title="Untitled
+#00A891
+0, 168, 145"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Powerful.gpl">EL Powerful</a></h1>
+    <p class="properties">12x8 (96 colors, 95 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#cf242a"
+title="Untitled
+#CF242A
+207, 36, 42"
+></td><td
+class="color"
+style="background-color:#262425"
+title="Untitled
+#262425
+38, 36, 37"
+></td><td
+class="color"
+style="background-color:#ffe14f"
+title="Untitled
+#FFE14F
+255, 225, 79"
+></td><td
+class="color"
+style="background-color:#162731"
+title="Untitled
+#162731
+22, 39, 49"
+></td><td
+class="color"
+style="background-color:#00549d"
+title="Untitled
+#00549D
+0, 84, 157"
+></td><td
+class="color"
+style="background-color:#261c01"
+title="Untitled
+#261C01
+38, 28, 1"
+></td><td
+class="color"
+style="background-color:#4f2684"
+title="Untitled
+#4F2684
+79, 38, 132"
+></td><td
+class="color"
+style="background-color:#474320"
+title="Untitled
+#474320
+71, 67, 32"
+></td><td
+class="color"
+style="background-color:#c94c5e"
+title="Untitled
+#C94C5E
+201, 76, 94"
+></td><td
+class="color"
+style="background-color:#3f3e2a"
+title="Untitled
+#3F3E2A
+63, 62, 42"
+></td><td
+class="color"
+style="background-color:#4f7019"
+title="Untitled
+#4F7019
+79, 112, 25"
+></td><td
+class="color"
+style="background-color:#03190d"
+title="Untitled
+#03190D
+3, 25, 13"
+></td></tr><tr><td
+class="color"
+style="background-color:#717075"
+title="Untitled
+#717075
+113, 112, 117"
+></td><td
+class="color"
+style="background-color:#ed164f"
+title="Untitled
+#ED164F
+237, 22, 79"
+></td><td
+class="color"
+style="background-color:#004d43"
+title="Untitled
+#004D43
+0, 77, 67"
+></td><td
+class="color"
+style="background-color:#fec223"
+title="Untitled
+#FEC223
+254, 194, 35"
+></td><td
+class="color"
+style="background-color:#660360"
+title="Untitled
+#660360
+102, 3, 96"
+></td><td
+class="color"
+style="background-color:#57484b"
+title="Untitled
+#57484B
+87, 72, 75"
+></td><td
+class="color"
+style="background-color:#014f37"
+title="Untitled
+#014F37
+1, 79, 55"
+></td><td
+class="color"
+style="background-color:#00477f"
+title="Untitled
+#00477F
+0, 71, 127"
+></td><td
+class="color"
+style="background-color:#6a5c35"
+title="Untitled
+#6A5C35
+106, 92, 53"
+></td><td
+class="color"
+style="background-color:#362d66"
+title="Untitled
+#362D66
+54, 45, 102"
+></td><td
+class="color"
+style="background-color:#c50c46"
+title="Untitled
+#C50C46
+197, 12, 70"
+></td><td
+class="color"
+style="background-color:#6e5400"
+title="Untitled
+#6E5400
+110, 84, 0"
+></td></tr><tr><td
+class="color"
+style="background-color:#34599d"
+title="Untitled
+#34599D
+52, 89, 157"
+></td><td
+class="color"
+style="background-color:#e4396d"
+title="Untitled
+#E4396D
+228, 57, 109"
+></td><td
+class="color"
+style="background-color:#c7a03b"
+title="Untitled
+#C7A03B
+199, 160, 59"
+></td><td
+class="color"
+style="background-color:#f1c950"
+title="Untitled
+#F1C950
+241, 201, 80"
+></td><td
+class="color"
+style="background-color:#726d69"
+title="Untitled
+#726D69
+114, 109, 105"
+></td><td
+class="color"
+style="background-color:#282830"
+title="Untitled
+#282830
+40, 40, 48"
+></td><td
+class="color"
+style="background-color:#4c4a58"
+title="Untitled
+#4C4A58
+76, 74, 88"
+></td><td
+class="color"
+style="background-color:#6b556c"
+title="Untitled
+#6B556C
+107, 85, 108"
+></td><td
+class="color"
+style="background-color:#dc3b4d"
+title="Untitled
+#DC3B4D
+220, 59, 77"
+></td><td
+class="color"
+style="background-color:#ce465c"
+title="Untitled
+#CE465C
+206, 70, 92"
+></td><td
+class="color"
+style="background-color:#5e5751"
+title="Untitled
+#5E5751
+94, 87, 81"
+></td><td
+class="color"
+style="background-color:#415a57"
+title="Untitled
+#415A57
+65, 90, 87"
+></td></tr><tr><td
+class="color"
+style="background-color:#3b589e"
+title="Untitled
+#3B589E
+59, 88, 158"
+></td><td
+class="color"
+style="background-color:#895c73"
+title="Untitled
+#895C73
+137, 92, 115"
+></td><td
+class="color"
+style="background-color:#bf5c49"
+title="Untitled
+#BF5C49
+191, 92, 73"
+></td><td
+class="color"
+style="background-color:#8e844f"
+title="Untitled
+#8E844F
+142, 132, 79"
+></td><td
+class="color"
+style="background-color:#545993"
+title="Untitled
+#545993
+84, 89, 147"
+></td><td
+class="color"
+style="background-color:#e0c635"
+title="Untitled
+#E0C635
+224, 198, 53"
+></td><td
+class="color"
+style="background-color:#e8194d"
+title="Untitled
+#E8194D
+232, 25, 77"
+></td><td
+class="color"
+style="background-color:#594954"
+title="Untitled
+#594954
+89, 73, 84"
+></td><td
+class="color"
+style="background-color:#726f5e"
+title="Untitled
+#726F5E
+114, 111, 94"
+></td><td
+class="color"
+style="background-color:#656f70"
+title="Untitled
+#656F70
+101, 111, 112"
+></td><td
+class="color"
+style="background-color:#b8a141"
+title="Untitled
+#B8A141
+184, 161, 65"
+></td><td
+class="color"
+style="background-color:#675881"
+title="Untitled
+#675881
+103, 88, 129"
+></td></tr><tr><td
+class="color"
+style="background-color:#636a70"
+title="Untitled
+#636A70
+99, 106, 112"
+></td><td
+class="color"
+style="background-color:#3b589e"
+title="Untitled
+#3B589E
+59, 88, 158"
+></td><td
+class="color"
+style="background-color:#f3d245"
+title="Untitled
+#F3D245
+243, 210, 69"
+></td><td
+class="color"
+style="background-color:#1f1e23"
+title="Untitled
+#1F1E23
+31, 30, 35"
+></td><td
+class="color"
+style="background-color:#879258"
+title="Untitled
+#879258
+135, 146, 88"
+></td><td
+class="color"
+style="background-color:#baad3d"
+title="Untitled
+#BAAD3D
+186, 173, 61"
+></td><td
+class="color"
+style="background-color:#e0ae35"
+title="Untitled
+#E0AE35
+224, 174, 53"
+></td><td
+class="color"
+style="background-color:#1d2025"
+title="Untitled
+#1D2025
+29, 32, 37"
+></td><td
+class="color"
+style="background-color:#95889c"
+title="Untitled
+#95889C
+149, 136, 156"
+></td><td
+class="color"
+style="background-color:#283e27"
+title="Untitled
+#283E27
+40, 62, 39"
+></td><td
+class="color"
+style="background-color:#3060a0"
+title="Untitled
+#3060A0
+48, 96, 160"
+></td><td
+class="color"
+style="background-color:#26333b"
+title="Untitled
+#26333B
+38, 51, 59"
+></td></tr><tr><td
+class="color"
+style="background-color:#988a7f"
+title="Untitled
+#988A7F
+152, 138, 127"
+></td><td
+class="color"
+style="background-color:#353a98"
+title="Untitled
+#353A98
+53, 58, 152"
+></td><td
+class="color"
+style="background-color:#546f5e"
+title="Untitled
+#546F5E
+84, 111, 94"
+></td><td
+class="color"
+style="background-color:#403b3f"
+title="Untitled
+#403B3F
+64, 59, 63"
+></td><td
+class="color"
+style="background-color:#988c8c"
+title="Untitled
+#988C8C
+152, 140, 140"
+></td><td
+class="color"
+style="background-color:#cc5944"
+title="Untitled
+#CC5944
+204, 89, 68"
+></td><td
+class="color"
+style="background-color:#2e2f41"
+title="Untitled
+#2E2F41
+46, 47, 65"
+></td><td
+class="color"
+style="background-color:#ccb043"
+title="Untitled
+#CCB043
+204, 176, 67"
+></td><td
+class="color"
+style="background-color:#7f6f58"
+title="Untitled
+#7F6F58
+127, 111, 88"
+></td><td
+class="color"
+style="background-color:#7c7c56"
+title="Untitled
+#7C7C56
+124, 124, 86"
+></td><td
+class="color"
+style="background-color:#685889"
+title="Untitled
+#685889
+104, 88, 137"
+></td><td
+class="color"
+style="background-color:#aa9556"
+title="Untitled
+#AA9556
+170, 149, 86"
+></td></tr><tr><td
+class="color"
+style="background-color:#b52735"
+title="Untitled
+#B52735
+181, 39, 53"
+></td><td
+class="color"
+style="background-color:#686055"
+title="Untitled
+#686055
+104, 96, 85"
+></td><td
+class="color"
+style="background-color:#8e8781"
+title="Untitled
+#8E8781
+142, 135, 129"
+></td><td
+class="color"
+style="background-color:#a56269"
+title="Untitled
+#A56269
+165, 98, 105"
+></td><td
+class="color"
+style="background-color:#432682"
+title="Untitled
+#432682
+67, 38, 130"
+></td><td
+class="color"
+style="background-color:#ffcc71"
+title="Untitled
+#FFCC71
+255, 204, 113"
+></td><td
+class="color"
+style="background-color:#56716a"
+title="Untitled
+#56716A
+86, 113, 106"
+></td><td
+class="color"
+style="background-color:#8a8b90"
+title="Untitled
+#8A8B90
+138, 139, 144"
+></td><td
+class="color"
+style="background-color:#705588"
+title="Untitled
+#705588
+112, 85, 136"
+></td><td
+class="color"
+style="background-color:#efcc4e"
+title="Untitled
+#EFCC4E
+239, 204, 78"
+></td><td
+class="color"
+style="background-color:#504b4f"
+title="Untitled
+#504B4F
+80, 75, 79"
+></td><td
+class="color"
+style="background-color:#b75e56"
+title="Untitled
+#B75E56
+183, 94, 86"
+></td></tr><tr><td
+class="color"
+style="background-color:#2f3044"
+title="Untitled
+#2F3044
+47, 48, 68"
+></td><td
+class="color"
+style="background-color:#8a7c4f"
+title="Untitled
+#8A7C4F
+138, 124, 79"
+></td><td
+class="color"
+style="background-color:#3d5a9e"
+title="Untitled
+#3D5A9E
+61, 90, 158"
+></td><td
+class="color"
+style="background-color:#a48f4c"
+title="Untitled
+#A48F4C
+164, 143, 76"
+></td><td
+class="color"
+style="background-color:#423c40"
+title="Untitled
+#423C40
+66, 60, 64"
+></td><td
+class="color"
+style="background-color:#f6d925"
+title="Untitled
+#F6D925
+246, 217, 37"
+></td><td
+class="color"
+style="background-color:#4a2f7e"
+title="Untitled
+#4A2F7E
+74, 47, 126"
+></td><td
+class="color"
+style="background-color:#3a3a3a"
+title="Untitled
+#3A3A3A
+58, 58, 58"
+></td><td
+class="color"
+style="background-color:#f26549"
+title="Untitled
+#F26549
+242, 101, 73"
+></td><td
+class="color"
+style="background-color:#817b01"
+title="Untitled
+#817B01
+129, 123, 1"
+></td><td
+class="color"
+style="background-color:#00334e"
+title="Untitled
+#00334E
+0, 51, 78"
+></td><td
+class="color"
+style="background-color:#cbaa27"
+title="Untitled
+#CBAA27
+203, 170, 39"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Romantic.gpl">EL Romantic</a></h1>
+    <p class="properties">12x9 (108 colors, 105 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#feebe7"
+title="Untitled
+#FEEBE7
+254, 235, 231"
+></td><td
+class="color"
+style="background-color:#adc5e7"
+title="Untitled
+#ADC5E7
+173, 197, 231"
+></td><td
+class="color"
+style="background-color:#edb3bf"
+title="Untitled
+#EDB3BF
+237, 179, 191"
+></td><td
+class="color"
+style="background-color:#e4accf"
+title="Untitled
+#E4ACCF
+228, 172, 207"
+></td><td
+class="color"
+style="background-color:#bed8f1"
+title="Untitled
+#BED8F1
+190, 216, 241"
+></td><td
+class="color"
+style="background-color:#dae6dc"
+title="Untitled
+#DAE6DC
+218, 230, 220"
+></td><td
+class="color"
+style="background-color:#f0c3d7"
+title="Untitled
+#F0C3D7
+240, 195, 215"
+></td><td
+class="color"
+style="background-color:#fff7c8"
+title="Untitled
+#FFF7C8
+255, 247, 200"
+></td><td
+class="color"
+style="background-color:#cfe0b4"
+title="Untitled
+#CFE0B4
+207, 224, 180"
+></td><td
+class="color"
+style="background-color:#eac2dc"
+title="Untitled
+#EAC2DC
+234, 194, 220"
+></td><td
+class="color"
+style="background-color:#d9e9e8"
+title="Untitled
+#D9E9E8
+217, 233, 232"
+></td><td
+class="color"
+style="background-color:#eef6e7"
+title="Untitled
+#EEF6E7
+238, 246, 231"
+></td></tr><tr><td
+class="color"
+style="background-color:#dccccc"
+title="Untitled
+#DCCCCC
+220, 204, 204"
+></td><td
+class="color"
+style="background-color:#e7decf"
+title="Untitled
+#E7DECF
+231, 222, 207"
+></td><td
+class="color"
+style="background-color:#b4d0e8"
+title="Untitled
+#B4D0E8
+180, 208, 232"
+></td><td
+class="color"
+style="background-color:#f7d4d0"
+title="Untitled
+#F7D4D0
+247, 212, 208"
+></td><td
+class="color"
+style="background-color:#c3dfe0"
+title="Untitled
+#C3DFE0
+195, 223, 224"
+></td><td
+class="color"
+style="background-color:#c7d5ef"
+title="Untitled
+#C7D5EF
+199, 213, 239"
+></td><td
+class="color"
+style="background-color:#facad6"
+title="Untitled
+#FACAD6
+250, 202, 214"
+></td><td
+class="color"
+style="background-color:#e9d9d9"
+title="Untitled
+#E9D9D9
+233, 217, 217"
+></td><td
+class="color"
+style="background-color:#bcd6cd"
+title="Untitled
+#BCD6CD
+188, 214, 205"
+></td><td
+class="color"
+style="background-color:#ddcecb"
+title="Untitled
+#DDCECB
+221, 206, 203"
+></td><td
+class="color"
+style="background-color:#dfa4a0"
+title="Untitled
+#DFA4A0
+223, 164, 160"
+></td><td
+class="color"
+style="background-color:#dde1be"
+title="Untitled
+#DDE1BE
+221, 225, 190"
+></td></tr><tr><td
+class="color"
+style="background-color:#f9b2ba"
+title="Untitled
+#F9B2BA
+249, 178, 186"
+></td><td
+class="color"
+style="background-color:#fdeae4"
+title="Untitled
+#FDEAE4
+253, 234, 228"
+></td><td
+class="color"
+style="background-color:#b1cbd8"
+title="Untitled
+#B1CBD8
+177, 203, 216"
+></td><td
+class="color"
+style="background-color:#fde3ee"
+title="Untitled
+#FDE3EE
+253, 227, 238"
+></td><td
+class="color"
+style="background-color:#c7a8d1"
+title="Untitled
+#C7A8D1
+199, 168, 209"
+></td><td
+class="color"
+style="background-color:#8ca3d5"
+title="Untitled
+#8CA3D5
+140, 163, 213"
+></td><td
+class="color"
+style="background-color:#f2bdd9"
+title="Untitled
+#F2BDD9
+242, 189, 217"
+></td><td
+class="color"
+style="background-color:#dddddb"
+title="Untitled
+#DDDDDB
+221, 221, 219"
+></td><td
+class="color"
+style="background-color:#c8d5a7"
+title="Untitled
+#C8D5A7
+200, 213, 167"
+></td><td
+class="color"
+style="background-color:#dcc8d1"
+title="Untitled
+#DCC8D1
+220, 200, 209"
+></td><td
+class="color"
+style="background-color:#badacd"
+title="Untitled
+#BADACD
+186, 218, 205"
+></td><td
+class="color"
+style="background-color:#c2acd3"
+title="Untitled
+#C2ACD3
+194, 172, 211"
+></td></tr><tr><td
+class="color"
+style="background-color:#d4aed3"
+title="Untitled
+#D4AED3
+212, 174, 211"
+></td><td
+class="color"
+style="background-color:#adb0d9"
+title="Untitled
+#ADB0D9
+173, 176, 217"
+></td><td
+class="color"
+style="background-color:#f0cfe2"
+title="Untitled
+#F0CFE2
+240, 207, 226"
+></td><td
+class="color"
+style="background-color:#f0bebf"
+title="Untitled
+#F0BEBF
+240, 190, 191"
+></td><td
+class="color"
+style="background-color:#dfdfdf"
+title="Untitled
+#DFDFDF
+223, 223, 223"
+></td><td
+class="color"
+style="background-color:#f0efdb"
+title="Untitled
+#F0EFDB
+240, 239, 219"
+></td><td
+class="color"
+style="background-color:#f4c8c9"
+title="Untitled
+#F4C8C9
+244, 200, 201"
+></td><td
+class="color"
+style="background-color:#d4d2c5"
+title="Untitled
+#D4D2C5
+212, 210, 197"
+></td><td
+class="color"
+style="background-color:#b6a6cb"
+title="Untitled
+#B6A6CB
+182, 166, 203"
+></td><td
+class="color"
+style="background-color:#fbccd2"
+title="Untitled
+#FBCCD2
+251, 204, 210"
+></td><td
+class="color"
+style="background-color:#a0c3d9"
+title="Untitled
+#A0C3D9
+160, 195, 217"
+></td><td
+class="color"
+style="background-color:#e3e194"
+title="Untitled
+#E3E194
+227, 225, 148"
+></td></tr><tr><td
+class="color"
+style="background-color:#fac6dc"
+title="Untitled
+#FAC6DC
+250, 198, 220"
+></td><td
+class="color"
+style="background-color:#bce4e4"
+title="Untitled
+#BCE4E4
+188, 228, 228"
+></td><td
+class="color"
+style="background-color:#a8b6d9"
+title="Untitled
+#A8B6D9
+168, 182, 217"
+></td><td
+class="color"
+style="background-color:#f8b9cc"
+title="Untitled
+#F8B9CC
+248, 185, 204"
+></td><td
+class="color"
+style="background-color:#c0b2d6"
+title="Untitled
+#C0B2D6
+192, 178, 214"
+></td><td
+class="color"
+style="background-color:#efe8bc"
+title="Untitled
+#EFE8BC
+239, 232, 188"
+></td><td
+class="color"
+style="background-color:#f8b9cc"
+title="Untitled
+#F8B9CC
+248, 185, 204"
+></td><td
+class="color"
+style="background-color:#bdb3d8"
+title="Untitled
+#BDB3D8
+189, 179, 216"
+></td><td
+class="color"
+style="background-color:#e1debd"
+title="Untitled
+#E1DEBD
+225, 222, 189"
+></td><td
+class="color"
+style="background-color:#fccccc"
+title="Untitled
+#FCCCCC
+252, 204, 204"
+></td><td
+class="color"
+style="background-color:#ccdfd9"
+title="Untitled
+#CCDFD9
+204, 223, 217"
+></td><td
+class="color"
+style="background-color:#b3d0d8"
+title="Untitled
+#B3D0D8
+179, 208, 216"
+></td></tr><tr><td
+class="color"
+style="background-color:#ebb7ce"
+title="Untitled
+#EBB7CE
+235, 183, 206"
+></td><td
+class="color"
+style="background-color:#e1dddc"
+title="Untitled
+#E1DDDC
+225, 221, 220"
+></td><td
+class="color"
+style="background-color:#93b1d7"
+title="Untitled
+#93B1D7
+147, 177, 215"
+></td><td
+class="color"
+style="background-color:#e9d9dc"
+title="Untitled
+#E9D9DC
+233, 217, 220"
+></td><td
+class="color"
+style="background-color:#f6d4e5"
+title="Untitled
+#F6D4E5
+246, 212, 229"
+></td><td
+class="color"
+style="background-color:#9cc5c9"
+title="Untitled
+#9CC5C9
+156, 197, 201"
+></td><td
+class="color"
+style="background-color:#e1d0da"
+title="Untitled
+#E1D0DA
+225, 208, 218"
+></td><td
+class="color"
+style="background-color:#ddf0f7"
+title="Untitled
+#DDF0F7
+221, 240, 247"
+></td><td
+class="color"
+style="background-color:#eee7df"
+title="Untitled
+#EEE7DF
+238, 231, 223"
+></td><td
+class="color"
+style="background-color:#fbd8df"
+title="Untitled
+#FBD8DF
+251, 216, 223"
+></td><td
+class="color"
+style="background-color:#c3d0e3"
+title="Untitled
+#C3D0E3
+195, 208, 227"
+></td><td
+class="color"
+style="background-color:#dae8c4"
+title="Untitled
+#DAE8C4
+218, 232, 196"
+></td></tr><tr><td
+class="color"
+style="background-color:#fabfc1"
+title="Untitled
+#FABFC1
+250, 191, 193"
+></td><td
+class="color"
+style="background-color:#e8cfe4"
+title="Untitled
+#E8CFE4
+232, 207, 228"
+></td><td
+class="color"
+style="background-color:#c9dad0"
+title="Untitled
+#C9DAD0
+201, 218, 208"
+></td><td
+class="color"
+style="background-color:#dccdd2"
+title="Untitled
+#DCCDD2
+220, 205, 210"
+></td><td
+class="color"
+style="background-color:#c3d0e3"
+title="Untitled
+#C3D0E3
+195, 208, 227"
+></td><td
+class="color"
+style="background-color:#dae8c4"
+title="Untitled
+#DAE8C4
+218, 232, 196"
+></td><td
+class="color"
+style="background-color:#ead9eb"
+title="Untitled
+#EAD9EB
+234, 217, 235"
+></td><td
+class="color"
+style="background-color:#b7cfe9"
+title="Untitled
+#B7CFE9
+183, 207, 233"
+></td><td
+class="color"
+style="background-color:#ece2b1"
+title="Untitled
+#ECE2B1
+236, 226, 177"
+></td><td
+class="color"
+style="background-color:#f9c6cf"
+title="Untitled
+#F9C6CF
+249, 198, 207"
+></td><td
+class="color"
+style="background-color:#d69cc4"
+title="Untitled
+#D69CC4
+214, 156, 196"
+></td><td
+class="color"
+style="background-color:#b6d1d8"
+title="Untitled
+#B6D1D8
+182, 209, 216"
+></td></tr><tr><td
+class="color"
+style="background-color:#fcdbd6"
+title="Untitled
+#FCDBD6
+252, 219, 214"
+></td><td
+class="color"
+style="background-color:#dec1dd"
+title="Untitled
+#DEC1DD
+222, 193, 221"
+></td><td
+class="color"
+style="background-color:#dddcda"
+title="Untitled
+#DDDCDA
+221, 220, 218"
+></td><td
+class="color"
+style="background-color:#c6cae7"
+title="Untitled
+#C6CAE7
+198, 202, 231"
+></td><td
+class="color"
+style="background-color:#ccd6df"
+title="Untitled
+#CCD6DF
+204, 214, 223"
+></td><td
+class="color"
+style="background-color:#cea8cf"
+title="Untitled
+#CEA8CF
+206, 168, 207"
+></td><td
+class="color"
+style="background-color:#f0c4dd"
+title="Untitled
+#F0C4DD
+240, 196, 221"
+></td><td
+class="color"
+style="background-color:#999bcc"
+title="Untitled
+#999BCC
+153, 155, 204"
+></td><td
+class="color"
+style="background-color:#e8e2d6"
+title="Untitled
+#E8E2D6
+232, 226, 214"
+></td><td
+class="color"
+style="background-color:#ddd1d3"
+title="Untitled
+#DDD1D3
+221, 209, 211"
+></td><td
+class="color"
+style="background-color:#b8b2d8"
+title="Untitled
+#B8B2D8
+184, 178, 216"
+></td><td
+class="color"
+style="background-color:#b1ccea"
+title="Untitled
+#B1CCEA
+177, 204, 234"
+></td></tr><tr><td
+class="color"
+style="background-color:#fcdadb"
+title="Untitled
+#FCDADB
+252, 218, 219"
+></td><td
+class="color"
+style="background-color:#b9c7d4"
+title="Untitled
+#B9C7D4
+185, 199, 212"
+></td><td
+class="color"
+style="background-color:#ccb2d5"
+title="Untitled
+#CCB2D5
+204, 178, 213"
+></td><td
+class="color"
+style="background-color:#e7d8df"
+title="Untitled
+#E7D8DF
+231, 216, 223"
+></td><td
+class="color"
+style="background-color:#a9c499"
+title="Untitled
+#A9C499
+169, 196, 153"
+></td><td
+class="color"
+style="background-color:#ebb4b9"
+title="Untitled
+#EBB4B9
+235, 180, 185"
+></td><td
+class="color"
+style="background-color:#faccce"
+title="Untitled
+#FACCCE
+250, 204, 206"
+></td><td
+class="color"
+style="background-color:#b3a2ce"
+title="Untitled
+#B3A2CE
+179, 162, 206"
+></td><td
+class="color"
+style="background-color:#97b6d3"
+title="Untitled
+#97B6D3
+151, 182, 211"
+></td><td
+class="color"
+style="background-color:#e8d8e3"
+title="Untitled
+#E8D8E3
+232, 216, 227"
+></td><td
+class="color"
+style="background-color:#b199c9"
+title="Untitled
+#B199C9
+177, 153, 201"
+></td><td
+class="color"
+style="background-color:#fac8cb"
+title="Untitled
+#FAC8CB
+250, 200, 203"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Tropical.gpl">EL Tropical</a></h1>
+    <p class="properties">12x9 (108 colors, 104 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#34599d"
+title="Untitled
+#34599D
+52, 89, 157"
+></td><td
+class="color"
+style="background-color:#5c90c9"
+title="Untitled
+#5C90C9
+92, 144, 201"
+></td><td
+class="color"
+style="background-color:#f6d925"
+title="Untitled
+#F6D925
+246, 217, 37"
+></td><td
+class="color"
+style="background-color:#3060a0"
+title="Untitled
+#3060A0
+48, 96, 160"
+></td><td
+class="color"
+style="background-color:#28bac7"
+title="Untitled
+#28BAC7
+40, 186, 199"
+></td><td
+class="color"
+style="background-color:#e9dc69"
+title="Untitled
+#E9DC69
+233, 220, 105"
+></td><td
+class="color"
+style="background-color:#366291"
+title="Untitled
+#366291
+54, 98, 145"
+></td><td
+class="color"
+style="background-color:#008ca5"
+title="Untitled
+#008CA5
+0, 140, 165"
+></td><td
+class="color"
+style="background-color:#347ab8"
+title="Untitled
+#347AB8
+52, 122, 184"
+></td><td
+class="color"
+style="background-color:#2f5ea2"
+title="Untitled
+#2F5EA2
+47, 94, 162"
+></td><td
+class="color"
+style="background-color:#0097a8"
+title="Untitled
+#0097A8
+0, 151, 168"
+></td><td
+class="color"
+style="background-color:#b9d16f"
+title="Untitled
+#B9D16F
+185, 209, 111"
+></td></tr><tr><td
+class="color"
+style="background-color:#11b2c4"
+title="Untitled
+#11B2C4
+17, 178, 196"
+></td><td
+class="color"
+style="background-color:#426a9e"
+title="Untitled
+#426A9E
+66, 106, 158"
+></td><td
+class="color"
+style="background-color:#f1896c"
+title="Untitled
+#F1896C
+241, 137, 108"
+></td><td
+class="color"
+style="background-color:#00a0b6"
+title="Untitled
+#00A0B6
+0, 160, 182"
+></td><td
+class="color"
+style="background-color:#186aa6"
+title="Untitled
+#186AA6
+24, 106, 166"
+></td><td
+class="color"
+style="background-color:#f6d636"
+title="Untitled
+#F6D636
+246, 214, 54"
+></td><td
+class="color"
+style="background-color:#315f9a"
+title="Untitled
+#315F9A
+49, 95, 154"
+></td><td
+class="color"
+style="background-color:#0081a9"
+title="Untitled
+#0081A9
+0, 129, 169"
+></td><td
+class="color"
+style="background-color:#ef4061"
+title="Untitled
+#EF4061
+239, 64, 97"
+></td><td
+class="color"
+style="background-color:#0085a8"
+title="Untitled
+#0085A8
+0, 133, 168"
+></td><td
+class="color"
+style="background-color:#9bcac4"
+title="Untitled
+#9BCAC4
+155, 202, 196"
+></td><td
+class="color"
+style="background-color:#5eb6a8"
+title="Untitled
+#5EB6A8
+94, 182, 168"
+></td></tr><tr><td
+class="color"
+style="background-color:#33619c"
+title="Untitled
+#33619C
+51, 97, 156"
+></td><td
+class="color"
+style="background-color:#4673b6"
+title="Untitled
+#4673B6
+70, 115, 182"
+></td><td
+class="color"
+style="background-color:#f89448"
+title="Untitled
+#F89448
+248, 148, 72"
+></td><td
+class="color"
+style="background-color:#406aa6"
+title="Untitled
+#406AA6
+64, 106, 166"
+></td><td
+class="color"
+style="background-color:#1fa2b4"
+title="Untitled
+#1FA2B4
+31, 162, 180"
+></td><td
+class="color"
+style="background-color:#e2466d"
+title="Untitled
+#E2466D
+226, 70, 109"
+></td><td
+class="color"
+style="background-color:#395587"
+title="Untitled
+#395587
+57, 85, 135"
+></td><td
+class="color"
+style="background-color:#007ba7"
+title="Untitled
+#007BA7
+0, 123, 167"
+></td><td
+class="color"
+style="background-color:#74c8ae"
+title="Untitled
+#74C8AE
+116, 200, 174"
+></td><td
+class="color"
+style="background-color:#226dae"
+title="Untitled
+#226DAE
+34, 109, 174"
+></td><td
+class="color"
+style="background-color:#00a49b"
+title="Untitled
+#00A49B
+0, 164, 155"
+></td><td
+class="color"
+style="background-color:#48b7be"
+title="Untitled
+#48B7BE
+72, 183, 190"
+></td></tr><tr><td
+class="color"
+style="background-color:#ffffff"
+title="Untitled
+#FFFFFF
+255, 255, 255"
+></td><td
+class="color"
+style="background-color:#0196c1"
+title="Untitled
+#0196C1
+1, 150, 193"
+></td><td
+class="color"
+style="background-color:#f49636"
+title="Untitled
+#F49636
+244, 150, 54"
+></td><td
+class="color"
+style="background-color:#e0dedf"
+title="Untitled
+#E0DEDF
+224, 222, 223"
+></td><td
+class="color"
+style="background-color:#55b7a8"
+title="Untitled
+#55B7A8
+85, 183, 168"
+></td><td
+class="color"
+style="background-color:#f6d526"
+title="Untitled
+#F6D526
+246, 213, 38"
+></td><td
+class="color"
+style="background-color:#3d5a9e"
+title="Untitled
+#3D5A9E
+61, 90, 158"
+></td><td
+class="color"
+style="background-color:#01a6aa"
+title="Untitled
+#01A6AA
+1, 166, 170"
+></td><td
+class="color"
+style="background-color:#3d5a9e"
+title="Untitled
+#3D5A9E
+61, 90, 158"
+></td><td
+class="color"
+style="background-color:#00a891"
+title="Untitled
+#00A891
+0, 168, 145"
+></td><td
+class="color"
+style="background-color:#00a891"
+title="Untitled
+#00A891
+0, 168, 145"
+></td><td
+class="color"
+style="background-color:#d2d639"
+title="Untitled
+#D2D639
+210, 214, 57"
+></td></tr><tr><td
+class="color"
+style="background-color:#4169a7"
+title="Untitled
+#4169A7
+65, 105, 167"
+></td><td
+class="color"
+style="background-color:#31aec4"
+title="Untitled
+#31AEC4
+49, 174, 196"
+></td><td
+class="color"
+style="background-color:#e9dc69"
+title="Untitled
+#E9DC69
+233, 220, 105"
+></td><td
+class="color"
+style="background-color:#406697"
+title="Untitled
+#406697
+64, 102, 151"
+></td><td
+class="color"
+style="background-color:#008ebe"
+title="Untitled
+#008EBE
+0, 142, 190"
+></td><td
+class="color"
+style="background-color:#ce4789"
+title="Untitled
+#CE4789
+206, 71, 137"
+></td><td
+class="color"
+style="background-color:#fefefc"
+title="Untitled
+#FEFEFC
+254, 254, 252"
+></td><td
+class="color"
+style="background-color:#00a8cd"
+title="Untitled
+#00A8CD
+0, 168, 205"
+></td><td
+class="color"
+style="background-color:#7dc49c"
+title="Untitled
+#7DC49C
+125, 196, 156"
+></td><td
+class="color"
+style="background-color:#017aaf"
+title="Untitled
+#017AAF
+1, 122, 175"
+></td><td
+class="color"
+style="background-color:#5ac2a1"
+title="Untitled
+#5AC2A1
+90, 194, 161"
+></td><td
+class="color"
+style="background-color:#f6bc4e"
+title="Untitled
+#F6BC4E
+246, 188, 78"
+></td></tr><tr><td
+class="color"
+style="background-color:#3c5b9b"
+title="Untitled
+#3C5B9B
+60, 91, 155"
+></td><td
+class="color"
+style="background-color:#00a4ae"
+title="Untitled
+#00A4AE
+0, 164, 174"
+></td><td
+class="color"
+style="background-color:#f17829"
+title="Untitled
+#F17829
+241, 120, 41"
+></td><td
+class="color"
+style="background-color:#33609b"
+title="Untitled
+#33609B
+51, 96, 155"
+></td><td
+class="color"
+style="background-color:#00a68e"
+title="Untitled
+#00A68E
+0, 166, 142"
+></td><td
+class="color"
+style="background-color:#4dc0b1"
+title="Untitled
+#4DC0B1
+77, 192, 177"
+></td><td
+class="color"
+style="background-color:#3b589e"
+title="Untitled
+#3B589E
+59, 88, 158"
+></td><td
+class="color"
+style="background-color:#00b7a3"
+title="Untitled
+#00B7A3
+0, 183, 163"
+></td><td
+class="color"
+style="background-color:#f1884e"
+title="Untitled
+#F1884E
+241, 136, 78"
+></td><td
+class="color"
+style="background-color:#007fac"
+title="Untitled
+#007FAC
+0, 127, 172"
+></td><td
+class="color"
+style="background-color:#0199a6"
+title="Untitled
+#0199A6
+1, 153, 166"
+></td><td
+class="color"
+style="background-color:#f1c950"
+title="Untitled
+#F1C950
+241, 201, 80"
+></td></tr><tr><td
+class="color"
+style="background-color:#018ea0"
+title="Untitled
+#018EA0
+1, 142, 160"
+></td><td
+class="color"
+style="background-color:#32486f"
+title="Untitled
+#32486F
+50, 72, 111"
+></td><td
+class="color"
+style="background-color:#f06d35"
+title="Untitled
+#F06D35
+240, 109, 53"
+></td><td
+class="color"
+style="background-color:#007fa2"
+title="Untitled
+#007FA2
+0, 127, 162"
+></td><td
+class="color"
+style="background-color:#65b6b0"
+title="Untitled
+#65B6B0
+101, 182, 176"
+></td><td
+class="color"
+style="background-color:#f3d95e"
+title="Untitled
+#F3D95E
+243, 217, 94"
+></td><td
+class="color"
+style="background-color:#008ba8"
+title="Untitled
+#008BA8
+0, 139, 168"
+></td><td
+class="color"
+style="background-color:#f5cf30"
+title="Untitled
+#F5CF30
+245, 207, 48"
+></td><td
+class="color"
+style="background-color:#f5983b"
+title="Untitled
+#F5983B
+245, 152, 59"
+></td><td
+class="color"
+style="background-color:#256b9f"
+title="Untitled
+#256B9F
+37, 107, 159"
+></td><td
+class="color"
+style="background-color:#0087a5"
+title="Untitled
+#0087A5
+0, 135, 165"
+></td><td
+class="color"
+style="background-color:#dcdc46"
+title="Untitled
+#DCDC46
+220, 220, 70"
+></td></tr><tr><td
+class="color"
+style="background-color:#85c4bb"
+title="Untitled
+#85C4BB
+133, 196, 187"
+></td><td
+class="color"
+style="background-color:#335592"
+title="Untitled
+#335592
+51, 85, 146"
+></td><td
+class="color"
+style="background-color:#ee7f86"
+title="Untitled
+#EE7F86
+238, 127, 134"
+></td><td
+class="color"
+style="background-color:#365081"
+title="Untitled
+#365081
+54, 80, 129"
+></td><td
+class="color"
+style="background-color:#72c0b3"
+title="Untitled
+#72C0B3
+114, 192, 179"
+></td><td
+class="color"
+style="background-color:#dadc6e"
+title="Untitled
+#DADC6E
+218, 220, 110"
+></td><td
+class="color"
+style="background-color:#70b6ae"
+title="Untitled
+#70B6AE
+112, 182, 174"
+></td><td
+class="color"
+style="background-color:#325a8d"
+title="Untitled
+#325A8D
+50, 90, 141"
+></td><td
+class="color"
+style="background-color:#f0836f"
+title="Untitled
+#F0836F
+240, 131, 111"
+></td><td
+class="color"
+style="background-color:#006da6"
+title="Untitled
+#006DA6
+0, 109, 166"
+></td><td
+class="color"
+style="background-color:#39a5cc"
+title="Untitled
+#39A5CC
+57, 165, 204"
+></td><td
+class="color"
+style="background-color:#ef7232"
+title="Untitled
+#EF7232
+239, 114, 50"
+></td></tr><tr><td
+class="color"
+style="background-color:#2a65a1"
+title="Untitled
+#2A65A1
+42, 101, 161"
+></td><td
+class="color"
+style="background-color:#007dad"
+title="Untitled
+#007DAD
+0, 125, 173"
+></td><td
+class="color"
+style="background-color:#f6996d"
+title="Untitled
+#F6996D
+246, 153, 109"
+></td><td
+class="color"
+style="background-color:#0079a4"
+title="Untitled
+#0079A4
+0, 121, 164"
+></td><td
+class="color"
+style="background-color:#f1cf61"
+title="Untitled
+#F1CF61
+241, 207, 97"
+></td><td
+class="color"
+style="background-color:#8fc5b5"
+title="Untitled
+#8FC5B5
+143, 197, 181"
+></td><td
+class="color"
+style="background-color:#335795"
+title="Untitled
+#335795
+51, 87, 149"
+></td><td
+class="color"
+style="background-color:#018498"
+title="Untitled
+#018498
+1, 132, 152"
+></td><td
+class="color"
+style="background-color:#d4d752"
+title="Untitled
+#D4D752
+212, 215, 82"
+></td><td
+class="color"
+style="background-color:#0c77a3"
+title="Untitled
+#0C77A3
+12, 119, 163"
+></td><td
+class="color"
+style="background-color:#70b6ae"
+title="Untitled
+#70B6AE
+112, 182, 174"
+></td><td
+class="color"
+style="background-color:#f27346"
+title="Untitled
+#F27346
+242, 115, 70"
+></td></tr></table>
+</article><article class="palette">
+    <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/EL-Urban.gpl">EL Urban</a></h1>
+    <p class="properties">12x9 (108 colors, 105 unique)</p>
+    <p class="comment">Colors from the book</p>
+<p class="comment">The Complete Color Harmony, Pantone Edition: Expert Color Information for Professional Results</p>
+<p class="comment">by Leatrice Eiseman</p>
+    <table class="colors"><tr><td
+class="color"
+style="background-color:#8e8781"
+title="Untitled
+#8E8781
+142, 135, 129"
+></td><td
+class="color"
+style="background-color:#c5c0bc"
+title="Untitled
+#C5C0BC
+197, 192, 188"
+></td><td
+class="color"
+style="background-color:#546287"
+title="Untitled
+#546287
+84, 98, 135"
+></td><td
+class="color"
+style="background-color:#5f70a2"
+title="Untitled
+#5F70A2
+95, 112, 162"
+></td><td
+class="color"
+style="background-color:#b1a9a7"
+title="Untitled
+#B1A9A7
+177, 169, 167"
+></td><td
+class="color"
+style="background-color:#90908e"
+title="Untitled
+#90908E
+144, 144, 142"
+></td><td
+class="color"
+style="background-color:#829db2"
+title="Untitled
+#829DB2
+130, 157, 178"
+></td><td
+class="color"
+style="background-color:#262c4e"
+title="Untitled
+#262C4E
+38, 44, 78"
+></td><td
+class="color"
+style="background-color:#a699a3"
+title="Untitled
+#A699A3
+166, 153, 163"
+></td><td
+class="color"
+style="background-color:#6d6483"
+title="Untitled
+#6D6483
+109, 100, 131"
+></td><td
+class="color"
+style="background-color:#758ab7"
+title="Untitled
+#758AB7
+117, 138, 183"
+></td><td
+class="color"
+style="background-color:#92938e"
+title="Untitled
+#92938E
+146, 147, 142"
+></td></tr><tr><td
+class="color"
+style="background-color:#aebece"
+title="Untitled
+#AEBECE
+174, 190, 206"
+></td><td
+class="color"
+style="background-color:#67658a"
+title="Untitled
+#67658A
+103, 101, 138"
+></td><td
+class="color"
+style="background-color:#4d7ea9"
+title="Untitled
+#4D7EA9
+77, 126, 169"
+></td><td
+class="color"
+style="background-color:#26587b"
+title="Untitled
+#26587B
+38, 88, 123"
+></td><td
+class="color"
+style="background-color:#bebfc1"
+title="Untitled
+#BEBFC1
+190, 191, 193"
+></td><td
+class="color"
+style="background-color:#545c5e"
+title="Untitled
+#545C5E
+84, 92, 94"
+></td><td
+class="color"
+style="background-color:#8c8d92"
+title="Untitled
+#8C8D92
+140, 141, 146"
+></td><td
+class="color"
+style="background-color:#5071a4"
+title="Untitled
+#5071A4
+80, 113, 164"
+></td><td
+class="color"
+style="background-color:#7a7270"
+title="Untitled
+#7A7270
+122, 114, 112"
+></td><td
+class="color"
+style="background-color:#134a68"
+title="Untitled
+#134A68
+19, 74, 104"
+></td><td
+class="color"
+style="background-color:#b0b3b8"
+title="Untitled
+#B0B3B8
+176, 179, 184"
+></td><td
+class="color"
+style="background-color:#65656d"
+title="Untitled
+#65656D
+101, 101, 109"
+></td></tr><tr><td
+class="color"
+style="background-color:#8d8377"
+title="Untitled
+#8D8377
+141, 131, 119"
+></td><td
+class="color"
+style="background-color:#686d70"
+title="Untitled
+#686D70
+104, 109, 112"
+></td><td
+class="color"
+style="background-color:#386e9c"
+title="Untitled
+#386E9C
+56, 110, 156"
+></td><td
+class="color"
+style="background-color:#3a4670"
+title="Untitled
+#3A4670
+58, 70, 112"
+></td><td
+class="color"
+style="background-color:#786c6c"
+title="Untitled
+#786C6C
+120, 108, 108"
+></td><td
+class="color"
+style="background-color:#b1beb4"
+title="Untitled
+#B1BEB4
+177, 190, 180"
+></td><td
+class="color"
+style="background-color:#5e5751"
+title="Untitled
+#5E5751
+94, 87, 81"
+></td><td
+class="color"
+style="background-color:#89aca6"
+title="Untitled
+#89ACA6
+137, 172, 166"
+></td><td
+class="color"
+style="background-color:#3d236c"
+title="Untitled
+#3D236C
+61, 35, 108"
+></td><td
+class="color"
+style="background-color:#73877c"
+title="Untitled
+#73877C
+115, 135, 124"
+></td><td
+class="color"
+style="background-color:#1b1c21"
+title="Untitled
+#1B1C21
+27, 28, 33"
+></td><td
+class="color"
+style="background-color:#8c7884"
+title="Untitled
+#8C7884
+140, 120, 132"
+></td></tr><tr><td
+class="color"
+style="background-color:#a9a290"
+title="Untitled
+#A9A290
+169, 162, 144"
+></td><td
+class="color"
+style="background-color:#8b819c"
+title="Untitled
+#8B819C
+139, 129, 156"
+></td><td
+class="color"
+style="background-color:#9f9795"
+title="Untitled
+#9F9795
+159, 151, 149"
+></td><td
+class="color"
+style="background-color:#757984"
+title="Untitled
+#757984
+117, 121, 132"
+></td><td
+class="color"
+style="background-color:#a5b2a8"
+title="Untitled
+#A5B2A8
+165, 178, 168"
+></td><td
+class="color"
+style="background-color:#827161"
+title="Untitled
+#827161
+130, 113, 97"
+></td><td
+class="color"
+style="background-color:#5d7b9f"
+title="Untitled
+#5D7B9F
+93, 123, 159"
+></td><td
+class="color"
+style="background-color:#a3958a"
+title="Untitled
+#A3958A
+163, 149, 138"
+></td><td
+class="color"
+style="background-color:#37588b"
+title="Untitled
+#37588B
+55, 88, 139"
+></td><td
+class="color"
+style="background-color:#91b0dc"
+title="Untitled
+#91B0DC
+145, 176, 220"
+></td><td
+class="color"
+style="background-color:#bac3be"
+title="Untitled
+#BAC3BE
+186, 195, 190"
+></td><td
+class="color"
+style="background-color:#636a70"
+title="Untitled
+#636A70
+99, 106, 112"
+></td></tr><tr><td
+class="color"
+style="background-color:#7a8891"
+title="Untitled
+#7A8891
+122, 136, 145"
+></td><td
+class="color"
+style="background-color:#27282c"
+title="Untitled
+#27282C
+39, 40, 44"
+></td><td
+class="color"
+style="background-color:#9c9794"
+title="Untitled
+#9C9794
+156, 151, 148"
+></td><td
+class="color"
+style="background-color:#5f9bc0"
+title="Untitled
+#5F9BC0
+95, 155, 192"
+></td><td
+class="color"
+style="background-color:#78765d"
+title="Untitled
+#78765D
+120, 118, 93"
+></td><td
+class="color"
+style="background-color:#104770"
+title="Untitled
+#104770
+16, 71, 112"
+></td><td
+class="color"
+style="background-color:#48494b"
+title="Untitled
+#48494B
+72, 73, 75"
+></td><td
+class="color"
+style="background-color:#747da8"
+title="Untitled
+#747DA8
+116, 125, 168"
+></td><td
+class="color"
+style="background-color:#bac4c5"
+title="Untitled
+#BAC4C5
+186, 196, 197"
+></td><td
+class="color"
+style="background-color:#859ab9"
+title="Untitled
+#859AB9
+133, 154, 185"
+></td><td
+class="color"
+style="background-color:#78616b"
+title="Untitled
+#78616B
+120, 97, 107"
+></td><td
+class="color"
+style="background-color:#cac4ac"
+title="Untitled
+#CAC4AC
+202, 196, 172"
+></td></tr><tr><td
+class="color"
+style="background-color:#366291"
+title="Untitled
+#366291
+54, 98, 145"
+></td><td
+class="color"
+style="background-color:#afb4b7"
+title="Untitled
+#AFB4B7
+175, 180, 183"
+></td><td
+class="color"
+style="background-color:#807384"
+title="Untitled
+#807384
+128, 115, 132"
+></td><td
+class="color"
+style="background-color:#5f85b6"
+title="Untitled
+#5F85B6
+95, 133, 182"
+></td><td
+class="color"
+style="background-color:#847b6a"
+title="Untitled
+#847B6A
+132, 123, 106"
+></td><td
+class="color"
+style="background-color:#c0b7a8"
+title="Untitled
+#C0B7A8
+192, 183, 168"
+></td><td
+class="color"
+style="background-color:#8c8d92"
+title="Untitled
+#8C8D92
+140, 141, 146"
+></td><td
+class="color"
+style="background-color:#6a6464"
+title="Untitled
+#6A6464
+106, 100, 100"
+></td><td
+class="color"
+style="background-color:#457d72"
+title="Untitled
+#457D72
+69, 125, 114"
+></td><td
+class="color"
+style="background-color:#2f3437"
+title="Untitled
+#2F3437
+47, 52, 55"
+></td><td
+class="color"
+style="background-color:#7c9f98"
+title="Untitled
+#7C9F98
+124, 159, 152"
+></td><td
+class="color"
+style="background-color:#beb3bb"
+title="Untitled
+#BEB3BB
+190, 179, 187"
+></td></tr><tr><td
+class="color"
+style="background-color:#7e8cb3"
+title="Untitled
+#7E8CB3
+126, 140, 179"
+></td><td
+class="color"
+style="background-color:#5b969e"
+title="Untitled
+#5B969E
+91, 150, 158"
+></td><td
+class="color"
+style="background-color:#bebdcd"
+title="Untitled
+#BEBDCD
+190, 189, 205"
+></td><td
+class="color"
+style="background-color:#c0ccda"
+title="Untitled
+#C0CCDA
+192, 204, 218"
+></td><td
+class="color"
+style="background-color:#636aa0"
+title="Untitled
+#636AA0
+99, 106, 160"
+></td><td
+class="color"
+style="background-color:#9eb0b0"
+title="Untitled
+#9EB0B0
+158, 176, 176"
+></td><td
+class="color"
+style="background-color:#b1c1c0"
+title="Untitled
+#B1C1C0
+177, 193, 192"
+></td><td
+class="color"
+style="background-color:#696775"
+title="Untitled
+#696775
+105, 103, 117"
+></td><td
+class="color"
+style="background-color:#4b545d"
+title="Untitled
+#4B545D
+75, 84, 93"
+></td><td
+class="color"
+style="background-color:#879ebe"
+title="Untitled
+#879EBE
+135, 158, 190"
+></td><td
+class="color"
+style="background-color:#547598"
+title="Untitled
+#547598
+84, 117, 152"
+></td><td
+class="color"
+style="background-color:#314955"
+title="Untitled
+#314955
+49, 73, 85"
+></td></tr><tr><td
+class="color"
+style="background-color:#dcd1cd"
+title="Untitled
+#DCD1CD
+220, 209, 205"
+></td><td
+class="color"
+style="background-color:#739891"
+title="Untitled
+#739891
+115, 152, 145"
+></td><td
+class="color"
+style="background-color:#5c7270"
+title="Untitled
+#5C7270
+92, 114, 112"
+></td><td
+class="color"
+style="background-color:#67658a"
+title="Untitled
+#67658A
+103, 101, 138"
+></td><td
+class="color"
+style="background-color:#8c8d92"
+title="Untitled
+#8C8D92
+140, 141, 146"
+></td><td
+class="color"
+style="background-color:#504b4f"
+title="Untitled
+#504B4F
+80, 75, 79"
+></td><td
+class="color"
+style="background-color:#125987"
+title="Untitled
+#125987
+18, 89, 135"
+></td><td
+class="color"
+style="background-color:#a09fc1"
+title="Untitled
+#A09FC1
+160, 159, 193"
+></td><td
+class="color"
+style="background-color:#aaada6"
+title="Untitled
+#AAADA6
+170, 173, 166"
+></td><td
+class="color"
+style="background-color:#8b8c91"
+title="Untitled
+#8B8C91
+139, 140, 145"
+></td><td
+class="color"
+style="background-color:#afbad0"
+title="Untitled
+#AFBAD0
+175, 186, 208"
+></td><td
+class="color"
+style="background-color:#4d6472"
+title="Untitled
+#4D6472
+77, 100, 114"
+></td></tr><tr><td
+class="color"
+style="background-color:#7f817e"
+title="Untitled
+#7F817E
+127, 129, 126"
+></td><td
+class="color"
+style="background-color:#b4afac"
+title="Untitled
+#B4AFAC
+180, 175, 172"
+></td><td
+class="color"
+style="background-color:#8faeca"
+title="Untitled
+#8FAECA
+143, 174, 202"
+></td><td
+class="color"
+style="background-color:#8ca4ca"
+title="Untitled
+#8CA4CA
+140, 164, 202"
+></td><td
+class="color"
+style="background-color:#2e425b"
+title="Untitled
+#2E425B
+46, 66, 91"
+></td><td
+class="color"
+style="background-color:#93afa3"
+title="Untitled
+#93AFA3
+147, 175, 163"
+></td><td
+class="color"
+style="background-color:#978daf"
+title="Untitled
+#978DAF
+151, 141, 175"
+></td><td
+class="color"
+style="background-color:#71604c"
+title="Untitled
+#71604C
+113, 96, 76"
+></td><td
+class="color"
+style="background-color:#677ba0"
+title="Untitled
+#677BA0
+103, 123, 160"
+></td><td
+class="color"
+style="background-color:#244d63"
+title="Untitled
+#244D63
+36, 77, 99"
+></td><td
+class="color"
+style="background-color:#8c9da4"
+title="Untitled
+#8C9DA4
+140, 157, 164"
+></td><td
+class="color"
+style="background-color:#423c40"
+title="Untitled
+#423C40
+66, 60, 64"
 ></td></tr></table>
 </article><article class="palette">
     <h1 class="name"><a href="https://raw.githubusercontent.com/denilsonsa/gimp-palettes/master/palettes/Gmail-label-colors.gpl">Gmail label colors</a></h1>
