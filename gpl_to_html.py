@@ -300,6 +300,12 @@ class GimpPalette:
         self.comments = []
         self.colors = []
 
+    def __repr__(self):
+        return '<GimpPalette {0.name!r}, {1} colors over {0.columns} columns, {2} comments, loaded from {0.filename!r}>'.format(self, len(self.colors), len(self.comments))
+
+    def __str__(self):
+        return 'GimpPalette {0.name}'.format(self)
+
     @classmethod
     def new_from_filename(cls, filename):
         with open(filename) as f:
@@ -312,14 +318,19 @@ class GimpPalette:
         if filename:
             pal.filename = filename
 
+        lineno = 1
         header_magic = next(f)
-        assert header_magic.strip() == 'GIMP Palette'
+        assert header_magic.strip() == 'GIMP Palette', '{0}: Incorrect header at the first line'.format(filename)
 
         for line in f:
+            lineno += 1
             if line.startswith('Name:'):
                 pal.name = line.partition('Name:')[2].strip()
             elif line.startswith('Columns:'):
                 pal.columns = int(line.partition('Columns:')[2].strip())
+            elif line.startswith('Channels:'):
+                # Present in Aseprite palette, ignored here.
+                pass
             else:
                 line = line.strip()
                 if line.startswith('#'):
@@ -328,9 +339,8 @@ class GimpPalette:
                     splitted = line.split(maxsplit=3)
                     if len(splitted) == 3:
                         splitted.append('Untitled')
-                    if len(splitted) != 4:
-                        # TODO: Throw some error message or warning.
-                        pass
+                    assert len(splitted) == 4, 'Invalid line at {0}:{1}'.format(filename, lineno)
+
                     r, g, b, name = splitted
                     pal.colors.append(NamedColor(
                         r=int(r),
@@ -695,7 +705,7 @@ def palette_to_html(pal):
         filename=escape(pal.filename),
         name=escape(pal.name),
         cols=pal.columns,
-        rows=(ceil(len(pal.colors) / pal.columns)),
+        rows=(ceil(len(pal.colors) / (pal.columns or 16))),
         len=len(pal.colors),
         len_unique=pal.how_many_unique_colors(),
         comments='\n'.join(
