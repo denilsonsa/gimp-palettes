@@ -9,10 +9,12 @@
 	~/.gimp-2.8/palettes/Gimp_Palettes_by_nevit/*.gpl \
 	~/.gimp-2.8/palettes/base16-gimp-palette/*.gpl \
 	~/.gimp-2.8/palettes/calligra/*.gpl \
+	~/.steam/steamapps/common/Aseprite/data/palettes/*.gpl \
+	~/.steam/steamapps/common/Aseprite/data/extensions/*palettes/*.gpl \
 	/usr/share/gimp/2.0/palettes/*.gpl \
 	/usr/share/inkscape/palettes/*.gpl \
-	/usr/share/mypaint/palettes/*.gpl \
-	/usr/share/aseprite/data/palettes/*.gpl
+	/usr/share/mypaint/palettes/*.gpl
 
 # I don't have Drawpile installed anymore:
 # /usr/share/drawpile/drawpile/palettes/*.gpl
+# /usr/share/aseprite/data/palettes/*.gpl
