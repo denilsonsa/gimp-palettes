@@ -1,4 +1,4 @@
-A collection of RGB color palettes for use in [GIMP][] (but also [Drawpile][], [Inkscape][], [Krita][], [MyPaint][] or any other tool).
+A collection of RGB color palettes for use in [GIMP][] (but also [Aseprite][], [Drawpile][], [Inkscape][], [Krita][], [MyPaint][] or any other tool).
 
 You can [preview all these palettes directly in the browser][preview].
 
@@ -154,6 +154,7 @@ Other related pages and projects:
 
 * <https://github.com/paulwratt/programmers-palettes>
 
+[aseprite]: https://www.aseprite.org/
 [drawpile]: http://drawpile.net/
 [gimp]: http://www.gimp.org/
 [inkscape]: http://inkscape.org/
