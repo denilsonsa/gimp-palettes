@@ -1,9 +1,11 @@
 GIMP Palette
-Name: HW 6-bit RGB (EGA and Sega Master System)
+Name: HW 6-bit RGB (EGA and Sega Master System and Pebble Time)
 Columns: 16
 # https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_palettes#6-bit_RGB
 # https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter#Color_palette
 # http://segaretro.org/Palette
+# http://web.archive.org/web/20161207160515/https://developer.pebble.com/guides/app-resources/images/#color-palettes
+# https://developer.rebble.io/developer.pebble.com/guides/app-resources/images/index.html#color-palettes
 # python3 -c 'l=[0,85,170,255]; [print(a,b,c) for a in l for b in l for c in l]'
   0   0   0	Untitled
   0   0  85	Untitled

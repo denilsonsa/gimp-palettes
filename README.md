@@ -70,6 +70,9 @@ Sources for palettes in this collection:
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
     * <http://segaretro.org/Palette>
     * <http://www.pepto.de/projects/colorvic/>
+    * <http://web.archive.org/web/20161207160515/https://developer.pebble.com/guides/app-resources/images/#color-palettes>
+    * <http://web.archive.org/web/20161207155315/https://developer.pebble.com/guides/tools-and-resources/color-picker/>
+    * <https://github.com/pebble/clay/blob/1bf6db08092ab464974d1762a953ea7cbd24efb8/src/scripts/components/color.js>
 * INKredible
     * <http://inkredibleapp.com/>
     * <https://play.google.com/store/apps/details?id=com.viettran.INKredible>
