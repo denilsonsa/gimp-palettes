@@ -446,9 +446,13 @@ html, body {
     line-height: 16px;
 }
 .interactivepanel .confcontrols label {
-    padding-left: 1em;
+    padding-left: 1ex;
     white-space: nowrap;
 }
+.interactivepanel .confcontrols label input[type="search"] {
+    width: calc(128px - 2ex);
+}
+
 .interactivepanel .confcontrols label input[type="checkbox"] {
     margin-top: 0;
     margin-bottom: 0;
@@ -511,18 +515,14 @@ html, body {
 }
 
 @media (orientation: portrait) {
-    body {
-        padding-top: 80px;
-    }
     .interactivepanel {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
         right: 0;
-        height: 80px;
     }
     .fixed-panel .interactivepanel {
-        position: fixed;
+        position: sticky;
     }
 }
 
@@ -609,12 +609,17 @@ table.colors.with-border {
     height: 7px;
     border: 1px solid black;
 }
+
+.search_filtered {
+    display: none;
+}
 </style>
 </head>
 <body class="fixed-panel">
 
 <aside class="interactivepanel">
 <div class="confcontrols">
+    <label><input type="search" id="search_field" placeholder="Search (regex)"></label>
     <label><input type="checkbox" id="toggle_border_checkbox"> Border</label>
     <label><input type="checkbox" id="toggle_fixed_checkbox" checked> Sticky panel</label>
 </div>
@@ -631,12 +636,38 @@ table.colors.with-border {
 </aside>
 
 <script>
-function toggle_class_based_on_checkbox(checkbox, classname, elem) {
-    if (checkbox.checked) {
-        elem.classList.add(classname);
-    } else {
-        elem.classList.remove(classname);
+function debounce(event_handler, timeout_ms) {
+    var saved_event;
+    var timeout_id;
+    return function(ev) {
+        clearTimeout(timeout_id);
+        saved_event = ev;
+        timeout_id = setTimeout(event_handler, timeout_ms, saved_event);
+    };
+}
+
+function matches_search_text_for_palette(palette_elem, search_re) {
+    for (var child_elem of palette_elem.querySelectorAll('.name, .properties, .comment')) {
+        var text = child_elem.textContent.trim();
+        if (search_re.test(text)) {
+            return true;
+        }
     }
+    return false;
+}
+function filter_palettes(ev) {
+    var search_text = ev.target.value;
+    var search_re = new RegExp(search_text, 'imu');
+    var palettes = document.querySelectorAll('#palettes .palette');
+    for (var palette of palettes) {
+        palette.classList.toggle(
+            'search_filtered',
+            !matches_search_text_for_palette(palette, search_re)
+        );
+    }
+}
+function toggle_class_based_on_checkbox(checkbox, classname, elem) {
+    elem.classList.toggle(classname, checkbox.checked);
 }
 function toggle_border(ev) {
     toggle_class_based_on_checkbox(ev.target, 'with-border', document.getElementById('palettes'));
@@ -644,9 +675,13 @@ function toggle_border(ev) {
 function toggle_fixed(ev) {
     toggle_class_based_on_checkbox(ev.target, 'fixed-panel', document.body);
 }
+
+document.getElementById('search_field').addEventListener('input', debounce(filter_palettes, 500));
 document.getElementById('toggle_border_checkbox').addEventListener('change', toggle_border);
 document.getElementById('toggle_fixed_checkbox').addEventListener('change', toggle_fixed);
+
 window.addEventListener('load', function(ev) {
+    document.getElementById('search_field').dispatchEvent(new Event('input'));
     document.getElementById('toggle_border_checkbox').dispatchEvent(new Event('change'));
     document.getElementById('toggle_fixed_checkbox').dispatchEvent(new Event('change'));
 });
