@@ -1,0 +1,90 @@
+GIMP Palette
+Name: HW 6-bit RGB sunlight (Pebble Time color picker from clay)
+Columns: 9
+# https://github.com/pebble/clay/blob/1bf6db08092ab464974d1762a953ea7cbd24efb8/src/scripts/components/color.js
+# https://github.com/pebble/clay
+# http://web.archive.org/web/20161207160755/https://developer.pebble.com/assets/js/tools/color-dict.js
+# https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-dict.js
+# http://web.archive.org/web/20161207160755/https://developer.pebble.com/assets/js/tools/color-mapping-sunlight.js
+# https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-mapping-sunlight.js
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+158 229 148	Bright Green
+201 234 167	Inchworm
+ 72  72  72	Untitled
+255 241 181	Icterine
+255 246 211	Pastel Yellow
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+199 240 200	Mint Green
+157 231 160	Screamin' Green
+142 227 145	Green
+201 232 157	Spring Bud
+255 238 171	Yellow
+241 173 147	Rajah
+239 181 184	Melon
+ 72  72  72	Untitled
+155 236 194	Medium Aquamarine
+142 230 158	Malachite
+ 94 152  96	Islamic Green
+117 154 100	Kelly Green
+174 163 130	Brass
+175 160 114	Limerick
+241 170 134	Chrome Yellow
+230 110 107	Orange
+230 114 124	Sunset Orange
+195 249 247	Celeste
+138 235 192	Medium Spring Green
+ 92 155 114	Jaeger Green
+117 157 118	May Green
+ 43  74  44	Dark Green
+ 86  78  54	Army Green
+157  91  77	Windsor Tan
+227  84  98	Red
+226  88 116	Folly
+ 72  72  72	Untitled
+113 166 164	Cadet Blue
+ 87 165 162	Tiffany Blue
+ 39  81  79	Midnight Green
+255 255 255	White
+  0   0   0	Black
+157  96 100	Rose Vale
+153  53  63	Dark Candy Apple Red
+ 72  72  72	Untitled
+149 246 242	Electric Blue
+132 245 241	Cyan
+ 76 180 219	Vivid Cerulean
+ 22  99 141	Cobalt Blue
+171 171 171	Light Gray
+ 84  84  84	Dark Gray
+ 74  22  27	Bulgarian Rose
+152  62  90	Jazzberry Jam
+227 127 167	Brilliant Rose
+105 181 221	Picton Blue
+  0 125 206	Blue Moon
+  0 104 202	Blue
+  0  67 135	Duke Blue
+  0  30  65	Oxford Blue
+ 72  39  72	Imperial Purple
+149  86 148	Purple
+225 106 163	Fashion Magenta
+236 195 235	Rich Brilliant Lavender
+ 72  72  72	Untitled
+ 79 103 144	Liberty
+ 65 128 208	Very Light Blue
+ 47 107 204	Electric Ultramarine
+ 64  72 138	Indigo
+143 116 210	Vivid Violet
+222 131 220	Magenta
+225 148 223	Shocking Pink
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+167 186 226	Baby Blue Eyes
+149 135 213	Lavender Indigo
+154 112 153	Purpureus
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled

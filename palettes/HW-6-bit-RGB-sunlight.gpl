@@ -1,0 +1,77 @@
+GIMP Palette
+Name: HW 6-bit RGB sunlight (Pebble Time)
+Columns: 16
+# https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_palettes#6-bit_RGB
+# https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter#Color_palette
+# http://segaretro.org/Palette
+# http://web.archive.org/web/20161207160515/https://developer.pebble.com/guides/app-resources/images/#color-palettes
+# https://developer.rebble.io/developer.pebble.com/guides/app-resources/images/index.html#color-palettes
+# http://web.archive.org/web/20161207160755/https://developer.pebble.com/assets/js/tools/color-dict.js
+# https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-dict.js
+# http://web.archive.org/web/20161207160755/https://developer.pebble.com/assets/js/tools/color-mapping-sunlight.js
+# https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-mapping-sunlight.js
+# python3 -c 'l=[0,85,170,255]; [print(a,b,c) for a in l for b in l for c in l]'
+  0   0   0	Black
+  0  30  65	Oxford Blue
+  0  67 135	Duke Blue
+  0 104 202	Blue
+ 43  74  44	Dark Green
+ 39  81  79	Midnight Green
+ 22  99 141	Cobalt Blue
+  0 125 206	Blue Moon
+ 94 152  96	Islamic Green
+ 92 155 114	Jaeger Green
+ 87 165 162	Tiffany Blue
+ 76 180 219	Vivid Cerulean
+142 227 145	Green
+142 230 158	Malachite
+138 235 192	Medium Spring Green
+132 245 241	Cyan
+ 74  22  27	Bulgarian Rose
+ 72  39  72	Imperial Purple
+ 64  72 138	Indigo
+ 47 107 204	Electric Ultramarine
+ 86  78  54	Army Green
+ 84  84  84	Dark Gray
+ 79 103 144	Liberty
+ 65 128 208	Very Light Blue
+117 154 100	Kelly Green
+117 157 118	May Green
+113 166 164	Cadet Blue
+105 181 221	Picton Blue
+158 229 148	Bright Green
+157 231 160	Screamin' Green
+155 236 194	Medium Aquamarine
+149 246 242	Electric Blue
+153  53  63	Dark Candy Apple Red
+152  62  90	Jazzberry Jam
+149  86 148	Purple
+143 116 210	Vivid Violet
+157  91  77	Windsor Tan
+157  96 100	Rose Vale
+154 112 153	Purpureus
+149 135 213	Lavender Indigo
+175 160 114	Limerick
+174 163 130	Brass
+171 171 171	Light Gray
+167 186 226	Baby Blue Eyes
+201 232 157	Spring Bud
+201 234 167	Inchworm
+199 240 200	Mint Green
+195 249 247	Celeste
+227  84  98	Red
+226  88 116	Folly
+225 106 163	Fashion Magenta
+222 131 220	Magenta
+230 110 107	Orange
+230 114 124	Sunset Orange
+227 127 167	Brilliant Rose
+225 148 223	Shocking Pink
+241 170 134	Chrome Yellow
+241 173 147	Rajah
+239 181 184	Melon
+236 195 235	Rich Brilliant Lavender
+255 238 171	Yellow
+255 241 181	Icterine
+255 246 211	Pastel Yellow
+255 255 255	White
