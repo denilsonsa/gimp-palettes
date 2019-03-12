@@ -3,84 +3,86 @@ Name: HW 6-bit RGB (Pebble Time color picker from clay)
 Columns: 9
 # https://github.com/pebble/clay/blob/1bf6db08092ab464974d1762a953ea7cbd24efb8/src/scripts/components/color.js
 # https://github.com/pebble/clay
- 72  72  72
- 72  72  72
- 85 255   0
-170 255  85
- 72  72  72
-255 255  85
-255 255 170
- 72  72  72
- 72  72  72
- 72  72  72
-170 255 170
- 85 255  85
-  0 255   0
-170 255   0
-255 255   0
-255 170  85
-255 170 170
- 72  72  72
- 85 255 170
-  0 255  85
-  0 170   0
- 85 170   0
-170 170  85
-170 170   0
-255 170   0
-255  85   0
-255  85  85
-170 255 255
-  0 255 170
-  0 170  85
- 85 170  85
-  0  85   0
- 85  85   0
-170  85   0
-255   0   0
-255   0  85
- 72  72  72
- 85 170 170
-  0 170 170
-  0  85  85
-255 255 255
-  0   0   0
-170  85  85
-170   0   0
- 72  72  72
- 85 255 255
-  0 255 255
-  0 170 255
-  0  85 170
-170 170 170
- 85  85  85
- 85   0   0
-170   0  85
-255  85 170
- 85 170 255
-  0  85 255
-  0   0 255
-  0   0 170
-  0   0  85
- 85   0  85
-170   0 170
-255   0 170
-255 170 255
- 72  72  72
- 85  85 170
- 85  85 255
- 85   0 255
- 85   0 170
-170   0 255
-255   0 255
-255  85 255
- 72  72  72
- 72  72  72
- 72  72  72
- 72  72  72
-170 170 255
-170  85 255
-170  85 170
- 72  72  72
- 72  72  72
- 72  72  72
+# http://web.archive.org/web/20161207160755/https://developer.pebble.com/assets/js/tools/color-dict.js
+# https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-dict.js
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 85 255   0	Bright Green
+170 255  85	Inchworm
+ 72  72  72	Untitled
+255 255  85	Icterine
+255 255 170	Pastel Yellow
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+170 255 170	Mint Green
+ 85 255  85	Screamin' Green
+  0 255   0	Green
+170 255   0	Spring Bud
+255 255   0	Yellow
+255 170  85	Rajah
+255 170 170	Melon
+ 72  72  72	Untitled
+ 85 255 170	Medium Aquamarine
+  0 255  85	Malachite
+  0 170   0	Islamic Green
+ 85 170   0	Kelly Green
+170 170  85	Brass
+170 170   0	Limerick
+255 170   0	Chrome Yellow
+255  85   0	Orange
+255  85  85	Sunset Orange
+170 255 255	Celeste
+  0 255 170	Medium Spring Green
+  0 170  85	Jaeger Green
+ 85 170  85	May Green
+  0  85   0	Dark Green
+ 85  85   0	Army Green
+170  85   0	Windsor Tan
+255   0   0	Red
+255   0  85	Folly
+ 72  72  72	Untitled
+ 85 170 170	Cadet Blue
+  0 170 170	Tiffany Blue
+  0  85  85	Midnight Green
+255 255 255	White
+  0   0   0	Black
+170  85  85	Rose Vale
+170   0   0	Dark Candy Apple Red
+ 72  72  72	Untitled
+ 85 255 255	Electric Blue
+  0 255 255	Cyan
+  0 170 255	Vivid Cerulean
+  0  85 170	Cobalt Blue
+170 170 170	Light Gray
+ 85  85  85	Dark Gray
+ 85   0   0	Bulgarian Rose
+170   0  85	Jazzberry Jam
+255  85 170	Brilliant Rose
+ 85 170 255	Picton Blue
+  0  85 255	Blue Moon
+  0   0 255	Blue
+  0   0 170	Duke Blue
+  0   0  85	Oxford Blue
+ 85   0  85	Imperial Purple
+170   0 170	Purple
+255   0 170	Fashion Magenta
+255 170 255	Rich Brilliant Lavender
+ 72  72  72	Untitled
+ 85  85 170	Liberty
+ 85  85 255	Very Light Blue
+ 85   0 255	Electric Ultramarine
+ 85   0 170	Indigo
+170   0 255	Vivid Violet
+255   0 255	Magenta
+255  85 255	Shocking Pink
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+170 170 255	Baby Blue Eyes
+170  85 255	Lavender Indigo
+170  85 170	Purpureus
+ 72  72  72	Untitled
+ 72  72  72	Untitled
+ 72  72  72	Untitled

@@ -3,61 +3,63 @@ Name: HW 6-bit RGB (Pebble Time color picker from developer site)
 Columns: 20
 # https://developer.rebble.io/developer.pebble.com/guides/tools-and-resources/color-picker/index.html
 # http://web.archive.org/web/20161207155315/https://developer.pebble.com/guides/tools-and-resources/color-picker/
+# http://web.archive.org/web/20161207160755/https://developer.pebble.com/assets/js/tools/color-dict.js
+# https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-dict.js
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-170 255  85	Untitled
-170 255  85	Untitled
+170 255  85	Inchworm
+170 255  85	Inchworm
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-255 255 170	Untitled
-255 255 170	Untitled
+255 255 170	Pastel Yellow
+255 255 170	Pastel Yellow
 244 244 244	Untitled
 244 244 244	Untitled
-170 170 170	Untitled
-170 170 170	Untitled
-255 255 255	Untitled
-255 255 255	Untitled
+170 170 170	Light Gray
+170 170 170	Light Gray
+255 255 255	White
+255 255 255	White
 244 244 244	Untitled
-170 255 170	Untitled
-170 255 170	Untitled
+170 255 170	Mint Green
+170 255 170	Mint Green
 244 244 244	Untitled
 244 244 244	Untitled
- 85 255   0	Untitled
- 85 255   0	Untitled
-170 255   0	Untitled
-170 255   0	Untitled
+ 85 255   0	Bright Green
+ 85 255   0	Bright Green
+170 255   0	Spring Bud
+170 255   0	Spring Bud
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-255 255  85	Untitled
-255 255  85	Untitled
+255 255  85	Icterine
+255 255  85	Icterine
 244 244 244	Untitled
 244 244 244	Untitled
-  0   0   0	Untitled
-  0   0   0	Untitled
- 85  85  85	Untitled
- 85  85  85	Untitled
+  0   0   0	Black
+  0   0   0	Black
+ 85  85  85	Dark Gray
+ 85  85  85	Dark Gray
 244 244 244	Untitled
- 85 255  85	Untitled
- 85 255  85	Untitled
-  0 255   0	Untitled
-  0 255   0	Untitled
+ 85 255  85	Screamin' Green
+ 85 255  85	Screamin' Green
+  0 255   0	Green
+  0 255   0	Green
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-255 255   0	Untitled
-255 255   0	Untitled
-255 170  85	Untitled
-255 170  85	Untitled
+255 255   0	Yellow
+255 255   0	Yellow
+255 170  85	Rajah
+255 170  85	Rajah
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
@@ -65,102 +67,102 @@ Columns: 20
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-  0 255  85	Untitled
-  0 255  85	Untitled
-  0 170   0	Untitled
-  0 170   0	Untitled
- 85 170   0	Untitled
- 85 170   0	Untitled
-170 170  85	Untitled
-170 170  85	Untitled
-170 170   0	Untitled
-170 170   0	Untitled
-255 170   0	Untitled
-255 170   0	Untitled
-255  85   0	Untitled
-255  85   0	Untitled
+  0 255  85	Malachite
+  0 255  85	Malachite
+  0 170   0	Islamic Green
+  0 170   0	Islamic Green
+ 85 170   0	Kelly Green
+ 85 170   0	Kelly Green
+170 170  85	Brass
+170 170  85	Brass
+170 170   0	Limerick
+170 170   0	Limerick
+255 170   0	Chrome Yellow
+255 170   0	Chrome Yellow
+255  85   0	Orange
+255  85   0	Orange
 244 244 244	Untitled
 244 244 244	Untitled
-255 170 170	Untitled
-255 170 170	Untitled
+255 170 170	Melon
+255 170 170	Melon
 244 244 244	Untitled
- 85 255 170	Untitled
- 85 255 170	Untitled
-  0 170  85	Untitled
-  0 170  85	Untitled
- 85 170  85	Untitled
- 85 170  85	Untitled
-  0  85   0	Untitled
-  0  85   0	Untitled
- 85  85   0	Untitled
- 85  85   0	Untitled
+ 85 255 170	Medium Aquamarine
+ 85 255 170	Medium Aquamarine
+  0 170  85	Jaeger Green
+  0 170  85	Jaeger Green
+ 85 170  85	May Green
+ 85 170  85	May Green
+  0  85   0	Dark Green
+  0  85   0	Dark Green
+ 85  85   0	Army Green
+ 85  85   0	Army Green
 244 244 244	Untitled
 244 244 244	Untitled
-170  85   0	Untitled
-170  85   0	Untitled
-255   0   0	Untitled
-255   0   0	Untitled
-255  85  85	Untitled
-255  85  85	Untitled
+170  85   0	Windsor Tan
+170  85   0	Windsor Tan
+255   0   0	Red
+255   0   0	Red
+255  85  85	Sunset Orange
+255  85  85	Sunset Orange
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-  0 255 170	Untitled
-  0 255 170	Untitled
-  0 170 170	Untitled
-  0 170 170	Untitled
- 85 170 170	Untitled
- 85 170 170	Untitled
-  0  85  85	Untitled
-  0  85  85	Untitled
+  0 255 170	Medium Spring Green
+  0 255 170	Medium Spring Green
+  0 170 170	Tiffany Blue
+  0 170 170	Tiffany Blue
+ 85 170 170	Cadet Blue
+ 85 170 170	Cadet Blue
+  0  85  85	Midnight Green
+  0  85  85	Midnight Green
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-170  85  85	Untitled
-170  85  85	Untitled
-255   0  85	Untitled
-255   0  85	Untitled
+170  85  85	Rose Vale
+170  85  85	Rose Vale
+255   0  85	Folly
+255   0  85	Folly
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
- 85 255 255	Untitled
- 85 255 255	Untitled
-  0 255 255	Untitled
-  0 255 255	Untitled
+ 85 255 255	Electric Blue
+ 85 255 255	Electric Blue
+  0 255 255	Cyan
+  0 255 255	Cyan
 244 244 244	Untitled
 244 244 244	Untitled
-  0  85 170	Untitled
-  0  85 170	Untitled
+  0  85 170	Cobalt Blue
+  0  85 170	Cobalt Blue
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
- 85   0   0	Untitled
- 85   0   0	Untitled
-170   0   0	Untitled
-170   0   0	Untitled
+ 85   0   0	Bulgarian Rose
+ 85   0   0	Bulgarian Rose
+170   0   0	Dark Candy Apple Red
+170   0   0	Dark Candy Apple Red
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-170 255 255	Untitled
-170 255 255	Untitled
+170 255 255	Celeste
+170 255 255	Celeste
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-  0 170 255	Untitled
-  0 170 255	Untitled
-  0   0 170	Untitled
-  0   0 170	Untitled
-  0   0  85	Untitled
-  0   0  85	Untitled
- 85   0  85	Untitled
- 85   0  85	Untitled
-170   0  85	Untitled
-170   0  85	Untitled
-255   0 170	Untitled
-255   0 170	Untitled
+  0 170 255	Vivid Cerulean
+  0 170 255	Vivid Cerulean
+  0   0 170	Duke Blue
+  0   0 170	Duke Blue
+  0   0  85	Oxford Blue
+  0   0  85	Oxford Blue
+ 85   0  85	Imperial Purple
+ 85   0  85	Imperial Purple
+170   0  85	Jazzberry Jam
+170   0  85	Jazzberry Jam
+255   0 170	Fashion Magenta
+255   0 170	Fashion Magenta
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
@@ -168,20 +170,20 @@ Columns: 20
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
- 85 170 255	Untitled
- 85 170 255	Untitled
-  0   0 255	Untitled
-  0   0 255	Untitled
- 85   0 255	Untitled
- 85   0 255	Untitled
- 85   0 170	Untitled
- 85   0 170	Untitled
-170   0 170	Untitled
-170   0 170	Untitled
-255   0 255	Untitled
-255   0 255	Untitled
-255  85 170	Untitled
-255  85 170	Untitled
+ 85 170 255	Picton Blue
+ 85 170 255	Picton Blue
+  0   0 255	Blue
+  0   0 255	Blue
+ 85   0 255	Electric Ultramarine
+ 85   0 255	Electric Ultramarine
+ 85   0 170	Indigo
+ 85   0 170	Indigo
+170   0 170	Purple
+170   0 170	Purple
+255   0 255	Magenta
+255   0 255	Magenta
+255  85 170	Brilliant Rose
+255  85 170	Brilliant Rose
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
@@ -189,20 +191,20 @@ Columns: 20
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-  0  85 255	Untitled
-  0  85 255	Untitled
- 85  85 255	Untitled
- 85  85 255	Untitled
- 85  85 170	Untitled
- 85  85 170	Untitled
-170   0 255	Untitled
-170   0 255	Untitled
-170  85 170	Untitled
-170  85 170	Untitled
-255  85 255	Untitled
-255  85 255	Untitled
-255 170 255	Untitled
-255 170 255	Untitled
+  0  85 255	Blue Moon
+  0  85 255	Blue Moon
+ 85  85 255	Very Light Blue
+ 85  85 255	Very Light Blue
+ 85  85 170	Liberty
+ 85  85 170	Liberty
+170   0 255	Vivid Violet
+170   0 255	Vivid Violet
+170  85 170	Purpureus
+170  85 170	Purpureus
+255  85 255	Shocking Pink
+255  85 255	Shocking Pink
+255 170 255	Rich Brilliant Lavender
+255 170 255	Rich Brilliant Lavender
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
@@ -212,12 +214,12 @@ Columns: 20
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
-170 170 255	Untitled
-170 170 255	Untitled
+170 170 255	Baby Blue Eyes
+170 170 255	Baby Blue Eyes
 244 244 244	Untitled
 244 244 244	Untitled
-170  85 255	Untitled
-170  85 255	Untitled
+170  85 255	Lavender Indigo
+170  85 255	Lavender Indigo
 244 244 244	Untitled
 244 244 244	Untitled
 244 244 244	Untitled
