@@ -1,11 +1,12 @@
 GIMP Palette
 Name: Drawception Neon
-Columns: 7
+Columns: 8
 # https://drawception.com/
-255 255 255	Untitled
   0   0   0	Untitled
 173 253   9	Untitled
+243 243  21	Untitled
 254 172   9	Untitled
 254  11 171	Untitled
 173  11 251	Untitled
   0 171 255	Untitled
+255 255 255	Untitled
