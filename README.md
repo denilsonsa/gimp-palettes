@@ -73,6 +73,7 @@ Sources for palettes in this collection:
     * <http://web.archive.org/web/20161207160515/https://developer.pebble.com/guides/app-resources/images/#color-palettes>
     * <http://web.archive.org/web/20161207155315/https://developer.pebble.com/guides/tools-and-resources/color-picker/>
     * <https://github.com/pebble/clay/blob/1bf6db08092ab464974d1762a953ea7cbd24efb8/src/scripts/components/color.js>
+    * <http://pixeltao.ca/post/152163410138/the-infamous-nes-palette>
 * INKredible
     * <http://inkredibleapp.com/>
     * <https://play.google.com/store/apps/details?id=com.viettran.INKredible>
