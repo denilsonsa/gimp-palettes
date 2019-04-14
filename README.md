@@ -153,8 +153,9 @@ Default palettes (not included in this collection):
 * Krita/Calligra: <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
 * MyPaint: <https://github.com/mypaint/mypaint/tree/master/palettes>
 
-Other related pages and projects:
+Other related/similar pages and projects:
 
+* <https://lospec.com/palette-list>
 * <https://github.com/paulwratt/programmers-palettes>
 
 [aseprite]: https://www.aseprite.org/
