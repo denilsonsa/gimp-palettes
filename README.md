@@ -140,7 +140,6 @@ Other palettes (not included in this collection):
 * <https://github.com/chriskempson/base16-gimp-palette>
 * <https://gist.github.com/dimaursu/9921467>
 * <http://nevit.deviantart.com/art/Gimp-Palettes-82563425>
-* <http://ftp.cc.uoc.gr/graphics/packages/gimp/extras/>
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette>
 * <http://colorpalettes.ravetracer.de/>
 * <http://colorbrewer2.org/>
