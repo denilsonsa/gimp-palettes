@@ -636,12 +636,20 @@ table.colors.with-border {
 </aside>
 
 <script>
-function debounce(event_handler, timeout_ms) {
+// This function returns a function that debounces a certain event.
+// Arguments:
+//   event_handler             - Function (callback) to handle the event.
+//   timeout_ms                - Amount of time to wait until event_handler is called.
+//   unthrottled_event_handler - Function (callback) to be called on all events. (optional)
+function debounce(event_handler, timeout_ms, unthrottled_event_handler) {
     var saved_event;
     var timeout_id;
     return function(ev) {
         clearTimeout(timeout_id);
         saved_event = ev;
+        if (unthrottled_event_handler) {
+            unthrottled_event_handler(saved_event);
+        }
         timeout_id = setTimeout(event_handler, timeout_ms, saved_event);
     };
 }
@@ -655,9 +663,19 @@ function matches_search_text_for_palette(palette_elem, search_re) {
     }
     return false;
 }
+// Event handler to filter all palettes based on the input field.
 function filter_palettes(ev) {
-    var search_text = ev.target.value;
-    var search_re = new RegExp(search_text, 'imu');
+    var search_field = ev.target;
+    var search_text = search_field.value;
+    var search_re;
+    try {
+        search_re = new RegExp(search_text, 'i');
+    } catch(error) {
+        search_field.setCustomValidity(error.message);
+        search_field.reportValidity();
+        return;
+    }
+    search_field.setCustomValidity('');
     var palettes = document.querySelectorAll('#palettes .palette');
     for (var palette of palettes) {
         palette.classList.toggle(
@@ -665,6 +683,9 @@ function filter_palettes(ev) {
             !matches_search_text_for_palette(palette, search_re)
         );
     }
+}
+function clear_form_validity(ev) {
+    ev.target.setCustomValidity('');
 }
 function toggle_class_based_on_checkbox(checkbox, classname, elem) {
     elem.classList.toggle(classname, checkbox.checked);
@@ -676,7 +697,7 @@ function toggle_fixed(ev) {
     toggle_class_based_on_checkbox(ev.target, 'fixed-panel', document.body);
 }
 
-document.getElementById('search_field').addEventListener('input', debounce(filter_palettes, 500));
+document.getElementById('search_field').addEventListener('input', debounce(filter_palettes, 500, clear_form_validity));
 document.getElementById('toggle_border_checkbox').addEventListener('change', toggle_border);
 document.getElementById('toggle_fixed_checkbox').addEventListener('change', toggle_fixed);
 
