@@ -2,11 +2,11 @@ name: test
 
 on:
   push:
-    branches:
-      - master
+    paths:
+      - 'gpl_to_html.py'
 
 jobs:
-  deploy:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
