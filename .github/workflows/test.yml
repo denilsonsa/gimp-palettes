@@ -1,0 +1,14 @@
+name: test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - run: ./gpl_to_html.py --test
