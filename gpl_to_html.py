@@ -2,6 +2,7 @@
 
 import argparse
 import os.path
+import re
 import sys
 from collections import namedtuple
 from html import escape
@@ -747,6 +748,27 @@ document.getElementById('palettes').addEventListener(
 '''
 
 
+def linkify(text):
+    '''Adds <a href="...">...</a> around URLs.
+
+    >>> linkify('Foo http://example.com/ bar')
+    'Foo <a href="http://example.com/">http://example.com/</a> bar'
+    >>> linkify('Foo https://example.com/ bar')
+    'Foo <a href="https://example.com/">https://example.com/</a> bar'
+    >>> linkify('Foo https://exam-ple.com:8080/~p_/123:x,y?a=b+c&amp;%20#!a@b$c*d bar')
+    'Foo <a href="https://exam-ple.com:8080/~p_/123:x,y?a=b+c&amp;%20#!a@b$c*d">https://exam-ple.com:8080/~p_/123:x,y?a=b+c&amp;%20#!a@b$c*d</a> bar'
+    >>> linkify('Foohttp://example.com/bar')
+    'Foohttp://example.com/bar'
+    >>> linkify('Foo(http://foo/) [https://bar] bar')
+    'Foo(<a href="http://foo/">http://foo/</a>) [<a href="https://bar">https://bar</a>] bar'
+    '''
+    return re.sub(
+        r'\b(https?://[-a-zA-Z0-9_.,/~?=+#!@$%&*;:]+)',
+        r'<a href="\1">\1</a>',
+        text
+    )
+
+
 def palette_to_html(pal):
     # This function is a bit ugly just because I wanted to write it as a single
     # statement, just for fun.
@@ -765,7 +787,7 @@ def palette_to_html(pal):
         len=len(pal.colors),
         len_unique=pal.how_many_unique_colors(),
         comments='\n'.join(
-            '<p class="comment">{0}</p>'.format(escape(comment))
+            '<p class="comment">{0}</p>'.format(linkify(escape(comment)))
             for comment in pal.comments
         ),
         colors=''.join(
