@@ -98,6 +98,10 @@ Sources for palettes in this collection:
 * Papyrus (Android app by Steadfast Innovation)
     * <http://papyrusapp.com/>
     * <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
+* PICO-8
+    * <https://en.wikipedia.org/wiki/Pico-8#Display>
+    * <https://pico-8.fandom.com/wiki/Palette>
+	* <https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png>
 * Pixelator.co
     * <http://www.pixelator.co/>
     * <https://github.com/clarkduvall/pixelator>
