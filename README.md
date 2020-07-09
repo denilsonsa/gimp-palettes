@@ -147,6 +147,7 @@ Other palettes (not included in this collection):
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette> [at Wayback Machine](http://web.archive.org/web/20190204184652/tango.freedesktop.org/Tango_Icon_Theme_Guidelines/#Color_Palette)
 * <http://colorpalettes.ravetracer.de/> [at Wayback Machine](http://web.archive.org/web/20181105164601/http://colorpalettes.ravetracer.de/)
 * <http://colorbrewer2.org/>
+* <https://heracleum.org/dc/follow/palette-browser>
 
 Default palettes (not included in this collection):
 
