@@ -1,0 +1,36 @@
+GIMP Palette
+Name: Minecraft Chat Colors
+Columns: 16
+#
+  0   0   0	Black
+  0   0 170	Dark Blue
+  0 170   0	Dark Green
+  0 170 170	Dark Aqua
+170   0   0	Dark Red
+170   0 170	Dark Purple
+255 170   0	Gold
+170 170 170	Gray
+ 85  85  85	Dark Gray
+ 85  85 255	Blue
+ 85 255  85	Green
+ 85 255 255	Aqua
+255  85  85	Red
+255  85 255	Light Purple
+255 255  85	Yellow
+255 255 255	White
+  0   0   0	Black BG
+  0   0  42	Dark Blue BG
+  0  42   0	Dark Green BG
+  0  42  42	Dark Aqua BG
+ 42   0   0	Dark Red BG
+ 42   0  42	Dark Purple BG
+ 42  42   0	Gold BG
+ 42  42  42	Gray BG
+ 21  21  21	Dark Gray BG
+ 21  21  63	Blue BG
+ 21  63  21	Green BG
+ 21  63  63	Aqua BG
+ 63  21  21	Red BG
+ 63  21  63	Light Purple BG
+ 63  63  21	Yellow BG
+ 63  63  63	White BG
