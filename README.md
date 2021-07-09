@@ -93,6 +93,8 @@ Sources for palettes in this collection:
     * <https://itunes.apple.com/us/app/mindly/id771221376>
 * MindMup
     * <https://www.mindmup.com/>
+* Minecraft
+    * <https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes>
 * OnePlus Gallery
     * <https://play.google.com/store/apps/details?id=com.oneplus.gallery>
 * Papyrus (Android app by Steadfast Innovation)
