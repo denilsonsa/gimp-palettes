@@ -4,6 +4,8 @@ You can [preview all these palettes directly in the browser][preview].
 
 ----
 
+## Sources
+
 Sources for palettes in this collection:
 
 * 3DTin
@@ -141,6 +143,8 @@ Sources for palettes in this collection:
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
 * <http://wayofthepixel.net/index.php?topic=10784.0>
 
+## Other palettes
+
 Other palettes (not included in this collection):
 
 * <https://github.com/chriskempson/base16-gimp-palette>
@@ -151,6 +155,8 @@ Other palettes (not included in this collection):
 * <http://colorbrewer2.org/>
 * <https://heracleum.org/dc/follow/palette-browser>
 
+## Default palettes
+
 Default palettes (not included in this collection):
 
 * Aseprite: <https://github.com/aseprite/aseprite/tree/master/data/palettes> and <https://github.com/aseprite/aseprite/tree/master/data/extensions>
@@ -159,6 +165,8 @@ Default palettes (not included in this collection):
 * Inkscape: <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>
 * Krita/Calligra: <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
 * MyPaint: <https://github.com/mypaint/mypaint/tree/master/palettes>
+
+## Other links
 
 Other related/similar pages and projects:
 
@@ -172,3 +180,49 @@ Other related/similar pages and projects:
 [krita]: https://krita.org/
 [mypaint]: http://mypaint.intilinux.com/
 [preview]: http://denilsonsa.github.io/gimp-palettes/index.html
+
+## Project structure
+
+This project is supposed to be simple to use. People can download each individual palette directly from GitHub, or download the entire `palettes/` folder and use it on any of the many supported applications.
+
+* [`palettes/`](palettes/) - Contains palettes in GIMP's GPL format.
+    * The GPL format is plain text, can be easily viewed and edited in a text editor.
+    * The filename reflects the internal `Name:`, adjusted to avoid special characters.
+    * Each palette has a proper `Columns:` value, so that it nicely displays in GIMP and in the HTML preview.
+    * Comments are ignored by most applications (and even automatically stripped), but they are used by the HTML generator of this project. Each palette can have a comment with some overall description and links to external websites.
+    * Each color will be properly named, if relevant (i.e. if the colors originally had names in their original context).
+    * The whitespace will follow the GIMP convention: the three RGB values are space-padded, and separated by a Tab from the color name.
+* [`README.md`](README.md) - Contains overall description and links to the sources of these palettes.
+* [`.github/workflows`](.github/workflows/) - GitHub setup to automatically run some scripts after a commit.
+    * [`gh-pages.yml`](.github/workflows/gh-pages.yml) - This will automatically publish online the new HTML page after any changes to the master branch.
+    * [`test.yml`](.github/workflows/test.yml) - Runs tests on the [`gpl_to_html.py`](gpl_to_html.py) code, testing if the code behaves properly. It does NOT test the palettes.
+* Miscellaneous scripts - Scripts with a descriptive name for their purpose. If you only want to consume the palettes, these scripts can be ignored. If you are a developer wanting to contribute to the repository, these scripts can be useful. Some may need to be adapted to your environment.
+
+The [online page][preview] is generated from [`./make_index_html.sh`](make_index_html.sh) and pushed to the [`gh-pages` branch](https://github.com/denilsonsa/gimp-palettes/tree/gh-pages). That page is designed to be static and fully functional even without JavaScript. Of course, having JavaScript will enable additional features (e.g. mouse-over information and filtering the palette list). That page is also designed to be usable on any viewport dimensions. Unfortunately, it looks quite ugly (sorry about that).
+
+## Contributing
+
+How to add a new palette to this project:
+
+* Use any application to create a `.gpl` file inside [`palettes/`](palettes/) directory.
+* Make sure the palette is displayed correctly in the HTML page.
+    * Use `./gpl_to_html.py -o preview.html palettes/*.gpl`. Requires Python 3.
+    * Is the `Name:` set properly?
+    * Is the `Columns:` set properly? Avoid larger than 20 or 24, although exceptions can be made. (This number is a guideline, not a rule.)
+    * Comment section:
+        * Do you want to add a short summary as a comment?
+        * Do you want to add URLs in the comment?
+        * It is preferable to cite the source of the palette in the comment.
+    * Do the colors have any names? If yes, please add the names.
+* Make sure the palette works fine inside GIMP. (If it looks fine in the HTML page, very likely it will work in GIMP.)
+    * Be careful! Upon opening the palette in GIMP, it will remove any comments you have manually added.
+* Add an entry to the [`README.md`](README.md) file, citing the source of the palette.
+    * Keep the entries sorted alphabetically.
+* [Create a pull request](https://github.com/denilsonsa/gimp-palettes/pulls).
+    * Remember to include the new palette file(s) (`palettes/*.gpl`) and the changes to the `README.md` file.
+    * Don't add the HTML file, as the real HTML file will be generated automatically.
+
+## TODO
+
+* Make the form change the URL, so that permalinks for the current view are possible.
+* Make the form less ugly.
