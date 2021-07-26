@@ -1,0 +1,27 @@
+GIMP Palette
+Name: Sasha Trubetskoy's 20 Colors (convenient order)
+Columns: 10
+# List of 20 Simple, Distinct Colors
+# https://sashamaps.net/docs/resources/20-colors/
+230  25  75	1 Red (99% accessibility)
+ 60 180  75	2 Green (99% accessibility)
+255 225  25	3 Yellow (100% accessibility)
+ 67  99 216	4 Blue (100% accessibility)
+245 130  49	5 Orange (99.99% accessibility)
+145  30 180	6 Purple (95% accessibility)
+ 66 212 244	7 Cyan (99% accessibility)
+240  50 230	8 Magenta (99% accessibility)
+191 239  69	9 Lime (95% accessibility)
+250 190 212	10 Pink (99% accessibility)
+ 70 153 144	11 Teal (99% accessibility)
+220 190 255	12 Lavender (99.99% accessibility)
+154  99  36	13 Brown (99% accessibility)
+255 250 200	14 Beige (99% accessibility)
+128   0   0	15 Maroon (99.99% accessibility)
+170 255 195	16 Mint (99% accessibility)
+128 128   0	17 Olive (95% accessibility)
+255 216 177	18 Apricot (95% accessibility)
+  0   0 117	19 Navy (99.99% accessibility)
+169 169 169	20 Grey (100% accessibility)
+255 255 255	21 White (100% accessibility)
+  0   0   0	22 Black (100% accessibility)

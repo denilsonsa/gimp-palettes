@@ -113,6 +113,8 @@ Sources for palettes in this collection:
     * <https://realtimeboard.com/>
 * RHLPixels
     * <http://rhlpixels.deviantart.com/gallery/53233358/Palettes-and-Tutorials>
+* Sasha Trubetskoy's 20 Colors
+    * <https://sashamaps.net/docs/resources/20-colors/>
 * Skedio
     * <http://skedio.shturmsoft.com/>
     * <https://play.google.com/store/apps/details?id=com.shturmsoft.skedio>
@@ -215,7 +217,7 @@ How to add a new palette to this project:
         * It is preferable to cite the source of the palette in the comment.
     * Do the colors have any names? If yes, please add the names.
 * Make sure the palette works fine inside GIMP. (If it looks fine in the HTML page, very likely it will work in GIMP.)
-    * Be careful! Upon opening the palette in GIMP, it will remove any comments you have manually added.
+    * Be careful! Upon opening the palette in GIMP, it will remove any comments you have manually added. Make a copy of the palette first, or mark the file as read-only.
 * Add an entry to the [`README.md`](README.md) file, citing the source of the palette.
     * Keep the entries sorted alphabetically.
 * [Create a pull request](https://github.com/denilsonsa/gimp-palettes/pulls).
