@@ -156,6 +156,7 @@ Other palettes (not included in this collection):
 * <http://colorpalettes.ravetracer.de/> [at Wayback Machine](http://web.archive.org/web/20181105164601/http://colorpalettes.ravetracer.de/)
 * <http://colorbrewer2.org/>
 * <https://heracleum.org/dc/follow/palette-browser>
+* <https://drawaria.online/palettes/>
 
 ## Default palettes
 
