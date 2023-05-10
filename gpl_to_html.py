@@ -589,26 +589,20 @@ html, body {
     font-size: 0.75em;
     word-wrap: break-word;
 }
-table.colors {
-    border-collapse: collapse;
-    table-layout: fixed;
+div.colors{
+    display: grid;
     font-size: 8px;
     margin: auto;
-    margin-bottom: 1px;  /* for toggling .with-border without moving the elements */
+    padding: 1px;  /* space for the border/outline */
+    width: fit-content;
 }
-.color {
+div.colors .color {
+    display: block;
     width: 8px;
     height: 8px;
 }
-
-.with-border table.colors,
-table.colors.with-border {
-    margin-bottom: 0;
-}
 .with-border .color {
-    width: 7px;
-    height: 7px;
-    border: 1px solid black;
+    outline: 1px solid black;
 }
 
 .search_filtered {
@@ -778,7 +772,7 @@ def palette_to_html(pal):
             <h1 class="name"><a href="{filename}">{name}</a></h1>
             <p class="properties">{cols}x{rows} ({len} colors, {len_unique} unique)</p>
             {comments}
-            <table class="colors">{colors}</table>
+            <div class="colors" style="grid-template-columns:repeat({cols},8px)">{colors}</div>
         </article>
     ''').strip().format(
         filename=escape(pal.filename),
@@ -792,21 +786,19 @@ def palette_to_html(pal):
             for comment in pal.comments
         ),
         colors=''.join(
-            '<tr>{line}</tr>'.format(line=''.join(
-                dedent('''\
-                    <td
+            dedent('''\
+                    <span
                     class="color"
                     style="background-color:{color.prrggbb}"
                     title="{name}
                     {color.pRRGGBB}
                     {color.r}, {color.g}, {color.b}"
-                    ></td>
-                ''').strip().format(
-                    name=escape(color.name),
-                    color=color
-                )
-                for color in pal.colors[offset:offset + cols]
-            )) for offset in range(0, len(pal.colors), cols)
+                    ></span>
+            ''').strip().format(
+                name=escape(color.name),
+                color=color
+            )
+            for color in pal.colors
         ),
     )
 
