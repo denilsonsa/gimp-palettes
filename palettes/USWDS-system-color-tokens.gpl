@@ -1,0 +1,667 @@
+GIMP Palette
+Name: U.S. Web Design System (USWDS) - system color tokens
+Columns: 14
+# https://designsystem.digital.gov/utilities/color/
+# https://designsystem.digital.gov/design-tokens/color/overview/
+# https://designsystem.digital.gov/design-tokens/color/theme-tokens/
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# https://designsystem.digital.gov/design-tokens/color/system-tokens/
+# https://github.com/uswds/uswds/tree/develop/packages/uswds-core/src/styles/tokens/color
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+248 239 241	red-cool-5
+243 225 228	red-cool-10
+236 190 198	red-cool-20
+224 154 166	red-cool-30
+225 107 128	red-cool-40
+205  66  91	red-cool-50
+158  57  75	red-cool-60
+104  54  63	red-cool-70
+ 64  40  44	red-cool-80
+ 30  21  23	red-cool-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+255 242 245	red-cool-5v
+248 223 226	red-cool-10v
+248 185 197	red-cool-20v
+253 139 160	red-cool-30v
+244  93 121	red-cool-40v
+228  29  61	red-cool-50v
+178  29  56	red-cool-60v
+130  33  51	red-cool-70v
+ 79  28  36	red-cool-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+249 238 238	red-5
+248 225 222	red-10
+247 187 177	red-20
+242 147 140	red-30
+233 105  95	red-40
+216  57  51	red-50
+162  55  55	red-60
+111  51  49	red-70
+ 62  41  39	red-80
+ 27  22  22	red-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+246 239 234	red-warm-5
+244 227 219	red-warm-10
+236 192 167	red-warm-20
+220 160 129	red-warm-30
+210 122  86	red-warm-40
+195  81  44	red-warm-50
+128  80  57	red-warm-60
+ 82  66  54	red-warm-70
+ 51  45  41	red-warm-80
+ 31  28  24	red-warm-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+255 245 238	red-warm-5v
+252 225 212	red-warm-10v
+246 189 156	red-warm-20v
+243 146 104	red-warm-30v
+239  94  37	red-warm-40v
+213  67   9	red-warm-50v
+156  61  16	red-warm-60v
+ 99  52  15	red-warm-70v
+ 62  42  30	red-warm-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+255 243 242	red-5v
+253 224 219	red-10v
+253 184 174	red-20v
+255 141 123	red-30v
+251  90  71	red-40v
+229  34   7	red-50v
+181   9   9	red-60v
+139  10   3	red-70v
+ 92  17  17	red-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+250 238 229	orange-warm-5
+251 224 208	orange-warm-10
+247 188 162	orange-warm-20
+243 150 109	orange-warm-30
+225 113  65	orange-warm-40
+189  87  39	orange-warm-50
+145  71  52	orange-warm-60
+ 99  58  50	orange-warm-70
+ 61  41  37	orange-warm-80
+ 28  22  21	orange-warm-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+255 243 234	orange-warm-5v
+255 226 209	orange-warm-10v
+251 186 167	orange-warm-20v
+252 144 109	orange-warm-30v
+255  88  10	orange-warm-40v
+207  73   0	orange-warm-50v
+167  47  16	orange-warm-60v
+120  35  18	orange-warm-70v
+ 61  35  29	orange-warm-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+246 239 233	orange-5
+242 228 212	orange-10
+243 191 144	orange-20
+240 152  96	orange-30
+221 117  51	orange-40
+168 100  55	orange-50
+119  85  64	orange-60
+ 82  66  54	orange-70
+ 51  45  39	orange-80
+ 27  22  20	orange-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+254 242 228	orange-5v
+252 226 197	orange-10v
+255 188 120	orange-20v
+250 148  65	orange-30v
+230 111  14	orange-40v
+192  86   0	orange-50v
+140  71  28	orange-60v
+ 95  54  23	orange-70v
+ 53  35  19	orange-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+245 240 230	gold-5
+241 229 205	gold-10
+222 198 154	gold-20
+199 169 123	gold-30
+173 139 101	gold-40
+142 112  79	gold-50
+107  89  71	gold-60
+ 77  68  56	gold-70
+ 50  45  38	gold-80
+ 25  23  20	gold-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+254 240 200	gold-5v
+255 227 150	gold-10v
+255 190  46	gold-20v
+229 160   0	gold-30v
+194 133  12	gold-40v
+147 111  56	gold-50v
+122  89  26	gold-60v
+ 92  65  10	gold-70v
+ 59  43  21	gold-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+250 243 209	yellow-5
+245 230 175	yellow-10
+230 199  76	yellow-20
+201 171  72	yellow-30
+168 143  72	yellow-40
+138 114  55	yellow-50
+107  90  57	yellow-60
+ 80  67  50	yellow-70
+ 51  45  39	yellow-80
+ 26  22  20	yellow-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+255 245 194	yellow-5v
+254 230 133	yellow-10v
+250 206   0	yellow-20v
+221 170   1	yellow-30v
+179 140   0	yellow-40v
+148 113   0	yellow-50v
+119  96  23	yellow-60v
+ 92  72   9	yellow-70v
+ 66  45  25	yellow-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+241 244 215	green-warm-5
+231 234 183	green-warm-10
+203 209 122	green-warm-20
+166 181  87	green-warm-30
+138 152  75	green-warm-40
+111 122  65	green-warm-50
+ 90  95  56	green-warm-60
+ 69  71  47	green-warm-70
+ 45  47  33	green-warm-80
+ 23  23  18	green-warm-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+245 251 193	green-warm-5v
+231 244  52	green-warm-10v
+197 211  10	green-warm-20v
+163 183  44	green-warm-30v
+126 156  29	green-warm-40v
+106 125   0	green-warm-50v
+ 90 102  19	green-warm-60v
+ 75  78  16	green-warm-70v
+ 56  56  11	green-warm-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+234 244 221	green-5
+223 234 205	green-10
+184 210 147	green-20
+155 182 114	green-30
+125 155  78	green-40
+ 96 127  53	green-50
+ 76 100  36	green-60
+ 60  74  41	green-70
+ 41  48  33	green-80
+ 22  24  20	green-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+221 249 199	green-5v
+197 238 147	green-10v
+152 208  53	green-20v
+127 177  53	green-30v
+113 159  42	green-40v
+ 83 130   0	green-50v
+ 70 108   4	green-60v
+ 47  74  11	green-70v
+ 36  52  19	green-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+236 243 236	green-cool-5
+219 235 222	green-cool-10
+180 208 185	green-cool-20
+134 185 142	green-cool-30
+ 94 159 105	green-cool-40
+ 77 128  85	green-cool-50
+ 68 100  67	green-cool-60
+ 55  73  59	green-cool-70
+ 40  49  42	green-cool-80
+ 26  31  26	green-cool-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+227 245 225	green-cool-5v
+183 245 189	green-cool-10v
+112 225 123	green-cool-20v
+ 33 200  52	green-cool-30v
+  0 169  28	green-cool-40v
+  0 136  23	green-cool-50v
+ 33 110  31	green-cool-60v
+ 21  76  33	green-cool-70v
+ 25  49  30	green-cool-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+219 246 237	mint-5
+199 239 226	mint-10
+146 217 187	mint-20
+ 90 191 149	mint-30
+ 52 163 126	mint-40
+ 46 131 103	mint-50
+ 40 104  70	mint-60
+ 32  78  52	mint-70
+ 25  51  36	mint-80
+ 13  26  18	mint-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+201 251 235	mint-5v
+131 252 212	mint-10v
+ 12 237 166	mint-20v
+  4 197 133	mint-30v
+  0 168 113	mint-40v
+  0 134  89	mint-50v
+ 20 105  71	mint-60v
+ 12  78  41	mint-70v
+ 13  53  30	mint-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+224 247 246	mint-cool-5
+196 238 235	mint-cool-10
+155 212 207	mint-cool-20
+111 186 179	mint-cool-30
+ 79 158 153	mint-cool-40
+ 64 128 126	mint-cool-50
+ 55 100  98	mint-cool-60
+ 42  75  69	mint-cool-70
+ 32  49  49	mint-cool-80
+ 17  24  24	mint-cool-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+213 251 243	mint-cool-5v
+126 251 225	mint-cool-10v
+ 41 225 203	mint-cool-20v
+ 29 194 174	mint-cool-30v
+  0 163 152	mint-cool-40v
+  0 132 128	mint-cool-50v
+ 15 100  96	mint-cool-60v
+ 11  75  63	mint-cool-70v
+ 18  49  49	mint-cool-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+231 246 248	cyan-5
+204 236 242	cyan-10
+153 222 234	cyan-20
+ 93 192 209	cyan-30
+ 68 157 172	cyan-40
+ 22 128 146	cyan-50
+ 42 100 109	cyan-60
+ 44  74  78	cyan-70
+ 32  49  51	cyan-80
+ 17  24  25	cyan-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+229 250 255	cyan-5v
+168 242 255	cyan-10v
+ 82 218 242	cyan-20v
+  0 189 227	cyan-30v
+  0 158 193	cyan-40v
+  0 129 161	cyan-50v
+  0 104 125	cyan-60v
+ 14  79  92	cyan-70v
+  9  59  68	cyan-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+231 242 245	blue-cool-5
+218 233 238	blue-cool-10
+173 207 220	blue-cool-20
+130 180 201	blue-cool-30
+100 153 175	blue-cool-40
+ 58 125 149	blue-cool-50
+ 46  98 118	blue-cool-60
+ 34  74  88	blue-cool-70
+ 20  51  61	blue-cool-80
+ 15  25  28	blue-cool-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+225 243 248	blue-cool-5v
+195 235 250	blue-cool-10v
+151 212 234	blue-cool-20v
+ 89 185 222	blue-cool-30v
+ 40 160 203	blue-cool-40v
+ 13 126 162	blue-cool-50v
+  7 100 141	blue-cool-60v
+  7  75 105	blue-cool-70v
+  0  45  63	blue-cool-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+239 246 251	blue-5
+217 232 246	blue-10
+170 205 236	blue-20
+115 179 231	blue-30
+ 79 151 209	blue-40
+ 35 120 195	blue-50
+ 44  96 138	blue-60
+ 39  72  99	blue-70
+ 31  48  62	blue-80
+ 17  24  29	blue-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+232 245 255	blue-5v
+207 232 255	blue-10v
+161 211 255	blue-20v
+ 88 180 255	blue-30v
+ 36 145 255	blue-40v
+  0 118 214	blue-50v
+  0  94 162	blue-60v
+ 11  71 120	blue-70v
+ 17  47  78	blue-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+236 241 247	blue-warm-5
+225 231 241	blue-warm-10
+187 202 228	blue-warm-20
+152 175 210	blue-warm-30
+114 146 199	blue-warm-40
+ 74 119 180	blue-warm-50
+ 52  93 150	blue-warm-60
+ 47  70 104	blue-warm-70
+ 37  47  62	blue-warm-80
+ 19  23  31	blue-warm-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+237 245 255	blue-warm-5v
+212 229 255	blue-warm-10v
+173 205 255	blue-warm-20v
+129 174 252	blue-warm-30v
+ 89 148 246	blue-warm-40v
+ 38 114 222	blue-warm-50v
+  0  80 216	blue-warm-60v
+ 26  68 128	blue-warm-70v
+ 22  46  81	blue-warm-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+238 240 249	indigo-cool-5
+225 230 249	indigo-cool-10
+187 200 245	indigo-cool-20
+150 171 238	indigo-cool-30
+107 142 232	indigo-cool-40
+ 73 111 216	indigo-cool-50
+ 63  87 166	indigo-cool-60
+ 55  66 116	indigo-cool-70
+ 41  45  66	indigo-cool-80
+ 21  22  34	indigo-cool-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+237 240 255	indigo-cool-5v
+222 229 255	indigo-cool-10v
+184 200 255	indigo-cool-20v
+148 173 255	indigo-cool-30v
+ 98 142 244	indigo-cool-40v
+ 72 102 255	indigo-cool-50v
+ 62  77 237	indigo-cool-60v
+ 34  47 191	indigo-cool-70v
+ 27  43 133	indigo-cool-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+239 239 248	indigo-5
+229 228 250	indigo-10
+197 197 243	indigo-20
+165 168 235	indigo-30
+136 137 219	indigo-40
+103 108 200	indigo-50
+ 77  82 175	indigo-60
+ 61  64 118	indigo-70
+ 43  44  64	indigo-80
+ 22  23  31	indigo-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+240 240 255	indigo-5v
+224 224 255	indigo-10v
+204 206 255	indigo-20v
+163 167 250	indigo-30v
+130 137 255	indigo-40v
+101 107 215	indigo-50v
+ 74  80 196	indigo-60v
+ 51  51 163	indigo-70v
+ 33  36  99	indigo-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+241 239 247	indigo-warm-5
+231 227 250	indigo-warm-10
+203 196 242	indigo-warm-20
+175 165 232	indigo-warm-30
+146 135 216	indigo-warm-40
+118 101 209	indigo-warm-50
+ 94  81 158	indigo-warm-60
+ 69  60 123	indigo-warm-70
+ 46  44  64	indigo-warm-80
+ 24  22  29	indigo-warm-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+245 242 255	indigo-warm-5v
+228 222 255	indigo-warm-10v
+207 196 253	indigo-warm-20v
+182 159 255	indigo-warm-30v
+150 126 251	indigo-warm-40v
+116  95 233	indigo-warm-50v
+ 89  66 210	indigo-warm-60v
+ 61  44 157	indigo-warm-70v
+ 38  31  91	indigo-warm-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+244 241 249	violet-5
+235 227 249	violet-10
+208 195 233	violet-20
+184 162 227	violet-30
+157 132 210	violet-40
+129 104 179	violet-50
+102  81 144	violet-60
+ 76  61 105	violet-70
+ 49  43  63	violet-80
+ 24  22  29	violet-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+247 242 255	violet-5v
+237 227 255	violet-10v
+213 191 255	violet-20v
+195 157 235	violet-30v
+173 121 233	violet-40v
+147  85 220	violet-50v
+120  60 185	violet-60v
+ 84  39 143	violet-70v
+ 57  33  94	violet-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+248 240 249	violet-warm-5
+246 223 248	violet-warm-10
+226 190 228	violet-warm-20
+210 154 216	violet-warm-30
+191 119 200	violet-warm-40
+176  74 189	violet-warm-50
+134  67 129	violet-warm-60
+ 92  57  90	violet-warm-70
+ 56  41  54	violet-warm-80
+ 27  21  27	violet-warm-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+254 242 255	violet-warm-5v
+251 220 255	violet-warm-10v
+244 178 255	violet-warm-20v
+238 131 255	violet-warm-30v
+216  91 239	violet-warm-40v
+190  50 208	violet-warm-50v
+147  52 140	violet-warm-60v
+113  30 108	violet-warm-70v
+ 72  20  65	violet-warm-80v
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+249 240 242	magenta-5
+246 225 232	magenta-10
+240 187 204	magenta-20
+232 149 179	magenta-30
+224 105 159	magenta-40
+200  66 129	magenta-50
+139  69 102	magenta-60
+102  54  75	magenta-70
+ 64  39  49	magenta-80
+ 27  22  23	magenta-90
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+252 252 252	Untitled
+255 242 245	magenta-5v
+255 221 234	magenta-10v
+255 180 207	magenta-20v
+255 135 178	magenta-30v
+253  68 150	magenta-40v
+215  45 121	magenta-50v
+171  33 101	magenta-60v
+115  31  68	magenta-70v
+ 79  23  46	magenta-80v
+252 252 252	Untitled
+251 252 253	gray-cool-1
+247 249 250	gray-cool-2
+245 246 247	gray-cool-3
+241 243 246	gray-cool-4
+237 239 240	gray-cool-5
+223 225 226	gray-cool-10
+198 202 206	gray-cool-20
+169 174 177	gray-cool-30
+141 146 151	gray-cool-40
+113 118 122	gray-cool-50
+ 86  92 101	gray-cool-60
+ 61  69  81	gray-cool-70
+ 45  46  47	gray-cool-80
+ 28  29  31	gray-cool-90
+252 252 252	gray-1
+249 249 249	gray-2
+246 246 246	gray-3
+243 243 243	gray-4
+240 240 240	gray-5
+230 230 230	gray-10
+201 201 201	gray-20
+173 173 173	gray-30
+145 145 145	gray-40
+117 117 117	gray-50
+ 92  92  92	gray-60
+ 69  69  69	gray-70
+ 46  46  46	gray-80
+ 27  27  27	gray-90
+252 252 251	gray-warm-1
+249 249 247	gray-warm-2
+246 246 242	gray-warm-3
+245 245 240	gray-warm-4
+240 240 236	gray-warm-5
+230 230 226	gray-warm-10
+202 201 192	gray-warm-20
+175 174 162	gray-warm-30
+146 146 133	gray-warm-40
+118 118 106	gray-warm-50
+ 93  93  82	gray-warm-60
+ 69  69  64	gray-warm-70
+ 46  46  42	gray-warm-80
+ 23  23  22	gray-warm-90

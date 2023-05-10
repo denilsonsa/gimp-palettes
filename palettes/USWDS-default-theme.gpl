@@ -1,0 +1,79 @@
+GIMP Palette
+Name: U.S. Web Design System (USWDS) - default theme
+Columns: 7
+# https://designsystem.digital.gov/utilities/color/
+# https://designsystem.digital.gov/design-tokens/color/overview/
+# https://designsystem.digital.gov/design-tokens/color/theme-tokens/
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# https://designsystem.digital.gov/design-tokens/color/system-tokens/
+# https://github.com/uswds/uswds/tree/develop/packages/uswds-core/src/styles/tokens/color
+240 240 240	base-lightest (gray-5)
+223 225 226	base-lighter (gray-cool-10)
+169 174 177	base-light (gray-cool-30)
+113 118 122	base (gray-cool-50)
+ 86  92 101	base-dark (gray-cool-60)
+ 61  69  81	base-darker (gray-cool-70)
+ 27  27  27	base-darkest (ink, gray-90)
+252 252 252	Untitled
+217 232 246	primary-lighter (blue-10)
+115 179 231	primary-light (blue-30)
+  0  94 162	primary (blue-60v)
+  0  80 216	primary-vivid (blue-warm-60v)
+ 26  68 128	primary-dark (blue-warm-70v)
+ 22  46  81	primary-darker (blue-warm-80v)
+252 252 252	Untitled
+248 223 226	secondary-lighter (red-cool-10v)
+242 147 140	secondary-light (red-30)
+216  57  51	secondary (red-50)
+228  29  61	secondary-vivid (red-cool-50v)
+181   9   9	secondary-dark (red-60v)
+139  10   3	secondary-darker (red-70v)
+252 252 252	Untitled
+225 243 248	accent-cool-lighter (blue-cool-5v)
+151 212 234	accent-cool-light (blue-cool-20v)
+  0 189 227	accent-cool (cyan-30v)
+  0 189 227	accent-cool (cyan-30v)
+ 40 160 203	accent-cool-dark (blue-cool-40v)
+  7 100 141	accent-cool-darker (blue-cool-60v)
+252 252 252	Untitled
+242 228 212	accent-warm-lighter (orange-10)
+255 188 120	accent-warm-light (orange-20v)
+250 148  65	accent-warm (orange-30v)
+250 148  65	accent-warm (orange-30v)
+192  86   0	accent-warm-dark (orange-50v)
+119  85  64	accent-warm-darker (orange-60)
+252 252 252	Untitled
+231 246 248	info-lighter (cyan-5)
+153 222 234	info-light (cyan-20)
+  0 189 227	info (cyan-30v)
+  0 189 227	info (cyan-30v)
+  0 158 193	info-dark (cyan-40v)
+ 46  98 118	info-darker (blue-cool-60)
+252 252 252	Untitled
+244 227 219	error-lighter (red-warm-10)
+243 146 104	error-light (red-warm-30v)
+213  67   9	error (red-warm-50v)
+213  67   9	error (red-warm-50v)
+181   9   9	error-dark (red-60v)
+111  51  49	error-darker (red-70)
+252 252 252	Untitled
+250 243 209	warning-lighter (yellow-5)
+254 230 133	warning-light (yellow-10v)
+255 190  46	warning (gold-20v)
+255 190  46	warning (gold-20v)
+229 160   0	warning-dark (gold-30v)
+147 111  56	warning-darker (gold-50v)
+252 252 252	Untitled
+236 243 236	success-lighter (green-cool-5)
+112 225 123	success-light (green-cool-20v)
+  0 169  28	success (green-cool-40v)
+  0 169  28	success (green-cool-40v)
+  0 136  23	success-dark (green-cool-50v)
+ 33 110  31	success-darker (green-cool-60v)
+230 230 230	disabled-light (gray-10)
+201 201 201	disabled (gray-20)
+173 173 173	disabled-dark (gray-30)
+252 252 252	Untitled
+252 252 252	Untitled
+156  61  16	emergency (red-warm-60v)
+ 51  45  41	emergency-dark (red-warm-80)
