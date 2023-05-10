@@ -772,6 +772,7 @@ def linkify(text):
 def palette_to_html(pal):
     # This function is a bit ugly just because I wanted to write it as a single
     # statement, just for fun.
+    cols = pal.columns or 16
     return dedent('''\
         <article class="palette">
             <h1 class="name"><a href="{filename}">{name}</a></h1>
@@ -782,8 +783,8 @@ def palette_to_html(pal):
     ''').strip().format(
         filename=escape(pal.filename),
         name=escape(pal.name),
-        cols=pal.columns,
-        rows=(ceil(len(pal.colors) / (pal.columns or 16))),
+        cols=cols,
+        rows=(ceil(len(pal.colors) / cols)),
         len=len(pal.colors),
         len_unique=pal.how_many_unique_colors(),
         comments='\n'.join(
@@ -804,8 +805,8 @@ def palette_to_html(pal):
                     name=escape(color.name),
                     color=color
                 )
-                for color in pal.colors[offset:offset + (pal.columns or 16)]
-            )) for offset in range(0, len(pal.colors), pal.columns or 16)
+                for color in pal.colors[offset:offset + cols]
+            )) for offset in range(0, len(pal.colors), cols)
         ),
     )
 
