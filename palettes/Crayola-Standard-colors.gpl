@@ -1,0 +1,125 @@
+GIMP Palette
+Name: Crayola Standard colors (present day)
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors
+
+# 16-box
+175  89  62	Brown
+255 104  31	Red-Orange
+255 136  51	Orange
+255 174  66	Yellow-Orange
+251 232 112	Yellow
+197 225 122	Yellow-Green
+  1 166  56	Green
+  0 149 183	Blue-Green
+  0 102 255	Blue (III)
+100  86 183	Blue-Violet
+131  89 163	Violet (II)
+187  51 133	Red-Violet
+255 166 201	Carnation Pink
+237  10  63	Red
+  0   0   0	Black
+255 255 255	White
+
+# 24-box
+253 213 177	Apricot
+139 134 128	Gray
+241 231 136	Green-Yellow
+  2 164 211	Cerulean
+ 60 105 231	Bluetiful
+ 79 105 198	Indigo
+247  70 138	Violet-Red
+253  14  53	Scarlet
+
+# 32-box
+185  78  72	Chestnut
+254 186 173	Melon
+250 157  90	Tan
+255 203 164	Peach
+217 214 207	Timberwolf
+118 215 234	Sky Blue
+169 178 195	Cadet Blue
+201 160 220	Wisteria
+
+# 64-box
+254 111  94	Bittersweet
+233 116  81	Burnt Sienna
+158  91  64	Sepia
+255 112  52	Burnt Orange
+201 192 187	Silver
+210 125  70	Raw Sienna
+222 166 129	Tumbleweed
+255 185 123	Macaroni and Cheese
+230 190 138	Gold (II)
+252 214 103	Goldenrod
+181 179  92	Olive Green
+236 235 189	Spring Green
+123 160  91	Asparagus
+157 224 147	Granny Smith Apple
+ 95 167 119	Forest Green
+147 223 184	Sea Green
+  0 204 204	Robin's Egg Blue
+108 218 231	Turquoise Blue
+  0 157 196	Pacific Blue
+147 204 234	Cornflower
+195 205 230	Periwinkle
+214 174 221	Purple Mountains' Majesty
+142  49 121	Plum
+246  83 166	Magenta
+255  51 153	Wild Strawberry
+251 174 210	Lavender (II)
+252 128 165	Tickle Me Pink
+240 145 169	Mauvelous
+255 145 164	Salmon
+198  45  66	Brick Red
+202  52  53	Mahogany
+  0   0   0	Black
+
+# Unknown
+254  76  64	Sunset Orange
+255 153 128	Vivid Tangerine
+247 163 142	Pink Sherbert
+218 138 103	Copper
+135  66  31	Fuzzy Wuzzy
+146 111  91	Beaver
+200 138 101	Antique Brass
+237 201 175	Desert Sand
+231 114   0	Mango Tango
+238 217 196	Almond
+131 112  80	Shadow
+251 231 178	Banana Mania
+241 214  81	Crayellow
+255 255 153	Canary
+217 218 210	Oatmeal
+175 227  19	Inchworm
+ 99 183 108	Fern
+ 51 204 153	Shamrock
+ 26 179 133	Mountain Meadow
+ 41 171 135	Jungle Green
+  0 204 153	Caribbean Green
+  0 117  94	Tropical Rain Forest
+  1 121 111	Pine Green
+221 235 236	Cool Mint
+149 224 232	Aquamarine
+ 45  56  58	Outer Space
+  0  51 102	Midnight Blue
+  0 102 204	Navy Blue
+ 21  96 189	Denim
+192 213 240	Powder Blue
+122 137 184	Wild Blue Yonder
+141 144 161	Manatee
+153 153 204	Blue Bell
+101  45 193	Purple Heart
+107  63 160	Royal Purple
+128  55 144	Vivid Violet
+252 116 253	Pink Flamingo
+193  84 193	Fuchsia
+226 156 210	Orchid
+165  11  94	Jazzberry Jam
+ 97  64  81	Eggplant
+218  50 135	Cerise
+255 183 213	Cotton Candy
+227  11  92	Razzmatazz
+253 215 228	Piggy Pink
+219  80 121	Blush
+195  33  72	Maroon

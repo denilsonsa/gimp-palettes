@@ -1,0 +1,26 @@
+GIMP Palette
+Name: Crayola 1926-1944
+Columns: 10
+# https://en.wikipedia.org/wiki/History_of_Crayola_crayons#Munsell_Crayola,_1926%E2%80%931944
+217  33  33	Maximum Red
+229 142 115	Middle Red
+236 177 118	Middle Yellow Red
+242 186  73	Maximum Yellow Red
+255 235   0	Middle Yellow
+250 250  55	Maximum Yellow
+217 230  80	Maximum Green Yellow
+172 191  96	Middle Green Yellow
+ 94 140  49	Maximum Green
+ 77 140  87	Middle Green
+141 217 204	Middle Blue Green
+ 48 191 191	Maximum Blue Green
+126 212 230	Middle Blue
+ 71 171 204	Maximum Blue
+172 172 230	Maximum Blue Purple
+139 114 190	Middle Blue Purple
+115  51 128	Maximum Purple
+217 130 181	Middle Purple
+166  58 121	Maximum Red Purple
+165  83  83	Middle Red Purple
+139 134 128	Middle Grey
+  0   0   0	Black
