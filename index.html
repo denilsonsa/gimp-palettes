@@ -193,21 +193,16 @@ table.colors {
     table-layout: fixed;
     font-size: 8px;
     margin: auto;
-    margin-bottom: 1px;  /* for toggling .with-border without moving the elements */
 }
-.color {
+table.colors .color {
     width: 8px;
     height: 8px;
+    padding: 0;
+    border: 1px solid transparent;
 }
 
-.with-border table.colors,
-table.colors.with-border {
-    margin-bottom: 0;
-}
-.with-border .color {
-    width: 7px;
-    height: 7px;
-    border: 1px solid black;
+.with-border table.colors .color {
+    border-color: black;
 }
 
 .search_filtered {
