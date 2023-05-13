@@ -25,6 +25,7 @@ Sources for palettes in this collection:
 * Crayola
     * <http://rosros-3.deviantart.com/art/Crayola-368592163>
     * [List of Crayola crayon colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
+    * [History of Crayola crayons](https://en.wikipedia.org/wiki/History_of_Crayola_crayons)
 * CSS
     * <http://dev.w3.org/csswg/css-color/#named-colors>
     * <https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords>
@@ -86,6 +87,10 @@ Sources for palettes in this collection:
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
     * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
     * <http://www.robotrontechnik.de/html/forum/thwb/showtopic.php?threadid=1430>
+* LaTeX Color
+    * <https://latexcolor.com/>
+    * <https://github.com/Inventium/latexcolor.com>
+    * <https://www.ctan.org/tex-archive/macros/latex/contrib/latexcolors>
 * Material Design
     * <https://dylmye.me/material-design-colours/>
     * Originally from [Google Material Design Spec](https://web.archive.org/web/20180324170758/https://material.io/guidelines/style/color.html#color-color-palette)
@@ -130,6 +135,13 @@ Sources for palettes in this collection:
     * <https://svg-edit.googlecode.com>
 * Trello
     * <https://trello.com/>
+* U.S. Web Design System (USWDS)
+    * <https://designsystem.digital.gov/utilities/color/>
+    * <https://designsystem.digital.gov/design-tokens/color/overview/>
+    * <https://designsystem.digital.gov/design-tokens/color/theme-tokens/>
+    * <https://designsystem.digital.gov/design-tokens/color/state-tokens/>
+    * <https://designsystem.digital.gov/design-tokens/color/system-tokens/>
+    * <https://github.com/uswds/uswds/tree/develop/packages/uswds-core/src/styles/tokens/color>
 * VoxelShop (by BlackFlux Software)
     * <https://blackflux.com/node/11>
 * Wad's Optimum 16 Color Palette
