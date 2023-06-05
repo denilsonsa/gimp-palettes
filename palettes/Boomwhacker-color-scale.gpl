@@ -1,0 +1,14 @@
+GIMP Palette
+Name: Boomwhacker color scale
+Columns: 7
+# https://github.com/nicolasbrailo/PianOli/pull/53
+# https://en.wikipedia.org/wiki/Boomwhacker
+# https://en.wikipedia.org/wiki/Solf%C3%A8ge#Rainbow_colours_assigned_by_Isaac_Newton
+# https://commons.wikimedia.org/wiki/Category:Boomwhackers
+220   0   0	C, do/doh, red
+255 135   0	D, re, orange
+255 255   0	E, mi, yellow
+ 80 220  20	F, fa, light green
+  0 150 150	G, sol/so, dark green
+ 95  70 165	A, la, purple
+213  43 149	B, ti/si, pink

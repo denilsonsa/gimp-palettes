@@ -1,0 +1,12 @@
+GIMP Palette
+Name: Boomwhacker color scale (alt)
+Columns: 7
+# https://upload.wikimedia.org/wikipedia/commons/c/cb/Boomwhacker.svg
+# https://commons.wikimedia.org/wiki/Category:Boomwhackers
+227  26  71	C, do/doh, red
+248 156  28	D, re, orange
+255 242  41	E, mi, yellow
+212 224  90	F, fa, light green
+  0 156 149	G, sol/so, dark green
+ 93  79 161	A, la, purple
+206  56 149	B, ti/si, pink
