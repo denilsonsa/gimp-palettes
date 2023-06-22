@@ -16,32 +16,32 @@ Sources for palettes in this collection:
     * <https://developer.android.com/design/style/color.html>
     * <https://bugs.launchpad.net/inkscape/+bug/602698>
 * AndroidArts.com 16 colors by Arne Niklas Jansson
-    * <http://androidarts.com/palette/16pal.htm>
+    * <https://androidarts.com/palette/16pal.htm>
 * Bamboo Paper (Android app by Wacom)
     * <https://play.google.com/store/apps/details?id=com.wacom.bamboopapertab>
 * Breeze (KDE Usability, Human Interface Guidelines)
     * <https://techbase.kde.org/Projects/Usability/HIG/Color>
     * <https://techbase.kde.org/Projects/Usability/HIG/MockupToolkit>
 * Crayola
-    * <http://rosros-3.deviantart.com/art/Crayola-368592163>
+    * <https://www.deviantart.com/rosros-3/art/Crayola-368592163>
     * [List of Crayola crayon colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
     * [History of Crayola crayons](https://en.wikipedia.org/wiki/History_of_Crayola_crayons)
 * CSS
     * <http://dev.w3.org/csswg/css-color/#named-colors>
     * <https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords>
 * DawnBringer's 16 Color Palette:
-    * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=12795>
+    * <https://www.pixeljoint.com/forum/forum_posts.asp?TID=12795>
     * <http://goto.glocalnet.net/richard_fhager/db16_v1_analyze.png>
 * DawnBringer's 32 Color Palette:
-    * <http://www.pixeljoint.com/forum/forum_posts.asp?TID=16247>
+    * <https://www.pixeljoint.com/forum/forum_posts.asp?TID=16247>
     * <http://hem.bredband.net/ricfha/pic/db32_v1_analyze.png>
 * Doodle or Die
-    * <http://doodleordie.com/>
+    * <https://doodleordie.com/>
 * Dotpict
     * <http://dotpicko.net/>
     * <https://play.google.com/store/apps/details?id=net.dotpicko.dotpict>
     * <https://itunes.apple.com/app/dottopikuto!-kantandotto-huiapuri/id995653343>
-* [Drawception](http://drawception.com/)
+* [Drawception](https://drawception.com/)
     * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
 * draw.io
     * <https://www.draw.io/>
@@ -64,29 +64,29 @@ Sources for palettes in this collection:
 * Google Keep
     * <https://keep.google.com/>
 * Grafxkid’s palettes
-    * <http://grafxkid.tumblr.com/post/137368818644/grafxkids-color-palette-history>
-    * <http://grafxkid.tumblr.com/post/137439294099/grafxkids-today-land-palette-release>
-    * <http://grafxkid.tumblr.com/post/137918490929/heres-the-latest-version-of-my-personal-pixel-art>
-    * <http://grafxkid.tumblr.com/tagged/color-palette>
+    * <https://grafxkid.tumblr.com/post/137368818644/grafxkids-color-palette-history>
+    * <https://grafxkid.tumblr.com/post/137439294099/grafxkids-today-land-palette-release>
+    * <https://grafxkid.tumblr.com/post/137918490929/heres-the-latest-version-of-my-personal-pixel-art>
+    * <https://grafxkid.tumblr.com/tagged/color-palette>
 * Hardware palettes
     * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
-    * <http://segaretro.org/Palette>
-    * <http://www.pepto.de/projects/colorvic/>
+    * <https://segaretro.org/Palette>
+    * <https://www.pepto.de/projects/colorvic/>
     * <http://web.archive.org/web/20161207160515/https://developer.pebble.com/guides/app-resources/images/#color-palettes>
     * <http://web.archive.org/web/20161207155315/https://developer.pebble.com/guides/tools-and-resources/color-picker/>
     * <https://github.com/pebble/clay/blob/1bf6db08092ab464974d1762a953ea7cbd24efb8/src/scripts/components/color.js>
-    * <http://pixeltao.ca/post/152163410138/the-infamous-nes-palette>
+    * <https://pixeltao.ca/post/152163410138/the-infamous-nes-palette>
 * INKredible
-    * <http://inkredibleapp.com/>
+    * <https://www.writeon.cool/inkredible/>
     * <https://play.google.com/store/apps/details?id=com.viettran.INKredible>
     * <https://itunes.apple.com/us/app/inkredible/id712303681>
 * Java JColorChooser
     * <https://docs.oracle.com/javase/tutorial/uiswing/components/colorchooser.html>
 * KDE Oxygen
     * <https://techbase.kde.org/Development/Guidelines/CIG/Colors#Color_Palette>
-    * <http://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
-    * <http://www.robotrontechnik.de/html/forum/thwb/showtopic.php?threadid=1430>
+    * <https://websvn.kde.org/trunk/playground/artwork/Oxygen/utils/oxygen.gpl?view=markup>
+    * <https://www.robotrontechnik.de/html/forum/thwb/showtopic.php?threadid=1430>
 * LaTeX Color
     * <https://latexcolor.com/>
     * <https://github.com/Inventium/latexcolor.com>
@@ -95,7 +95,7 @@ Sources for palettes in this collection:
     * <https://dylmye.me/material-design-colours/>
     * Originally from [Google Material Design Spec](https://web.archive.org/web/20180324170758/https://material.io/guidelines/style/color.html#color-color-palette)
 * Mindly
-    * <http://www.mindlyapp.com/>
+    * <https://www.mindlyapp.com/>
     * <https://play.google.com/store/apps/details?id=com.dripgrind.mindly>
     * <https://itunes.apple.com/us/app/mindly/id771221376>
 * MindMup
@@ -117,14 +117,14 @@ Sources for palettes in this collection:
 * Realtimeboard
     * <https://realtimeboard.com/>
 * RHLPixels
-    * <http://rhlpixels.deviantart.com/gallery/53233358/Palettes-and-Tutorials>
+    * <https://www.deviantart.com/rhlpixels/gallery/53233358/palettes-and-tutorials>
 * Sasha Trubetskoy's 20 Colors
     * <https://sashamaps.net/docs/resources/20-colors/>
 * Skedio
     * <http://skedio.shturmsoft.com/>
     * <https://play.google.com/store/apps/details?id=com.shturmsoft.skedio>
 * Sketch Toy
-    * <http://sketchtoy.com/>
+    * <https://sketchtoy.com/>
 * Snapchat
     * <https://www.snapchat.com/>
 * Symphonical
@@ -145,14 +145,14 @@ Sources for palettes in this collection:
 * VoxelShop (by BlackFlux Software)
     * <https://blackflux.com/node/11>
 * Wad's Optimum 16 Color Palette
-    * <http://alumni.media.mit.edu/~wad/color/palette.html>
+    * <https://alumni.media.mit.edu/~wad/color/palette.html>
 * we draw comics
     * <http://beta.wedrawcomics.com/>
 * Windows MFC color dialog
-    * <http://www.functionx.com/visualc/controls/dlgmfccolor.htm>
-    * <http://i.imgur.com/GY2K7WB>
+    * <https://www.functionx.com/visualc/controls/dlgmfccolor.htm>
+    * <https://i.imgur.com/GY2K7WB.png>
 * Write (by Stylus Labs)
-    * <http://www.styluslabs.com/>
+    * <https://www.styluslabs.com/>
     * <https://play.google.com/store/apps/details?id=com.styluslabs.write>
 * <http://www.ve3syb.ca/software/gimp/2.4/pantone.gpl>
 * <http://wayofthepixel.net/index.php?topic=10784.0>
@@ -163,10 +163,10 @@ Other palettes (not included in this collection):
 
 * <https://github.com/chriskempson/base16-gimp-palette>
 * <https://gist.github.com/dimaursu/9921467>
-* <http://nevit.deviantart.com/art/Gimp-Palettes-82563425>
+* <https://www.deviantart.com/nevit/art/Gimp-Palettes-82563425>
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette> [at Wayback Machine](http://web.archive.org/web/20190204184652/tango.freedesktop.org/Tango_Icon_Theme_Guidelines/#Color_Palette)
-* <http://colorpalettes.ravetracer.de/> [at Wayback Machine](http://web.archive.org/web/20181105164601/http://colorpalettes.ravetracer.de/)
-* <http://colorbrewer2.org/>
+* <http://colorpalettes.ravetracer.de/> [at Wayback Machine](https://web.archive.org/web/20181105164601/http://colorpalettes.ravetracer.de/)
+* <https://colorbrewer2.org/>
 * <https://heracleum.org/dc/follow/palette-browser>
 * <https://drawaria.online/palettes/>
 
@@ -189,12 +189,12 @@ Other related/similar pages and projects:
 * <https://github.com/paulwratt/programmers-palettes>
 
 [aseprite]: https://www.aseprite.org/
-[drawpile]: http://drawpile.net/
-[gimp]: http://www.gimp.org/
-[inkscape]: http://inkscape.org/
+[drawpile]: https://drawpile.net/
+[gimp]: https://www.gimp.org/
+[inkscape]: https://inkscape.org/
 [krita]: https://krita.org/
-[mypaint]: http://mypaint.intilinux.com/
-[preview]: http://denilsonsa.github.io/gimp-palettes/index.html
+[mypaint]: https://mypaint.app/
+[preview]: https://denilsonsa.github.io/gimp-palettes/index.html
 
 ## Project structure
 
