@@ -174,11 +174,11 @@ Other palettes (not included in this collection):
 
 Default palettes (not included in this collection):
 
-* Aseprite: <https://github.com/aseprite/aseprite/tree/master/data/palettes> and <https://github.com/aseprite/aseprite/tree/master/data/extensions>
-* Drawpile: <https://github.com/callaa/Drawpile/tree/master/desktop/palettes>
+* Aseprite: <https://github.com/aseprite/aseprite/tree/main/data/palettes> and <https://github.com/aseprite/aseprite/tree/main/data/extensions>
+* Drawpile: <https://github.com/drawpile/Drawpile/tree/main/src/desktop/assets/palettes>
 * GIMP: <https://git.gnome.org/browse/gimp/tree/data/palettes>
-* Inkscape: <https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/files/head:/share/palettes/>
-* Krita/Calligra: <https://projects.kde.org/projects/calligra/repository/revisions/master/show/data/palettes>
+* Inkscape: <https://gitlab.com/inkscape/inkscape/-/tree/master/share/palettes>
+* Krita/Calligra: <https://invent.kde.org/graphics/krita/-/tree/master/krita/data/palettes>
 * MyPaint: <https://github.com/mypaint/mypaint/tree/master/palettes>
 
 ## Other links
