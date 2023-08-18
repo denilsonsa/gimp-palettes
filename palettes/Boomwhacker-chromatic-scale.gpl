@@ -1,0 +1,19 @@
+GIMP Palette
+Name: Boomwhacker chromatic scale
+Columns: 12
+# https://github.com/musescore/MuseScore/blob/master/share/plugins/colornotes/colornotes.qml
+# https://en.wikipedia.org/wiki/Boomwhacker
+# https://en.wikipedia.org/wiki/Solf%C3%A8ge#Rainbow_colours_assigned_by_Isaac_Newton
+# https://commons.wikimedia.org/wiki/Category:Boomwhackers
+226  28  72	C, do/doh
+242 102  34	C#/Db
+249 157  28	D, re
+255 204  51	D#/Eb
+255 243  43	E, mi
+188 216  95	F, fa
+ 98 188  71	F#/Gb
+  0 156 149	G, sol/so
+  0 113 187	G#/Ab
+ 94  80 161	A, la
+141  91 166	A#/Bb
+207  62 150	B, ti/si
