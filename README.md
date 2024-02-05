@@ -161,11 +161,13 @@ Sources for palettes in this collection:
 
 Other palettes (not included in this collection):
 
-* <https://github.com/chriskempson/base16-gimp-palette>
+* Base16 palettes
+    * <https://github.com/dydx/base16-gimp-palette>
+    * <https://tinted-theming.github.io/base16-gallery/>
 * <https://gist.github.com/dimaursu/9921467>
 * <https://www.deviantart.com/nevit/art/Gimp-Palettes-82563425>
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette> [at Wayback Machine](http://web.archive.org/web/20190204184652/tango.freedesktop.org/Tango_Icon_Theme_Guidelines/#Color_Palette)
-* <http://colorpalettes.ravetracer.de/> [at Wayback Machine](https://web.archive.org/web/20181105164601/http://colorpalettes.ravetracer.de/)
+* <http://colorpalettes.ravetracer.de/> [at Wayback Machine](http://web.archive.org/web/20181105164601/http://colorpalettes.ravetracer.de/) or <https://github.com/Ravetracer/colorpalettes/tree/master/temp_pals>
 * <https://colorbrewer2.org/>
 * <https://heracleum.org/dc/follow/palette-browser>
 * <https://drawaria.online/palettes/>
