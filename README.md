@@ -50,7 +50,7 @@ Sources for palettes in this collection:
 * Draw Something (by OMGPOP)
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
     * For iOS: [free version](https://itunes.apple.com/us/app/draw-something-free/id488628250) and [paid version](https://itunes.apple.com/us/app/draw-something-by-omgpop/id488627858)
-* GNOME (formely Ximian)
+* GNOME (formerly Ximian)
     * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
     * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
     * Also distributed in [Agave](http://home.gna.org/colorscheme/)
