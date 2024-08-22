@@ -101,7 +101,7 @@ Sources for palettes in this collection:
 * MindMup
     * <https://www.mindmup.com/>
 * Minecraft
-    * <https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes>
+    * <https://minecraft.wiki/w/Formatting_codes>
 * OnePlus Gallery
     * <https://play.google.com/store/apps/details?id=com.oneplus.gallery>
 * Papyrus (Android app by Steadfast Innovation)
