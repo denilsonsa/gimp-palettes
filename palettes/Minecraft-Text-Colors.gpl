@@ -2,7 +2,7 @@ GIMP Palette
 Name: Minecraft Text Colors
 Columns: 17
 # Colors from the legacy §-based formatting system.
-# https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes
+# https://minecraft.wiki/w/Formatting_codes
   0   0   0	Black
   0   0 170	Dark Blue
   0 170   0	Dark Green
