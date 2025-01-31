@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Microsoft OneNote - text background colors
+Columns: 5
+# Text background colors in Microsoft OneNote.
+# https://onedrive.live.com/
+255 255   0	Yellow
+  0 255   0	Green
+  0 255 255	Cyan
+255   0 255	Magenta
+  0   0 255	Blue
+255   0   0	Red
+  0   0 128	Dark Blue
+  0 128 128	Dark Cyan
+  0 128   0	Dark Green Highlight
+128   0 128	Dark Magenta
+128   0   0	Dark Red
+128 128   0	Dark Yellow
+128 128 128	Gray
+192 192 192	Light Gray
+  0   0   0	Black

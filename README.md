@@ -94,6 +94,8 @@ Sources for palettes in this collection:
 * Material Design
     * <https://dylmye.me/material-design-colours/>
     * Originally from [Google Material Design Spec](https://web.archive.org/web/20180324170758/https://material.io/guidelines/style/color.html#color-color-palette)
+* Microsoft OneNote
+    * <https://onedrive.live.com/>
 * Mindly
     * <https://www.mindlyapp.com/>
     * <https://play.google.com/store/apps/details?id=com.dripgrind.mindly>
