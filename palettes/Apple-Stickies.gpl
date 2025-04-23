@@ -1,0 +1,16 @@
+GIMP Palette
+Name: Apple Stickies
+Columns: 6
+# Colors from the sticky notes from Apple Stickies application.
+254 234  61	Yellow (titlebar)
+137 240 255	Blue (titlebar)
+131 254 131	Green (titlebar)
+255 178 178	Pink (titlebar)
+155 182 254	Purple (titlebar)
+218 218 218	Grey (titlebar)
+254 244 156	Yellow
+173 244 255	Blue
+178 255 160	Green
+255 199 199	Pink
+182 202 255	Purple
+238 238 238	Grey

@@ -17,6 +17,8 @@ Sources for palettes in this collection:
     * <https://bugs.launchpad.net/inkscape/+bug/602698>
 * AndroidArts.com 16 colors by Arne Niklas Jansson
     * <https://androidarts.com/palette/16pal.htm>
+* Apple Stickies
+    * <https://support.apple.com/guide/stickies/welcome/mac>
 * Bamboo Paper (Android app by Wacom)
     * <https://play.google.com/store/apps/details?id=com.wacom.bamboopapertab>
 * Breeze (KDE Usability, Human Interface Guidelines)
