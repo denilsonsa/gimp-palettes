@@ -152,6 +152,9 @@ Sources for palettes in this collection:
     * <https://alumni.media.mit.edu/~wad/color/palette.html>
 * we draw comics
     * <http://beta.wedrawcomics.com/>
+* Windows Color Dialog Box
+    * Versions of this color dialog box exist since Windows 3.x.
+    * <https://learn.microsoft.com/en-us/windows/win32/dlgbox/color-dialog-box>
 * Windows MFC color dialog
     * <https://www.functionx.com/visualc/controls/dlgmfccolor.htm>
     * <https://i.imgur.com/GY2K7WB.png>
