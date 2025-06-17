@@ -44,6 +44,8 @@ Sources for palettes in this collection:
     * <https://play.google.com/store/apps/details?id=net.dotpicko.dotpict>
     * <https://itunes.apple.com/app/dottopikuto!-kantandotto-huiapuri/id995653343>
 * [Drawception](https://drawception.com/)
+    * <https://drawception.com/store/>
+    * <https://drawception.com/sandbox/>
     * <https://github.com/grompe/Drawception-ANBT/blob/master/drawception-anbt.user.js>
 * draw.io
     * <https://www.draw.io/>
