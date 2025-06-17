@@ -49,9 +49,14 @@ Sources for palettes in this collection:
     * <https://www.draw.io/>
 * Draw My Thing
     * Draw My Thing was a flash version by OMGPOP, unofficially available in many sites, but not available officially anymore.
+* DrawNote: Drawing Notepad Memo (by DragonNest)
+    * <https://play.google.com/store/apps/details?id=com.dragonnest.drawnote>
 * Draw Something (by OMGPOP)
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
     * For iOS: [free version](https://itunes.apple.com/us/app/draw-something-free/id488628250) and [paid version](https://itunes.apple.com/us/app/draw-something-by-omgpop/id488627858)
+* FP sDraw (by Fsoft Production)
+    * <https://play.google.com/store/apps/details?id=com.fsoft.FP_sDraw>
+    * <https://play.google.com/store/apps/details?id=com.fsoft.FP_sDraw_paid>
 * GNOME (formerly Ximian)
     * <https://developer.gnome.org/hig-book/stable/design-color.html.en#Palette>
     * [It also suggests using Tango palette](https://wiki.gnome.org/Design/HIG/IconsAndArtwork#Palette)
@@ -111,6 +116,11 @@ Sources for palettes in this collection:
 * Papyrus (Android app by Steadfast Innovation)
     * <http://papyrusapp.com/>
     * <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
+* PENUP (by Samsung)
+    * <https://www.penup.com/>
+    * <https://www.samsung.com/us/support/owners/app/penup>
+    * <https://play.google.com/store/apps/details?id=com.sec.penup>
+    * <https://galaxystore.samsung.com/detail/com.sec.penup>
 * PICO-8
     * <https://en.wikipedia.org/wiki/Pico-8#Display>
     * <https://pico-8.fandom.com/wiki/Palette>
@@ -118,6 +128,9 @@ Sources for palettes in this collection:
 * Pixelator.co
     * <http://www.pixelator.co/>
     * <https://github.com/clarkduvall/pixelator>
+* Pug Pad
+    * <https://www.jadepug.com/>
+    * <https://play.google.com/store/apps/details?id=jadepug.pugpad>
 * Realtimeboard
     * <https://realtimeboard.com/>
 * RHLPixels
