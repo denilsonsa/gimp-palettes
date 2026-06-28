@@ -211,6 +211,8 @@ Other related/similar pages and projects:
 
 * <https://lospec.com/palette-list>
 * <https://github.com/paulwratt/programmers-palettes>
+* <https://github.com/fundevogel/we-love-colors> and <https://codeberg.org/Fundevogel/farben>
+* <https://github.com/picorana/Pantone_finder> and <https://picorana.github.io/Pantone_finder/>
 
 [aseprite]: https://www.aseprite.org/
 [drawpile]: https://drawpile.net/
