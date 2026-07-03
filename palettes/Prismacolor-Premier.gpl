@@ -1,0 +1,208 @@
+GIMP Palette
+Name: Prismacolor Premier
+# Based on https://swatchtool.com/data_prismacolor.json
+# Using https://github.com/fundevogel/we-love-colors/blob/main/src/farben/palettes/prismacolor.py
+#
+# Prismacolor® and related trademarks are the property of
+# Berol Corporation (http://www.berol.co.uk), owned by Sanford L.P. (http://www.sanfordb2b.com),
+# a Newell Brands (https://www.newellbrands.com) company
+252 255 212 Cream
+245 245 140 Deco Yellow
+247 247 003 Canary Yellow
+252 240 089 Tulip Yellow
+250 240 051 Sunburst Yellow
+255 212 115 Jasmine
+252 212 003 Yellow Ochre
+252 212 003 Spanish Orange
+252 168 003 Yellow Orange
+255 107 018 Pale Vermilion
+255 140 003 Orange
+255 084 061 Poppy Red
+255 186 140 Deco Orange
+237 166 112 Goldenrod
+245 166 064 Burnt Ochre
+255 168 048 Mineral Orange
+222 083 043 Pumpkin Orange
+255 222 222 Deco Peach
+255 222 212 Light Peach
+255 196 184 Salmon Pink
+255 140 140 Peach
+252 222 196 Brick Beige
+237 196 140 Sand
+219 148 133 Walnut
+212 106 114 Sienna Brown
+105 022 091 Mahogany Red
+057 023 022 Dark Umber
+237 107 112 Terra Cotta
+222 063 114 Cherry
+255 087 140 Carmine Red
+255 038 112 Scarlet Lake
+225 002 007 Crimson Red
+185 024 097 Henna
+174 007 101 Raspberry
+255 168 212 Blush Pink
+169 111 184 Flagstone Red
+148 045 123 Tuscan Red
+252 140 255 Process Red
+255 112 255 Pink
+255 061 245 Magenta
+245 003 252 Rhodamine
+196 013 255 Mulberry
+255 222 255 Deco Pink
+245 189 222 Ballet Pink
+196 184 255 Greyed Lavender
+166 166 255 Lilac
+209 138 255 Clay Rose
+040 000 223 Dark Purple
+184 212 255 Violet Mist
+112 140 255 Parma Violet
+038 015 252 Violet
+184 255 245 Deco Blue
+199 242 255 Light Cerulean Blue
+130 209 255 Sky Blue Light
+105 212 255 True Blue
+077 181 255 Copenhagen Blue
+087 122 247 Imperial Violet
+051 112 250 Ultramarine
+038 081 237 Violet Blue
+031 062 187 Indigo Blue
+006 029 143 Navy Blue
+214 235 252 Cloud Blue
+204 227 250 Cold Stone
+143 184 252 Blue Slate
+107 161 237 Periwinkle
+128 191 250 Mediterranean Blue
+128 186 255 Cerulean Blue
+044 118 186 Peacock Blue
+189 222 196 Pale Jade
+178 222 194 Celadon Green
+048 148 113 Spruce Green
+133 186 196 Brittany Blue
+082 162 167 Teal Blue
+176 230 242 Muted Turquoise
+153 232 235 Light Blue
+150 232 222 Light Aqua
+066 199 181 Aquamarine
+189 250 176 True Green
+083 225 096 Grass Green
+181 245 135 Mint Cream
+161 245 122 Apple Green
+101 215 035 Leaf Green
+186 240 176 Lime Green
+133 212 143 Forest Green
+047 205 045 Emerald
+064 180 055 Dark Green
+037 160 002 Spearmint
+214 255 120 Chartreuse
+212 250 094 Lime Peel
+181 255 005 Avocado
+150 247 054 Spring Green
+112 200 000 Green Tea
+154 197 093 Light Olive Green
+076 159 022 Dark Olive Green
+166 224 204 Jade Green
+209 224 227 Pewter
+063 215 129 Parrot Green
+214 222 209 Ash Grey
+219 222 214 Driftwood
+242 245 204 Wheat
+245 240 196 Pale Peach
+250 245 214 Eggshell
+250 245 194 Blondwood
+235 240 235 Buff
+224 207 158 Cinnamon Toast
+055 067 012 Cocoa Bean
+149 142 081 Mocha Light
+147 165 140 Taupe
+062 062 010 Mocha Dark
+245 242 227 Brick White
+212 219 140 Oatmeal
+209 219 191 Parchment
+230 222 214 Putty
+217 204 181 Light Walnut
+040 013 026 Eggplant
+187 172 126 Light Tan
+019 024 023 Jet Black
+117 113 048 Sepia
+105 116 058 Light Umber
+111 117 059 Dark Brown
+191 194 135 Khaki
+252 252 252 Warm Grey 10%
+237 240 240 Warm Grey 20%
+232 232 237 Warm Grey 30%
+222 224 227 Warm Grey 40%
+178 186 191 Warm Grey 50%
+166 173 181 Warm Grey 60%
+117 127 134 Warm Grey 70%
+074 078 087 Warm Grey 80%
+035 036 043 Warm Grey 90%
+006 008 008 Warm Black
+240 244 246 Cool Grey 10%
+229 236 239 Cool Grey 20%
+207 220 227 Cool Grey 30%
+187 198 205 Cool Grey 40%
+165 176 183 Cool Grey 50%
+139 160 172 Cool Grey 60%
+104 128 141 Cool Grey 70%
+081 101 112 Cool Grey 80%
+054 070 078 Cool Grey 90%
+006 008 008 Black
+245 242 240 French Grey 10%
+232 232 230 French Grey 20%
+204 207 199 French Grey 30%
+181 186 184 French Grey 40%
+164 164 164 French Grey 50%
+147 152 152 French Grey 60%
+117 124 124 French Grey 70%
+076 082 084 French Grey 80%
+039 042 044 French Grey 90%
+255 255 255 Colorless Blender
+149 169 167 Metallic Silver Broad
+149 169 167 Metallic Silver Fine
+162 177 087 Metallic Gold Broad
+162 177 087 Metallic Gold Fine
+154 169 000 Bronze
+221 220 221 Neutral Grey 10%
+196 195 198 Neutral Grey 20%
+174 172 176 Neutral Grey 30%
+153 151 157 Neutral Grey 40%
+134 132 139 Neutral Grey 50%
+116 115 122 Neutral Grey 60%
+100 099 107 Neutral Grey 70%
+085 086 093 Neutral Grey 80%
+070 073 081 Neutral Grey 90%
+251 241 234 Almond Milk
+245 223 225 Ballet Pink Light
+238 203 205 Blush Pink Light
+255 246 153 Canary Yellow Light
+225 157 148 Carmine Red Light
+240 203 167 Deco Orange Light
+247 230 239 Deco Pink Light
+241 216 213 Dusty Rose
+226 218 236 Greyed Lavender Light
+228 213 192 Light Umber 20%
+222 203 178 Light Umber 30%
+209 191 172 Light Umber 40%
+203 182 161 Light Umber 50%
+196 173 150 Light Umber 60%
+189 163 138 Light Umber 70%
+182 155 128 Light Umber 80%
+138 116 085 Light Umber 90%
+157 150 197 Lilac Light
+213 173 205 Mulberry Light
+019 154 202 Neon Blue
+168 200 096 Neon Green
+239 194 083 Neon Orange
+195 106 161 Neon Pink
+252 232 036 Neon Yellow
+246 237 099 Neon Yellow Green
+129 189 181 Parrot Green Light
+224 163 196 Pink Light
+231 187 212 Process Red Light
+148 036 127 Rhodamine Dark
+217 155 191 Rhodamine Light
+026 131 197 Turquoise Dark
+138 174 220 Ultramarine Light
+212 176 225 Violet Blue Light
+063 062 139 Violet Dark
+239 194 083 Yellow Orange Light

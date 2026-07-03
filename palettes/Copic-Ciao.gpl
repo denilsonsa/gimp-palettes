@@ -1,0 +1,187 @@
+GIMP Palette
+Name: Copic Ciao
+# Based on https://copic.de/copic-ciao-farb/bestellraster
+# Using https://github.com/fundevogel/we-love-colors/blob/main/src/farben/palettes/copic.py
+#
+# Copic® and related trademarks are the property of
+# Too Marker Corporation (https://www.toomarker.co.jp/en)
+255 255 255 Colorless Blender
+030 027 026 Black
+230 243 246 Frost Blue
+233 244 242 Pale Porcelain Blue
+184 223 234 Robin'S Egg Blue
+080 182 217 Process Blue
+204 227 223 Ice Blue
+031 116 182 Lapis Lazuli
+148 188 224 Phthalo Blue
+142 200 232 Sky
+022 083 155 Royal Blue
+011 094 165 Ultramarine
+228 239 243 Pale Blue
+032 073 141 Prussian Blue
+120 182 222 Smoky Blue
+221 224 239 Pale Blue Gray
+167 181 216 Light Hydrangea
+151 188 211 Light Crockery Blue
+108 153 185 Light Grayish Cobalt
+057 103 132 Night Blue
+011 060 100 Agate
+245 250 248 Pale Aqua
+204 228 244 Aqua Blue
+133 201 217 Holiday Blue
+033 155 179 Blue Green
+225 240 237 Cool Shadow
+200 228 229 Mint Green
+163 211 200 Aqua
+193 224 214 Coral Sea
+165 213 206 Horizon Green
+033 160 161 Duck Blue
+113 172 172 Ice Ocean
+184 186 172 Green Gray
+120 148 123 Bush
+226 219 235 Mauve Shadow
+232 224 238 Iridescent Mauve
+170 179 213 Prune
+119 137 190 Blue Berry
+149 108 165 Blue Violet
+125 130 185 Hydrangea Blue
+097 114 170 Deep Reddish Blue
+179 190 216 Grayish Lavender
+116 113 149 Grayish Violet
+035 048 059 Slate
+223 226 240 Pale Lavender
+228 235 239 Cool Gray No.0
+220 226 231 Cool Gray No.1
+205 214 218 Cool Gray No.2
+189 197 207 Cool Gray No.3
+137 148 153 Cool Gray No.5
+084 095 099 Cool Gray No.7
+253 244 235 Cotton Pearl
+253 244 238 Pale Fruit Pink
+251 235 224 Fruit Pink
+222 181 187 Lipstick Natural
+188 077 061 Brown
+251 231 214 Bareley Beige
+243 179 126 Dark Suntan
+135 082 076 Copper
+251 225 199 Soft Sun
+205 153 112 Caribe Cocoa
+120 051 040 Burnt Umber
+241 227 201 Brick Beige
+239 206 168 Sand
+226 191 153 Chamois
+194 130 069 Sepia
+242 231 217 Brick White
+253 240 227 Pearl White
+232 218 183 Dull Ivory
+124 094 069 Dark Brown
+087 062 045 Dark Bark
+242 235 237 Egg Shell
+252 233 214 Milky White
+242 228 187 Raw Silk
+168 118 069 Light Walnut
+143 113 088 Walnut
+227 214 209 Champagne
+113 080 059 Maroon
+064 037 029 Cashew
+248 207 179 Tea Rose
+244 179 111 Tea Orange
+230 243 243 Jade Green
+246 250 245 Pale Green
+209 231 206 Spectrum Green
+099 174 092 Emerald Green
+118 181 089 Nile Green
+148 196 120 Apple Green
+028 153 093 Forest Green
+199 225 198 Lime Green
+022 124 070 Ocean Green
+038 105 072 Pine Tree Green
+206 218 181 Spring Dim Green
+157 190 159 Verdigris
+144 156 113 Grayish Olive
+099 113 044 Olive
+253 241 236 Pinkish White
+253 243 238 Cherry White
+248 208 196 Rose Salmon
+234 127 107 Salmon Red
+251 225 213 Pale Cherry Pink
+236 141 133 Light Rouge
+230 109 087 Lipstick Orange
+249 214 208 Blush
+242 175 171 Light Prawn
+220 045 073 Cadmium Red
+215 000 052 Lipstick Red
+244 187 181 Peach
+226 085 110 Coral
+230 109 115 Carmine
+206 043 080 Strong Red
+168 057 093 Cardinal
+238 197 211 Rose Pink
+199 080 126 Rose Red
+245 232 242 Pale Purple
+247 211 227 Sugared Almond Pink
+237 150 181 Shock Pink
+230 111 156 Cerise
+251 236 243 Pale Pink
+245 197 213 Tender Pink
+234 130 168 Begonia Pink
+251 232 233 Light Pink
+242 179 195 Pure Pink
+219 032 099 Crimson
+240 166 166 Dark Pink
+243 180 176 Salmon Pink
+143 084 106 Poeny
+174 117 147 Baby Blossoms
+056 043 056 Pale Heath
+227 188 213 Heath
+224 161 197 Lilac
+222 155 193 Azalea
+201 137 182 Lavender
+135 084 162 Violet
+244 237 245 Pale Lilac
+236 212 230 Mallow
+208 158 197 Amethyst
+146 133 159 Pale Grape
+187 127 163 Light Grape
+245 243 233 Warm Gray No.0
+232 231 220 Warm Gray No.1
+233 232 224 Warm Gray No.2
+210 208 197 Warm Gray No.3
+160 158 146 Warm Gray No.5
+106 105 095 Warm Gray No.7
+255 253 223 Barium Yellow
+255 253 238 Pale Lemon
+247 241 138 Canary Yellow
+255 241 090 Yellow
+255 236 000 Acid Yellow
+255 251 201 Pale Yellow
+255 229 091 Cadmium Yellow
+254 223 068 Golden Yellow
+254 238 189 Buttercup Yellow
+194 158 084 Lionet Gold
+253 212 104 Maize
+251 206 099 Honey
+230 228 145 Mimosa Yellow
+225 233 159 Yellow Green
+197 217 127 Yellowish Green
+121 180 071 Lettuce Green
+229 239 202 Mignonette
+105 173 056 Grass Green
+232 232 129 New Leaf
+216 234 207 Pale Cobalt Green
+160 197 147 Pea Green
+126 180 117 Moss
+218 213 166 Putty
+201 193 079 Pale Olive
+251 219 189 Powder Pink
+253 236 218 Silk
+248 197 139 Light Orange
+247 188 086 Chrome Orange
+225 084 043 Cadmium Orange
+248 188 072 Pumpkin Yellow
+245 173 026 Apricot
+252 225 188 Yellowish Shade
+232 205 130 Yellow Ochre
+252 221 160 Light Reddish Yellow
+250 217 192 Spring Orange
+225 083 024 Orange

@@ -1,0 +1,221 @@
+GIMP Palette
+Name: Copic Classic
+# Based on https://copic.de/copic-classic-farb/bestellraster
+# Using https://github.com/fundevogel/we-love-colors/blob/main/src/farben/palettes/copic.py
+#
+# Copic® and related trademarks are the property of
+# Too Marker Corporation (https://www.toomarker.co.jp/en)
+255 255 255 Colorless Blender
+030 027 026 Black
+041 036 033 Special Black
+230 243 246 Frost Blue
+217 237 238 Mint Blue
+184 223 234 Robin'S Egg Blue
+119 195 218 Tahitian Blue
+080 182 217 Process Blue
+043 159 213 Peacock Blue
+204 227 223 Ice Blue
+118 195 224 Light Blue
+045 171 218 Cyanine Blue
+031 116 182 Lapis Lazuli
+224 237 246 Baby Blue
+148 188 224 Phthalo Blue
+142 200 232 Sky
+103 166 214 Cobalt Blue
+011 094 165 Ultramarine
+228 239 243 Pale Blue
+133 186 224 Manganese Blue
+013 087 139 Antwerp Blue
+032 073 141 Prussian Blue
+229 238 247 Powder Blue
+120 182 222 Smoky Blue
+202 229 230 New Blue
+133 201 217 Holiday Blue
+033 155 179 Blue Green
+225 240 237 Cool Shadow
+209 234 237 Moon White
+200 228 229 Mint Green
+163 211 200 Aqua
+067 171 151 Teal Blue
+191 223 207 Aqua Mint
+165 213 206 Horizon Green
+180 219 218 Nile Blue
+033 160 161 Duck Blue
+110 156 136 Flagstone Blue
+226 219 235 Mauve Shadow
+119 137 190 Blue Berry
+149 108 165 Blue Violet
+179 190 216 Grayish Lavender
+223 226 240 Pale Lavender
+228 235 239 Cool Gray No.0
+220 226 231 Cool Gray No.1
+205 214 218 Cool Gray No.2
+189 197 207 Cool Gray No.3
+146 158 170 Cool Gray No.4
+137 148 153 Cool Gray No.5
+111 124 130 Cool Gray No.6
+084 095 099 Cool Gray No.7
+066 075 079 Cool Gray No.8
+047 055 059 Cool Gray No.9
+028 034 037 Cool Gray No.10
+253 244 235 Cotton Pearl
+251 235 224 Fruit Pink
+222 181 187 Lipstick Natural
+193 110 087 Light Mahogany
+200 078 057 Burnt Sienna
+251 231 214 Bareley Beige
+225 190 165 Light Suntan
+243 179 126 Dark Suntan
+182 058 040 Redwood
+251 225 199 Soft Sun
+205 153 112 Caribe Cocoa
+140 101 077 Milk Chocolate
+120 051 040 Burnt Umber
+241 227 201 Brick Beige
+239 206 168 Sand
+236 199 156 Toast
+226 191 153 Chamois
+194 130 069 Sepia
+186 095 044 Leather
+242 231 217 Brick White
+253 240 227 Pearl White
+232 218 183 Dull Ivory
+193 179 157 Clay
+087 062 045 Dark Bark
+252 233 214 Milky White
+242 228 187 Raw Silk
+238 217 176 Light Camel
+168 118 069 Light Walnut
+143 113 088 Walnut
+113 080 059 Maroon
+230 243 243 Jade Green
+209 231 206 Spectrum Green
+099 174 092 Emerald Green
+118 181 089 Nile Green
+116 179 071 Veronese Green
+212 230 189 Sea Green
+148 196 120 Apple Green
+092 176 126 Malachite
+028 153 093 Forest Green
+054 161 106 Bright Parrot Green
+238 244 216 Wax White
+199 225 198 Lime Green
+195 221 167 Willow
+022 124 070 Ocean Green
+038 105 072 Pine Tree Green
+231 241 220 Dim Green
+206 218 181 Spring Dim Green
+157 190 159 Verdigris
+099 113 044 Olive
+237 238 237 Neutral Gray No.0
+228 227 227 Neutral Gray No.1
+219 218 218 Neutral Gray No.2
+210 209 208 Neutral Gray No.3
+186 184 183 Neutral Gray No.4
+160 159 158 Neutral Gray No.5
+137 136 134 Neutral Gray No.6
+105 105 103 Neutral Gray No.7
+084 083 082 Neutral Gray No.8
+063 062 061 Neutral Gray No.9
+041 038 037 Neutral Gray No.10
+253 241 236 Pinkish White
+248 208 196 Rose Salmon
+234 127 107 Salmon Red
+224 071 063 Vermilion
+251 225 213 Pale Cherry Pink
+230 109 087 Lipstick Orange
+249 214 208 Blush
+227 090 101 Prawn
+220 045 073 Cadmium Red
+215 000 052 Lipstick Red
+244 187 181 Peach
+226 085 110 Coral
+230 109 115 Carmine
+187 044 099 Garnet
+168 057 093 Cardinal
+247 211 227 Sugared Almond Pink
+237 150 181 Shock Pink
+230 111 156 Cerise
+212 085 147 Fuchsia
+251 236 243 Pale Pink
+248 213 220 Pink
+245 197 213 Tender Pink
+234 130 168 Begonia Pink
+210 103 158 Deep Magenta
+199 075 141 Red Violet
+251 232 233 Light Pink
+234 130 175 Dog Rose Flower
+219 032 099 Crimson
+248 209 205 Shadow Pink
+240 166 166 Dark Pink
+237 238 237 Toner Gray No.0
+235 234 231 Toner Gray No.1
+226 225 219 Toner Gray No.2
+211 209 199 Toner Gray No.3
+186 181 174 Toner Gray No.4
+160 156 147 Toner Gray No.5
+138 134 124 Toner Gray No.6
+106 102 095 Toner Gray No.7
+084 081 075 Toner Gray No.8
+063 060 056 Toner Gray No.9
+040 038 034 Toner Gray No.10
+224 161 197 Lilac
+201 137 182 Lavender
+135 084 162 Violet
+244 237 245 Pale Lilac
+236 212 230 Mallow
+208 158 197 Amethyst
+245 243 233 Warm Gray No.0
+232 231 220 Warm Gray No.1
+233 232 224 Warm Gray No.2
+210 208 197 Warm Gray No.3
+185 182 171 Warm Gray No.4
+160 158 146 Warm Gray No.5
+139 135 124 Warm Gray No.6
+106 105 095 Warm Gray No.7
+083 082 074 Warm Gray No.8
+064 061 055 Warm Gray No.9
+040 038 034 Warm Gray No.10
+255 253 223 Barium Yellow
+247 241 138 Canary Yellow
+255 241 090 Yellow
+255 236 000 Acid Yellow
+255 251 201 Pale Yellow
+251 245 166 Lemon Yellow
+255 229 091 Cadmium Yellow
+254 223 068 Golden Yellow
+255 228 049 Napoli Yellow
+254 238 189 Buttercup Yellow
+250 227 175 Yellowish Beige
+237 217 087 Mustard
+251 206 099 Honey
+232 239 186 Green Bice
+225 233 159 Yellow Green
+216 226 129 Salad
+160 194 048 Acid Green
+121 180 071 Lettuce Green
+229 239 202 Mignonette
+212 225 144 Chartreuse
+105 173 056 Grass Green
+247 246 184 Anise
+232 232 129 New Leaf
+207 219 101 Celadon Green
+216 234 207 Pale Cobalt Green
+181 216 171 Cobalt Green
+160 197 147 Pea Green
+126 180 117 Moss
+218 213 166 Putty
+201 193 079 Pale Olive
+139 132 006 Spanish Olive
+073 091 017 Marine Green
+251 219 189 Powder Pink
+248 197 139 Light Orange
+247 188 086 Chrome Orange
+225 084 043 Cadmium Orange
+220 052 026 Chinese Orange
+254 212 083 Caramel
+245 173 026 Apricot
+224 078 044 Sanguine
+243 220 171 Cream
+232 205 130 Yellow Ochre
+237 205 084 Pale Sepia

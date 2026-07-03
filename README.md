@@ -24,6 +24,10 @@ Sources for palettes in this collection:
 * Breeze (KDE Usability, Human Interface Guidelines)
     * <https://techbase.kde.org/Projects/Usability/HIG/Color>
     * <https://techbase.kde.org/Projects/Usability/HIG/MockupToolkit>
+* Copic
+    * <https://copic.de/copic-ciao-farb/bestellraster>
+    * <https://copic.de/copic-classic-farb/bestellraster>
+    * <https://copic.de/copic-sketch-farb/bestellraster>
 * Crayola
     * <https://www.deviantart.com/rosros-3/art/Crayola-368592163>
     * [List of Crayola crayon colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
@@ -56,6 +60,8 @@ Sources for palettes in this collection:
 * Draw Something (by OMGPOP)
     * For Android: [free version](https://play.google.com/store/apps/details?id=com.omgpop.dstfree) and [paid version](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid)
     * For iOS: [free version](https://itunes.apple.com/us/app/draw-something-free/id488628250) and [paid version](https://itunes.apple.com/us/app/draw-something-by-omgpop/id488627858)
+* Dulux
+    * <https://colour.dulux.ca/all-colors>
 * FP sDraw (by Fsoft Production)
     * <https://play.google.com/store/apps/details?id=com.fsoft.FP_sDraw>
     * <https://play.google.com/store/apps/details?id=com.fsoft.FP_sDraw_paid>
@@ -86,6 +92,8 @@ Sources for palettes in this collection:
     * <http://web.archive.org/web/20161207155315/https://developer.pebble.com/guides/tools-and-resources/color-picker/>
     * <https://github.com/pebble/clay/blob/1bf6db08092ab464974d1762a953ea7cbd24efb8/src/scripts/components/color.js>
     * <https://pixeltao.ca/post/152163410138/the-infamous-nes-palette>
+* HKS
+    * <https://www.kern.de/hks-farbtabelle>
 * INKredible
     * <https://www.writeon.cool/inkredible/>
     * <https://play.google.com/store/apps/details?id=com.viettran.INKredible>
@@ -113,8 +121,14 @@ Sources for palettes in this collection:
     * <https://www.mindmup.com/>
 * Minecraft
     * <https://minecraft.wiki/w/Formatting_codes>
+* NCS
+    * <https://www.e-paint.co.uk/NCS-2050-index-colour-chart.asp>
 * OnePlus Gallery
     * <https://play.google.com/store/apps/details?id=com.oneplus.gallery>
+* Pantone
+    * <https://www.numerosamente.it/pantone-list/fashion-and-interior-designers>
+    * <https://www.numerosamente.it/pantone-list/graphic-designers>
+    * <https://www.numerosamente.it/pantone-list/industrial-designers>
 * Papyrus (Android app by Steadfast Innovation)
     * <http://papyrusapp.com/>
     * <https://play.google.com/store/apps/details?id=com.steadfastinnovation.android.projectpapyrus>
@@ -130,9 +144,13 @@ Sources for palettes in this collection:
 * Pixelator.co
     * <http://www.pixelator.co/>
     * <https://github.com/clarkduvall/pixelator>
+* Prismacolor
+    * <https://swatchtool.com/data_prismacolor.json>
 * Pug Pad
     * <https://www.jadepug.com/>
     * <https://play.google.com/store/apps/details?id=jadepug.pugpad>
+* RAL
+    * <https://www.ral-farben.de/alle-ral-farben>
 * Realtimeboard
     * <https://realtimeboard.com/>
 * RHLPixels
