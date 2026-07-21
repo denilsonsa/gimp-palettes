@@ -10,7 +10,6 @@ Columns: 16
 # https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-dict.js
 # http://web.archive.org/web/20161207160755/https://developer.pebble.com/assets/js/tools/color-mapping-sunlight.js
 # https://developer.rebble.io/developer.pebble.com/assets/js/tools/color-mapping-sunlight.js
-# python3 -c 'l=[0,85,170,255]; [print(a,b,c) for a in l for b in l for c in l]'
   0   0   0	Black
   0  30  65	Oxford Blue
   0  67 135	Duke Blue
