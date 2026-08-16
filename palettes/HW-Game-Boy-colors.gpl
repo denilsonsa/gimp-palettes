@@ -1,6 +1,7 @@
 GIMP Palette
 Name: HW Game Boy (with colors)
 Columns: 12
+# 12 available palettes for rendering classic monochrome Game Boy games in a Game Boy Color console.
 # https://en.wikipedia.org/wiki/Game_Boy_Color#Color_palettes_used_for_original_Game_Boy_games
 # https://en.wikipedia.org/wiki/File:GBC_keypad_palettes.png
 131  49   0	Brown Welcome-splash

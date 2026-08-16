@@ -84,6 +84,12 @@ Sources for palettes in this collection:
     * <https://grafxkid.tumblr.com/post/137918490929/heres-the-latest-version-of-my-personal-pixel-art>
     * <https://grafxkid.tumblr.com/tagged/color-palette>
 * Hardware palettes
+    * For systems with a low amount of colors, often multiple palette
+      variations were available. Those palettes are grouped together in a
+      single file, one palette variation per row.
+    * The colors are often an approximation. Analog color is dependent on a lot
+      of factors, and the perceived color can vary per device, TV tuning,
+      interference, and lighting conditions.
     * [List of 8-bit computer hardware palettes](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes)
     * [List of videogame consoles palettes](https://en.wikipedia.org/wiki/List_of_videogame_consoles_palettes)
     * <https://segaretro.org/Palette>
