@@ -1,0 +1,105 @@
+GIMP Palette
+Name: ColorBrewer - Diverging - RdBu
+Columns: 11
+# 9 color sets available, up to 11 colors
+# https://colorbrewer2.org/#type=diverging&scheme=RdBu&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+239 138  98	RdBu 1/3
+247 247 247	RdBu 2/3
+103 169 207	RdBu 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+202   0  32	RdBu 1/4
+244 165 130	RdBu 2/4
+146 197 222	RdBu 3/4
+  5 113 176	RdBu 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+202   0  32	RdBu 1/5
+244 165 130	RdBu 2/5
+247 247 247	RdBu 3/5
+146 197 222	RdBu 4/5
+  5 113 176	RdBu 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+178  24  43	RdBu 1/6
+239 138  98	RdBu 2/6
+253 219 199	RdBu 3/6
+209 229 240	RdBu 4/6
+103 169 207	RdBu 5/6
+ 33 102 172	RdBu 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+178  24  43	RdBu 1/7
+239 138  98	RdBu 2/7
+253 219 199	RdBu 3/7
+247 247 247	RdBu 4/7
+209 229 240	RdBu 5/7
+103 169 207	RdBu 6/7
+ 33 102 172	RdBu 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+178  24  43	RdBu 1/8
+214  96  77	RdBu 2/8
+244 165 130	RdBu 3/8
+253 219 199	RdBu 4/8
+209 229 240	RdBu 5/8
+146 197 222	RdBu 6/8
+ 67 147 195	RdBu 7/8
+ 33 102 172	RdBu 8/8
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+178  24  43	RdBu 1/9
+214  96  77	RdBu 2/9
+244 165 130	RdBu 3/9
+253 219 199	RdBu 4/9
+247 247 247	RdBu 5/9
+209 229 240	RdBu 6/9
+146 197 222	RdBu 7/9
+ 67 147 195	RdBu 8/9
+ 33 102 172	RdBu 9/9
+  0   0   0	Empty
+  0   0   0	Empty
+103   0  31	RdBu 1/10
+178  24  43	RdBu 2/10
+214  96  77	RdBu 3/10
+244 165 130	RdBu 4/10
+253 219 199	RdBu 5/10
+209 229 240	RdBu 6/10
+146 197 222	RdBu 7/10
+ 67 147 195	RdBu 8/10
+ 33 102 172	RdBu 9/10
+  5  48  97	RdBu 10/10
+  0   0   0	Empty
+103   0  31	RdBu 1/11
+178  24  43	RdBu 2/11
+214  96  77	RdBu 3/11
+244 165 130	RdBu 4/11
+253 219 199	RdBu 5/11
+247 247 247	RdBu 6/11
+209 229 240	RdBu 7/11
+146 197 222	RdBu 8/11
+ 67 147 195	RdBu 9/11
+ 33 102 172	RdBu 10/11
+  5  48  97	RdBu 11/11

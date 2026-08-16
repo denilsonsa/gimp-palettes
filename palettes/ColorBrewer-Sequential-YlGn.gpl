@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Sequential - YlGn
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=sequential&scheme=YlGn&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+247 252 185	YlGn 1/3
+173 221 142	YlGn 2/3
+ 49 163  84	YlGn 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 204	YlGn 1/4
+194 230 153	YlGn 2/4
+120 198 121	YlGn 3/4
+ 35 132  67	YlGn 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 204	YlGn 1/5
+194 230 153	YlGn 2/5
+120 198 121	YlGn 3/5
+ 49 163  84	YlGn 4/5
+  0 104  55	YlGn 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 204	YlGn 1/6
+217 240 163	YlGn 2/6
+173 221 142	YlGn 3/6
+120 198 121	YlGn 4/6
+ 49 163  84	YlGn 5/6
+  0 104  55	YlGn 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 204	YlGn 1/7
+217 240 163	YlGn 2/7
+173 221 142	YlGn 3/7
+120 198 121	YlGn 4/7
+ 65 171  93	YlGn 5/7
+ 35 132  67	YlGn 6/7
+  0  90  50	YlGn 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 229	YlGn 1/8
+247 252 185	YlGn 2/8
+217 240 163	YlGn 3/8
+173 221 142	YlGn 4/8
+120 198 121	YlGn 5/8
+ 65 171  93	YlGn 6/8
+ 35 132  67	YlGn 7/8
+  0  90  50	YlGn 8/8
+  0   0   0	Empty
+255 255 229	YlGn 1/9
+247 252 185	YlGn 2/9
+217 240 163	YlGn 3/9
+173 221 142	YlGn 4/9
+120 198 121	YlGn 5/9
+ 65 171  93	YlGn 6/9
+ 35 132  67	YlGn 7/9
+  0 104  55	YlGn 8/9
+  0  69  41	YlGn 9/9

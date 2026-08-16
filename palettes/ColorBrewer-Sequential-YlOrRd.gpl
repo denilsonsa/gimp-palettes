@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Sequential - YlOrRd
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=sequential&scheme=YlOrRd&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+255 237 160	YlOrRd 1/3
+254 178  76	YlOrRd 2/3
+240  59  32	YlOrRd 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 178	YlOrRd 1/4
+254 204  92	YlOrRd 2/4
+253 141  60	YlOrRd 3/4
+227  26  28	YlOrRd 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 178	YlOrRd 1/5
+254 204  92	YlOrRd 2/5
+253 141  60	YlOrRd 3/5
+240  59  32	YlOrRd 4/5
+189   0  38	YlOrRd 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 178	YlOrRd 1/6
+254 217 118	YlOrRd 2/6
+254 178  76	YlOrRd 3/6
+253 141  60	YlOrRd 4/6
+240  59  32	YlOrRd 5/6
+189   0  38	YlOrRd 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 178	YlOrRd 1/7
+254 217 118	YlOrRd 2/7
+254 178  76	YlOrRd 3/7
+253 141  60	YlOrRd 4/7
+252  78  42	YlOrRd 5/7
+227  26  28	YlOrRd 6/7
+177   0  38	YlOrRd 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 204	YlOrRd 1/8
+255 237 160	YlOrRd 2/8
+254 217 118	YlOrRd 3/8
+254 178  76	YlOrRd 4/8
+253 141  60	YlOrRd 5/8
+252  78  42	YlOrRd 6/8
+227  26  28	YlOrRd 7/8
+177   0  38	YlOrRd 8/8
+  0   0   0	Empty
+255 255 204	YlOrRd 1/9
+255 237 160	YlOrRd 2/9
+254 217 118	YlOrRd 3/9
+254 178  76	YlOrRd 4/9
+253 141  60	YlOrRd 5/9
+252  78  42	YlOrRd 6/9
+227  26  28	YlOrRd 7/9
+189   0  38	YlOrRd 8/9
+128   0  38	YlOrRd 9/9

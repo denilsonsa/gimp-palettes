@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Qualitative - Pastel1
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=qualitative&scheme=Pastel1&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+251 180 174	Pastel1 1/3
+179 205 227	Pastel1 2/3
+204 235 197	Pastel1 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+251 180 174	Pastel1 1/4
+179 205 227	Pastel1 2/4
+204 235 197	Pastel1 3/4
+222 203 228	Pastel1 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+251 180 174	Pastel1 1/5
+179 205 227	Pastel1 2/5
+204 235 197	Pastel1 3/5
+222 203 228	Pastel1 4/5
+254 217 166	Pastel1 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+251 180 174	Pastel1 1/6
+179 205 227	Pastel1 2/6
+204 235 197	Pastel1 3/6
+222 203 228	Pastel1 4/6
+254 217 166	Pastel1 5/6
+255 255 204	Pastel1 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+251 180 174	Pastel1 1/7
+179 205 227	Pastel1 2/7
+204 235 197	Pastel1 3/7
+222 203 228	Pastel1 4/7
+254 217 166	Pastel1 5/7
+255 255 204	Pastel1 6/7
+229 216 189	Pastel1 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+251 180 174	Pastel1 1/8
+179 205 227	Pastel1 2/8
+204 235 197	Pastel1 3/8
+222 203 228	Pastel1 4/8
+254 217 166	Pastel1 5/8
+255 255 204	Pastel1 6/8
+229 216 189	Pastel1 7/8
+253 218 236	Pastel1 8/8
+  0   0   0	Empty
+251 180 174	Pastel1 1/9
+179 205 227	Pastel1 2/9
+204 235 197	Pastel1 3/9
+222 203 228	Pastel1 4/9
+254 217 166	Pastel1 5/9
+255 255 204	Pastel1 6/9
+229 216 189	Pastel1 7/9
+253 218 236	Pastel1 8/9
+242 242 242	Pastel1 9/9

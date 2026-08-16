@@ -1,0 +1,54 @@
+GIMP Palette
+Name: ColorBrewer - Qualitative - Accent
+Columns: 8
+# 6 color sets available, up to 8 colors
+# https://colorbrewer2.org/#type=qualitative&scheme=Accent&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+127 201 127	Accent 1/3
+190 174 212	Accent 2/3
+253 192 134	Accent 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+127 201 127	Accent 1/4
+190 174 212	Accent 2/4
+253 192 134	Accent 3/4
+255 255 153	Accent 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+127 201 127	Accent 1/5
+190 174 212	Accent 2/5
+253 192 134	Accent 3/5
+255 255 153	Accent 4/5
+ 56 108 176	Accent 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+127 201 127	Accent 1/6
+190 174 212	Accent 2/6
+253 192 134	Accent 3/6
+255 255 153	Accent 4/6
+ 56 108 176	Accent 5/6
+240   2 127	Accent 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+127 201 127	Accent 1/7
+190 174 212	Accent 2/7
+253 192 134	Accent 3/7
+255 255 153	Accent 4/7
+ 56 108 176	Accent 5/7
+240   2 127	Accent 6/7
+191  91  23	Accent 7/7
+  0   0   0	Empty
+127 201 127	Accent 1/8
+190 174 212	Accent 2/8
+253 192 134	Accent 3/8
+255 255 153	Accent 4/8
+ 56 108 176	Accent 5/8
+240   2 127	Accent 6/8
+191  91  23	Accent 7/8
+102 102 102	Accent 8/8

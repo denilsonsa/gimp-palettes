@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Sequential - RdPu
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=sequential&scheme=RdPu&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+253 224 221	RdPu 1/3
+250 159 181	RdPu 2/3
+197  27 138	RdPu 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 235 226	RdPu 1/4
+251 180 185	RdPu 2/4
+247 104 161	RdPu 3/4
+174   1 126	RdPu 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 235 226	RdPu 1/5
+251 180 185	RdPu 2/5
+247 104 161	RdPu 3/5
+197  27 138	RdPu 4/5
+122   1 119	RdPu 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 235 226	RdPu 1/6
+252 197 192	RdPu 2/6
+250 159 181	RdPu 3/6
+247 104 161	RdPu 4/6
+197  27 138	RdPu 5/6
+122   1 119	RdPu 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 235 226	RdPu 1/7
+252 197 192	RdPu 2/7
+250 159 181	RdPu 3/7
+247 104 161	RdPu 4/7
+221  52 151	RdPu 5/7
+174   1 126	RdPu 6/7
+122   1 119	RdPu 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+255 247 243	RdPu 1/8
+253 224 221	RdPu 2/8
+252 197 192	RdPu 3/8
+250 159 181	RdPu 4/8
+247 104 161	RdPu 5/8
+221  52 151	RdPu 6/8
+174   1 126	RdPu 7/8
+122   1 119	RdPu 8/8
+  0   0   0	Empty
+255 247 243	RdPu 1/9
+253 224 221	RdPu 2/9
+252 197 192	RdPu 3/9
+250 159 181	RdPu 4/9
+247 104 161	RdPu 5/9
+221  52 151	RdPu 6/9
+174   1 126	RdPu 7/9
+122   1 119	RdPu 8/9
+ 73   0 106	RdPu 9/9

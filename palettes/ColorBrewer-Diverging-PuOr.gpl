@@ -1,0 +1,105 @@
+GIMP Palette
+Name: ColorBrewer - Diverging - PuOr
+Columns: 11
+# 9 color sets available, up to 11 colors
+# https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+241 163  64	PuOr 1/3
+247 247 247	PuOr 2/3
+153 142 195	PuOr 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+230  97   1	PuOr 1/4
+253 184  99	PuOr 2/4
+178 171 210	PuOr 3/4
+ 94  60 153	PuOr 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+230  97   1	PuOr 1/5
+253 184  99	PuOr 2/5
+247 247 247	PuOr 3/5
+178 171 210	PuOr 4/5
+ 94  60 153	PuOr 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+179  88   6	PuOr 1/6
+241 163  64	PuOr 2/6
+254 224 182	PuOr 3/6
+216 218 235	PuOr 4/6
+153 142 195	PuOr 5/6
+ 84  39 136	PuOr 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+179  88   6	PuOr 1/7
+241 163  64	PuOr 2/7
+254 224 182	PuOr 3/7
+247 247 247	PuOr 4/7
+216 218 235	PuOr 5/7
+153 142 195	PuOr 6/7
+ 84  39 136	PuOr 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+179  88   6	PuOr 1/8
+224 130  20	PuOr 2/8
+253 184  99	PuOr 3/8
+254 224 182	PuOr 4/8
+216 218 235	PuOr 5/8
+178 171 210	PuOr 6/8
+128 115 172	PuOr 7/8
+ 84  39 136	PuOr 8/8
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+179  88   6	PuOr 1/9
+224 130  20	PuOr 2/9
+253 184  99	PuOr 3/9
+254 224 182	PuOr 4/9
+247 247 247	PuOr 5/9
+216 218 235	PuOr 6/9
+178 171 210	PuOr 7/9
+128 115 172	PuOr 8/9
+ 84  39 136	PuOr 9/9
+  0   0   0	Empty
+  0   0   0	Empty
+127  59   8	PuOr 1/10
+179  88   6	PuOr 2/10
+224 130  20	PuOr 3/10
+253 184  99	PuOr 4/10
+254 224 182	PuOr 5/10
+216 218 235	PuOr 6/10
+178 171 210	PuOr 7/10
+128 115 172	PuOr 8/10
+ 84  39 136	PuOr 9/10
+ 45   0  75	PuOr 10/10
+  0   0   0	Empty
+127  59   8	PuOr 1/11
+179  88   6	PuOr 2/11
+224 130  20	PuOr 3/11
+253 184  99	PuOr 4/11
+254 224 182	PuOr 5/11
+247 247 247	PuOr 6/11
+216 218 235	PuOr 7/11
+178 171 210	PuOr 8/11
+128 115 172	PuOr 9/11
+ 84  39 136	PuOr 10/11
+ 45   0  75	PuOr 11/11

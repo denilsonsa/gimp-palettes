@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Sequential - Greys
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=sequential&scheme=Greys&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+240 240 240	Greys 1/3
+189 189 189	Greys 2/3
+ 99  99  99	Greys 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+247 247 247	Greys 1/4
+204 204 204	Greys 2/4
+150 150 150	Greys 3/4
+ 82  82  82	Greys 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+247 247 247	Greys 1/5
+204 204 204	Greys 2/5
+150 150 150	Greys 3/5
+ 99  99  99	Greys 4/5
+ 37  37  37	Greys 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+247 247 247	Greys 1/6
+217 217 217	Greys 2/6
+189 189 189	Greys 3/6
+150 150 150	Greys 4/6
+ 99  99  99	Greys 5/6
+ 37  37  37	Greys 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+247 247 247	Greys 1/7
+217 217 217	Greys 2/7
+189 189 189	Greys 3/7
+150 150 150	Greys 4/7
+115 115 115	Greys 5/7
+ 82  82  82	Greys 6/7
+ 37  37  37	Greys 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+255 255 255	Greys 1/8
+240 240 240	Greys 2/8
+217 217 217	Greys 3/8
+189 189 189	Greys 4/8
+150 150 150	Greys 5/8
+115 115 115	Greys 6/8
+ 82  82  82	Greys 7/8
+ 37  37  37	Greys 8/8
+  0   0   0	Empty
+255 255 255	Greys 1/9
+240 240 240	Greys 2/9
+217 217 217	Greys 3/9
+189 189 189	Greys 4/9
+150 150 150	Greys 5/9
+115 115 115	Greys 6/9
+ 82  82  82	Greys 7/9
+ 37  37  37	Greys 8/9
+  0   0   0	Greys 9/9

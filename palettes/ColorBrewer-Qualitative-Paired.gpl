@@ -1,0 +1,126 @@
+GIMP Palette
+Name: ColorBrewer - Qualitative - Paired
+Columns: 12
+# 10 color sets available, up to 12 colors
+# https://colorbrewer2.org/#type=qualitative&scheme=Paired&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+166 206 227	Paired 1/3
+ 31 120 180	Paired 2/3
+178 223 138	Paired 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/4
+ 31 120 180	Paired 2/4
+178 223 138	Paired 3/4
+ 51 160  44	Paired 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/5
+ 31 120 180	Paired 2/5
+178 223 138	Paired 3/5
+ 51 160  44	Paired 4/5
+251 154 153	Paired 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/6
+ 31 120 180	Paired 2/6
+178 223 138	Paired 3/6
+ 51 160  44	Paired 4/6
+251 154 153	Paired 5/6
+227  26  28	Paired 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/7
+ 31 120 180	Paired 2/7
+178 223 138	Paired 3/7
+ 51 160  44	Paired 4/7
+251 154 153	Paired 5/7
+227  26  28	Paired 6/7
+253 191 111	Paired 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/8
+ 31 120 180	Paired 2/8
+178 223 138	Paired 3/8
+ 51 160  44	Paired 4/8
+251 154 153	Paired 5/8
+227  26  28	Paired 6/8
+253 191 111	Paired 7/8
+255 127   0	Paired 8/8
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/9
+ 31 120 180	Paired 2/9
+178 223 138	Paired 3/9
+ 51 160  44	Paired 4/9
+251 154 153	Paired 5/9
+227  26  28	Paired 6/9
+253 191 111	Paired 7/9
+255 127   0	Paired 8/9
+202 178 214	Paired 9/9
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/10
+ 31 120 180	Paired 2/10
+178 223 138	Paired 3/10
+ 51 160  44	Paired 4/10
+251 154 153	Paired 5/10
+227  26  28	Paired 6/10
+253 191 111	Paired 7/10
+255 127   0	Paired 8/10
+202 178 214	Paired 9/10
+106  61 154	Paired 10/10
+  0   0   0	Empty
+  0   0   0	Empty
+166 206 227	Paired 1/11
+ 31 120 180	Paired 2/11
+178 223 138	Paired 3/11
+ 51 160  44	Paired 4/11
+251 154 153	Paired 5/11
+227  26  28	Paired 6/11
+253 191 111	Paired 7/11
+255 127   0	Paired 8/11
+202 178 214	Paired 9/11
+106  61 154	Paired 10/11
+255 255 153	Paired 11/11
+  0   0   0	Empty
+166 206 227	Paired 1/12
+ 31 120 180	Paired 2/12
+178 223 138	Paired 3/12
+ 51 160  44	Paired 4/12
+251 154 153	Paired 5/12
+227  26  28	Paired 6/12
+253 191 111	Paired 7/12
+255 127   0	Paired 8/12
+202 178 214	Paired 9/12
+106  61 154	Paired 10/12
+255 255 153	Paired 11/12
+177  89  40	Paired 12/12

@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Sequential - PuBu
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=sequential&scheme=PuBu&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+236 231 242	PuBu 1/3
+166 189 219	PuBu 2/3
+ 43 140 190	PuBu 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+241 238 246	PuBu 1/4
+189 201 225	PuBu 2/4
+116 169 207	PuBu 3/4
+  5 112 176	PuBu 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+241 238 246	PuBu 1/5
+189 201 225	PuBu 2/5
+116 169 207	PuBu 3/5
+ 43 140 190	PuBu 4/5
+  4  90 141	PuBu 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+241 238 246	PuBu 1/6
+208 209 230	PuBu 2/6
+166 189 219	PuBu 3/6
+116 169 207	PuBu 4/6
+ 43 140 190	PuBu 5/6
+  4  90 141	PuBu 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+241 238 246	PuBu 1/7
+208 209 230	PuBu 2/7
+166 189 219	PuBu 3/7
+116 169 207	PuBu 4/7
+ 54 144 192	PuBu 5/7
+  5 112 176	PuBu 6/7
+  3  78 123	PuBu 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+255 247 251	PuBu 1/8
+236 231 242	PuBu 2/8
+208 209 230	PuBu 3/8
+166 189 219	PuBu 4/8
+116 169 207	PuBu 5/8
+ 54 144 192	PuBu 6/8
+  5 112 176	PuBu 7/8
+  3  78 123	PuBu 8/8
+  0   0   0	Empty
+255 247 251	PuBu 1/9
+236 231 242	PuBu 2/9
+208 209 230	PuBu 3/9
+166 189 219	PuBu 4/9
+116 169 207	PuBu 5/9
+ 54 144 192	PuBu 6/9
+  5 112 176	PuBu 7/9
+  4  90 141	PuBu 8/9
+  2  56  88	PuBu 9/9

@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Qualitative - Set1
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=qualitative&scheme=Set1&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+228  26  28	Set1 1/3
+ 55 126 184	Set1 2/3
+ 77 175  74	Set1 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+228  26  28	Set1 1/4
+ 55 126 184	Set1 2/4
+ 77 175  74	Set1 3/4
+152  78 163	Set1 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+228  26  28	Set1 1/5
+ 55 126 184	Set1 2/5
+ 77 175  74	Set1 3/5
+152  78 163	Set1 4/5
+255 127   0	Set1 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+228  26  28	Set1 1/6
+ 55 126 184	Set1 2/6
+ 77 175  74	Set1 3/6
+152  78 163	Set1 4/6
+255 127   0	Set1 5/6
+255 255  51	Set1 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+228  26  28	Set1 1/7
+ 55 126 184	Set1 2/7
+ 77 175  74	Set1 3/7
+152  78 163	Set1 4/7
+255 127   0	Set1 5/7
+255 255  51	Set1 6/7
+166  86  40	Set1 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+228  26  28	Set1 1/8
+ 55 126 184	Set1 2/8
+ 77 175  74	Set1 3/8
+152  78 163	Set1 4/8
+255 127   0	Set1 5/8
+255 255  51	Set1 6/8
+166  86  40	Set1 7/8
+247 129 191	Set1 8/8
+  0   0   0	Empty
+228  26  28	Set1 1/9
+ 55 126 184	Set1 2/9
+ 77 175  74	Set1 3/9
+152  78 163	Set1 4/9
+255 127   0	Set1 5/9
+255 255  51	Set1 6/9
+166  86  40	Set1 7/9
+247 129 191	Set1 8/9
+153 153 153	Set1 9/9

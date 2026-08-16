@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Sequential - Reds
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=sequential&scheme=Reds&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+254 224 210	Reds 1/3
+252 146 114	Reds 2/3
+222  45  38	Reds 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 229 217	Reds 1/4
+252 174 145	Reds 2/4
+251 106  74	Reds 3/4
+203  24  29	Reds 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 229 217	Reds 1/5
+252 174 145	Reds 2/5
+251 106  74	Reds 3/5
+222  45  38	Reds 4/5
+165  15  21	Reds 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 229 217	Reds 1/6
+252 187 161	Reds 2/6
+252 146 114	Reds 3/6
+251 106  74	Reds 4/6
+222  45  38	Reds 5/6
+165  15  21	Reds 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+254 229 217	Reds 1/7
+252 187 161	Reds 2/7
+252 146 114	Reds 3/7
+251 106  74	Reds 4/7
+239  59  44	Reds 5/7
+203  24  29	Reds 6/7
+153   0  13	Reds 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+255 245 240	Reds 1/8
+254 224 210	Reds 2/8
+252 187 161	Reds 3/8
+252 146 114	Reds 4/8
+251 106  74	Reds 5/8
+239  59  44	Reds 6/8
+203  24  29	Reds 7/8
+153   0  13	Reds 8/8
+  0   0   0	Empty
+255 245 240	Reds 1/9
+254 224 210	Reds 2/9
+252 187 161	Reds 3/9
+252 146 114	Reds 4/9
+251 106  74	Reds 5/9
+239  59  44	Reds 6/9
+203  24  29	Reds 7/9
+165  15  21	Reds 8/9
+103   0  13	Reds 9/9

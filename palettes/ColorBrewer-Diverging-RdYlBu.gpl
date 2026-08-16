@@ -1,0 +1,105 @@
+GIMP Palette
+Name: ColorBrewer - Diverging - RdYlBu
+Columns: 11
+# 9 color sets available, up to 11 colors
+# https://colorbrewer2.org/#type=diverging&scheme=RdYlBu&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+252 141  89	RdYlBu 1/3
+255 255 191	RdYlBu 2/3
+145 191 219	RdYlBu 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+215  25  28	RdYlBu 1/4
+253 174  97	RdYlBu 2/4
+171 217 233	RdYlBu 3/4
+ 44 123 182	RdYlBu 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+215  25  28	RdYlBu 1/5
+253 174  97	RdYlBu 2/5
+255 255 191	RdYlBu 3/5
+171 217 233	RdYlBu 4/5
+ 44 123 182	RdYlBu 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+215  48  39	RdYlBu 1/6
+252 141  89	RdYlBu 2/6
+254 224 144	RdYlBu 3/6
+224 243 248	RdYlBu 4/6
+145 191 219	RdYlBu 5/6
+ 69 117 180	RdYlBu 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+215  48  39	RdYlBu 1/7
+252 141  89	RdYlBu 2/7
+254 224 144	RdYlBu 3/7
+255 255 191	RdYlBu 4/7
+224 243 248	RdYlBu 5/7
+145 191 219	RdYlBu 6/7
+ 69 117 180	RdYlBu 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+215  48  39	RdYlBu 1/8
+244 109  67	RdYlBu 2/8
+253 174  97	RdYlBu 3/8
+254 224 144	RdYlBu 4/8
+224 243 248	RdYlBu 5/8
+171 217 233	RdYlBu 6/8
+116 173 209	RdYlBu 7/8
+ 69 117 180	RdYlBu 8/8
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+215  48  39	RdYlBu 1/9
+244 109  67	RdYlBu 2/9
+253 174  97	RdYlBu 3/9
+254 224 144	RdYlBu 4/9
+255 255 191	RdYlBu 5/9
+224 243 248	RdYlBu 6/9
+171 217 233	RdYlBu 7/9
+116 173 209	RdYlBu 8/9
+ 69 117 180	RdYlBu 9/9
+  0   0   0	Empty
+  0   0   0	Empty
+165   0  38	RdYlBu 1/10
+215  48  39	RdYlBu 2/10
+244 109  67	RdYlBu 3/10
+253 174  97	RdYlBu 4/10
+254 224 144	RdYlBu 5/10
+224 243 248	RdYlBu 6/10
+171 217 233	RdYlBu 7/10
+116 173 209	RdYlBu 8/10
+ 69 117 180	RdYlBu 9/10
+ 49  54 149	RdYlBu 10/10
+  0   0   0	Empty
+165   0  38	RdYlBu 1/11
+215  48  39	RdYlBu 2/11
+244 109  67	RdYlBu 3/11
+253 174  97	RdYlBu 4/11
+254 224 144	RdYlBu 5/11
+255 255 191	RdYlBu 6/11
+224 243 248	RdYlBu 7/11
+171 217 233	RdYlBu 8/11
+116 173 209	RdYlBu 9/11
+ 69 117 180	RdYlBu 10/11
+ 49  54 149	RdYlBu 11/11

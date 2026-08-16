@@ -1,0 +1,105 @@
+GIMP Palette
+Name: ColorBrewer - Diverging - PRGn
+Columns: 11
+# 9 color sets available, up to 11 colors
+# https://colorbrewer2.org/#type=diverging&scheme=PRGn&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+175 141 195	PRGn 1/3
+247 247 247	PRGn 2/3
+127 191 123	PRGn 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+123  50 148	PRGn 1/4
+194 165 207	PRGn 2/4
+166 219 160	PRGn 3/4
+  0 136  55	PRGn 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+123  50 148	PRGn 1/5
+194 165 207	PRGn 2/5
+247 247 247	PRGn 3/5
+166 219 160	PRGn 4/5
+  0 136  55	PRGn 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+118  42 131	PRGn 1/6
+175 141 195	PRGn 2/6
+231 212 232	PRGn 3/6
+217 240 211	PRGn 4/6
+127 191 123	PRGn 5/6
+ 27 120  55	PRGn 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+118  42 131	PRGn 1/7
+175 141 195	PRGn 2/7
+231 212 232	PRGn 3/7
+247 247 247	PRGn 4/7
+217 240 211	PRGn 5/7
+127 191 123	PRGn 6/7
+ 27 120  55	PRGn 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+118  42 131	PRGn 1/8
+153 112 171	PRGn 2/8
+194 165 207	PRGn 3/8
+231 212 232	PRGn 4/8
+217 240 211	PRGn 5/8
+166 219 160	PRGn 6/8
+ 90 174  97	PRGn 7/8
+ 27 120  55	PRGn 8/8
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+118  42 131	PRGn 1/9
+153 112 171	PRGn 2/9
+194 165 207	PRGn 3/9
+231 212 232	PRGn 4/9
+247 247 247	PRGn 5/9
+217 240 211	PRGn 6/9
+166 219 160	PRGn 7/9
+ 90 174  97	PRGn 8/9
+ 27 120  55	PRGn 9/9
+  0   0   0	Empty
+  0   0   0	Empty
+ 64   0  75	PRGn 1/10
+118  42 131	PRGn 2/10
+153 112 171	PRGn 3/10
+194 165 207	PRGn 4/10
+231 212 232	PRGn 5/10
+217 240 211	PRGn 6/10
+166 219 160	PRGn 7/10
+ 90 174  97	PRGn 8/10
+ 27 120  55	PRGn 9/10
+  0  68  27	PRGn 10/10
+  0   0   0	Empty
+ 64   0  75	PRGn 1/11
+118  42 131	PRGn 2/11
+153 112 171	PRGn 3/11
+194 165 207	PRGn 4/11
+231 212 232	PRGn 5/11
+247 247 247	PRGn 6/11
+217 240 211	PRGn 7/11
+166 219 160	PRGn 8/11
+ 90 174  97	PRGn 9/11
+ 27 120  55	PRGn 10/11
+  0  68  27	PRGn 11/11

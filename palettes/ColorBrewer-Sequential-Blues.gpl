@@ -1,0 +1,69 @@
+GIMP Palette
+Name: ColorBrewer - Sequential - Blues
+Columns: 9
+# 7 color sets available, up to 9 colors
+# https://colorbrewer2.org/#type=sequential&scheme=Blues&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+222 235 247	Blues 1/3
+158 202 225	Blues 2/3
+ 49 130 189	Blues 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+239 243 255	Blues 1/4
+189 215 231	Blues 2/4
+107 174 214	Blues 3/4
+ 33 113 181	Blues 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+239 243 255	Blues 1/5
+189 215 231	Blues 2/5
+107 174 214	Blues 3/5
+ 49 130 189	Blues 4/5
+  8  81 156	Blues 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+239 243 255	Blues 1/6
+198 219 239	Blues 2/6
+158 202 225	Blues 3/6
+107 174 214	Blues 4/6
+ 49 130 189	Blues 5/6
+  8  81 156	Blues 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+239 243 255	Blues 1/7
+198 219 239	Blues 2/7
+158 202 225	Blues 3/7
+107 174 214	Blues 4/7
+ 66 146 198	Blues 5/7
+ 33 113 181	Blues 6/7
+  8  69 148	Blues 7/7
+  0   0   0	Empty
+  0   0   0	Empty
+247 251 255	Blues 1/8
+222 235 247	Blues 2/8
+198 219 239	Blues 3/8
+158 202 225	Blues 4/8
+107 174 214	Blues 5/8
+ 66 146 198	Blues 6/8
+ 33 113 181	Blues 7/8
+  8  69 148	Blues 8/8
+  0   0   0	Empty
+247 251 255	Blues 1/9
+222 235 247	Blues 2/9
+198 219 239	Blues 3/9
+158 202 225	Blues 4/9
+107 174 214	Blues 5/9
+ 66 146 198	Blues 6/9
+ 33 113 181	Blues 7/9
+  8  81 156	Blues 8/9
+  8  48 107	Blues 9/9

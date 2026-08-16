@@ -1,0 +1,54 @@
+GIMP Palette
+Name: ColorBrewer - Qualitative - Dark2
+Columns: 8
+# 6 color sets available, up to 8 colors
+# https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=3
+# https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js
+ 27 158 119	Dark2 1/3
+217  95   2	Dark2 2/3
+117 112 179	Dark2 3/3
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+ 27 158 119	Dark2 1/4
+217  95   2	Dark2 2/4
+117 112 179	Dark2 3/4
+231  41 138	Dark2 4/4
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+ 27 158 119	Dark2 1/5
+217  95   2	Dark2 2/5
+117 112 179	Dark2 3/5
+231  41 138	Dark2 4/5
+102 166  30	Dark2 5/5
+  0   0   0	Empty
+  0   0   0	Empty
+  0   0   0	Empty
+ 27 158 119	Dark2 1/6
+217  95   2	Dark2 2/6
+117 112 179	Dark2 3/6
+231  41 138	Dark2 4/6
+102 166  30	Dark2 5/6
+230 171   2	Dark2 6/6
+  0   0   0	Empty
+  0   0   0	Empty
+ 27 158 119	Dark2 1/7
+217  95   2	Dark2 2/7
+117 112 179	Dark2 3/7
+231  41 138	Dark2 4/7
+102 166  30	Dark2 5/7
+230 171   2	Dark2 6/7
+166 118  29	Dark2 7/7
+  0   0   0	Empty
+ 27 158 119	Dark2 1/8
+217  95   2	Dark2 2/8
+117 112 179	Dark2 3/8
+231  41 138	Dark2 4/8
+102 166  30	Dark2 5/8
+230 171   2	Dark2 6/8
+166 118  29	Dark2 7/8
+102 102 102	Dark2 8/8

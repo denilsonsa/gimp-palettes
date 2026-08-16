@@ -24,6 +24,11 @@ Sources for palettes in this collection:
 * Breeze (KDE Usability, Human Interface Guidelines)
     * <https://techbase.kde.org/Projects/Usability/HIG/Color>
     * <https://techbase.kde.org/Projects/Usability/HIG/MockupToolkit>
+* ColorBrewer
+    * Each color palette has multiple color sets, dependending on how many
+      colors are needed. To avoid creating hundreds of files, all color sets of
+      the same palette are in a single file, one color set per row.
+    * <https://colorbrewer2.org/>
 * Copic
     * <https://copic.de/copic-ciao-farb/bestellraster>
     * <https://copic.de/copic-classic-farb/bestellraster>
@@ -214,9 +219,9 @@ Other palettes (not included in this collection):
 * <https://www.deviantart.com/nevit/art/Gimp-Palettes-82563425>
 * <http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette> [at Wayback Machine](http://web.archive.org/web/20190204184652/tango.freedesktop.org/Tango_Icon_Theme_Guidelines/#Color_Palette)
 * <http://colorpalettes.ravetracer.de/> [at Wayback Machine](http://web.archive.org/web/20181105164601/http://colorpalettes.ravetracer.de/) or <https://github.com/Ravetracer/colorpalettes/tree/master/temp_pals>
-* <https://colorbrewer2.org/>
 * <https://heracleum.org/dc/follow/palette-browser>
 * <https://drawaria.online/palettes/>
+* <https://pteromys.melonisland.net/munsell/>
 
 ## Default palettes
 
@@ -233,6 +238,7 @@ Default palettes (not included in this collection):
 
 Other related/similar pages and projects:
 
+* <https://colorbrewer2.org/>
 * <https://lospec.com/palette-list>
 * <https://github.com/paulwratt/programmers-palettes>
 * <https://github.com/fundevogel/we-love-colors> and <https://codeberg.org/Fundevogel/farben>
